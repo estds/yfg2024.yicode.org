@@ -1,6 +1,6 @@
 ---
 layout: page
-Title: Support for logistics
+title: "Support for logistics"
 ---
 - item 1
 - item 2
