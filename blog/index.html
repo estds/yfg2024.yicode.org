@@ -2,6 +2,13 @@
 layout: default
 title: Blog posts
 ---
+<nav class="container" aria-label="breadcrumb">
+  <ol class="breadcrumb small bg-transparent">
+    <li class="breadcrumb-item"><a href="/"><i class="fas fa-home mr-1"></i>Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Blog</li>
+  </ol>
+</nav>
+
 <div class="container" aria-label="content">
   
     <h1>{{ page.title }}</h1>
@@ -17,11 +24,3 @@ title: Blog posts
     <div class="content my-3">
 
 </div>
-
-
-<nav class="container" aria-label="breadcrumb">
-  <ol class="breadcrumb small bg-transparent">
-    <li class="breadcrumb-item"><a href="/"><i class="fas fa-home mr-1"></i>Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Blog</li>
-  </ol>
-</nav>
