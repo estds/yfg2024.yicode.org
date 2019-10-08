@@ -59,12 +59,20 @@
       </div>
     </header>
 
-    <main role="main">
-      <div class="album py-5 bg-light">
+    <main class="row" role="main">
+      <div class="col-md-8 album py-5 bg-light">
 
       {{ content }}
       
       </div>
+
+      <div class="col-md-4 album py-5">
+
+      {% include right-sidebar.html %}
+      
+      </div>
+
+      
     </main>
 
     <footer class="text-muted">
