@@ -2,37 +2,51 @@
 layout: default
 title: Blog posts
 ---
-<nav class="container" aria-label="breadcrumb">
-  <ol class="breadcrumb small">
-    <li class="breadcrumb-item"><a href="/"><i class="fas fa-home mr-1"></i>Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Blog</li>
-  </ol>
-</nav>
 
-<div class="container" aria-label="content">
+<div class="container">
+  <div class="row">
+    <div class="col-md-9">
+      <nav class="container" aria-label="breadcrumb">
+        <ol class="breadcrumb small">
+          <li class="breadcrumb-item"><a href="/"><i class="fas fa-home mr-1"></i>Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Blog</li>
+        </ol>
+      </nav>
       
-    <h1>{{ page.title }}</h1>
-  
-    <p class="text-right">
-      <a href="atom.xml" class="text-secondary p-1" data-toggle="tooltip" data-placement="left" title="Get RSS feed here">
-        <i class="fas fa-rss-square fa-lg"></i>
-      </a>
-    </p>
-  
-    <div class="content my-3">
+      <p class="text-right">
+        <a href="atom.xml" class="text-secondary p-1" data-toggle="tooltip" data-placement="left" title="Get RSS feed here">
+          <i class="fas fa-rss-square fa-lg"></i>
+        </a>
+      </p>
       
-      {% for post in site.posts %}
-        <div class="card mb-3">
-          <div class="row no-gutters">
-            <div class="card-body">
-              <h5 class="card-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
-              <p class="card-text">{{ post.abstract }}<a href="{{ post.url }}" title="{{ post.title }}" class="mx-1"><i class="far fa-arrow-alt-circle-right"></i></a></p>
-              <p class="card-text"><small class="text-muted">{{ post.date | date: "%Y-%m-%d" }}</small></p>
-            </div>
+      <div class="container" aria-label="content">
+
+          <h1>{{ page.title }}</h1>
+
+          <p class="text-right">
+            <a href="atom.xml" class="text-secondary p-1" data-toggle="tooltip" data-placement="left" title="Get RSS feed here">
+              <i class="fas fa-rss-square fa-lg"></i>
+            </a>
+          </p>
+
+          <div class="content my-3">
+
+            {% for post in site.posts %}
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
+                  <p class="card-text">{{ post.abstract }}<a href="{{ post.url }}" title="{{ post.title }}" class="mx-1"><i class="far fa-arrow-alt-circle-right"></i></a></p>
+                  <p class="card-text"><small class="text-muted">{{ post.date | date: "%Y-%m-%d" }}</small></p>
+                </div>
+              </div>
+            {% endfor %}
+
           </div>
-        </div>
-      {% endfor %}
-      
-    </div>
 
+      </div>
+    </div>
+    <div class="col-md-3">
+      {% include right-sidebar.html %}
+    </div>
+  </div>
 </div>
