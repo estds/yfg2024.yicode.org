@@ -15,7 +15,7 @@ $(function () {
 
 // encode current url to qr-code
 jQuery("#url-qr-wrap").qrcode({
-    width: 64,
-    height: 64,
+    width: 96,
+    height: 96,
     text: window.location.href,
 });
