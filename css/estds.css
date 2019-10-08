@@ -66,6 +66,27 @@
 .navbar #estds-logo:hover {
   opacity: 1;
 }
+
+/* share button styles */
+.share-buttons a:hover {
+  opacity:0.8
+}
+.share-buttons a#facebook {
+  background-color: #002e63;
+}
+.share-buttons a#twitter {
+  background-color: #2aaae0;
+}
+.share-buttons a#weibo {
+  background-color: #d52827;
+}
+.share-buttons a#googleplus {
+  background-color: #d6492f;
+}
+.share-buttons a#linkedin {
+  background-color: #007ab9;
+}
+
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
