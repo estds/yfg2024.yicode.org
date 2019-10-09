@@ -20,8 +20,8 @@ var qrcode = new QRCode({
   padding: 0,
   width: 96,
   height: 96,
-  color: "#6c757d",
-  background: "#494f54",
+  color: "#494f54",
+  background: "#ffffff",
   ecl: "M"
 });
 var svg = qrcode.svg();
