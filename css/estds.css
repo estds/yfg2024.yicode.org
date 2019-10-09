@@ -9,6 +9,15 @@
   background-color: #fff;
 }
 
+.hyphenate {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+}
+
 /** animate the navbar toggle **/
 .icon-bar {
 	width: 22px; 
