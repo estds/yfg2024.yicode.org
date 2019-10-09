@@ -13,15 +13,15 @@ $(function () {
     });
 });
 
-// encode current url to qr-code
 
+// encode current url to qr-code
 var qrcode = new QRCode({
-  content: document.URL,
-  padding: 0
+  content: window.location.href,
+  padding: 0,
   width: 96,
   height: 96,
-  color: "#cccccc",
-  background: "#ffffff",
+  color: "#6c757d",
+  background: "#494f54",
   ecl: "M"
 });
 var svg = qrcode.svg();
