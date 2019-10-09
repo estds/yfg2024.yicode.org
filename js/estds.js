@@ -14,8 +14,15 @@ $(function () {
 });
 
 // encode current url to qr-code
-jQuery("#url-qr-wrap").qrcode({
-    width: 96,
-    height: 96,
-    text: window.location.href,
+
+var qrcode = new QRCode({
+  content: window.location.href,
+  padding: 0
+  width: 96,
+  height: 96,
+  color: "#cccccc",
+  background: "#ffffff",
+  ecl: "M"
 });
+var svg = qrcode.svg();
+document.getElementById("url-qr-wrap").innerHTML = svg;
