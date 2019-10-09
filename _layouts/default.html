@@ -10,7 +10,7 @@
     <title>{{ page.title }} | ESTDS2020 | Nanjing, China | 18~20 Oct. 2020</title>
 
     <!-- PWA settings -->
-    <link rel='manifest' href='/manifest.webmanifest'>
+    <link rel='manifest' href='/pwa/manifest.webmanifest'>
     
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.zhoues.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
         } else {
           // Register the service worker
           navigator.serviceWorker
-            .register("pwabuilder-sw.js", {
+            .register("/pwa/pwabuilder-sw.js", {
               scope: "./"
             })
             .then(function (reg) {
