@@ -16,7 +16,7 @@ $(function () {
 // encode current url to qr-code
 
 var qrcode = new QRCode({
-  content: window.location.href,
+  content: document.URL,
   padding: 0
   width: 96,
   height: 96,
