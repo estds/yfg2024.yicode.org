@@ -1,70 +1,39 @@
-// This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
+let CACHE = 'cache';
 
-const CACHE = "pwabuilder-offline-page";
-
-// TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
-const offlineFallbackPage = "offline.html";
-
-// Install stage sets up the offline page in the cache and opens a new cache
-self.addEventListener("install", function (event) {
-  console.log("[PWA Builder] Install Event processing");
-
-  event.waitUntil(
-    caches.open(CACHE).then(function (cache) {
-      console.log("[PWA Builder] Cached offline page during install");
-      
-      if (offlineFallbackPage === "offline.html") {
-        return cache.add(new Response("TODO: Update the value of the offlineFallbackPage constant in the serviceworker."));
-      }
-      
-      return cache.add(offlineFallbackPage);
-    })
-  );
+self.addEventListener('install', function(evt) {
+    console.log('The service worker is being installed.');
+    evt.waitUntil(precache());
 });
 
-// If any fetch fails, it will look for the request in the cache and serve it from there first
-self.addEventListener("fetch", function (event) {
-  if (event.request.method !== "GET") return;
-
+addEventListener('fetch', function(event) {
   event.respondWith(
-    fetch(event.request)
-      .then(function (response) {
-        console.log("[PWA Builder] add page to offline cache: " + response.url);
-
-        // If request was success, add or update it in the cache
-        event.waitUntil(updateCache(event.request, response.clone()));
-
-        return response;
-      })
-      .catch(function (error) {
-        console.log("[PWA Builder] Network request Failed. Serving content from cache: " + error);
-        return fromCache(event.request);
+    caches.match(event.request)
+      .then(function(response) {
+        if (response) {
+          return response;     // if valid response is found in cache return it
+        } else {
+          return fetch(event.request)     //fetch from internet
+            .then(function(res) {
+              return caches.open(CACHE_DYNAMIC_NAME)
+                .then(function(cache) {
+                  cache.put(event.request.url, res.clone());    //save the response for future
+                  return res;   // return the fetched data
+                })
+            })
+            .catch(function(err) {       // fallback mechanism
+              return caches.open(CACHE_CONTAINING_ERROR_MESSAGES)
+                .then(function(cache) {
+                  return cache.match('/offline.html');
+                });
+            });
+        }
       })
   );
 });
-
 function fromCache(request) {
-  // Check to see if you have it in the cache
-  // Return response
-  // If not in the cache, then return the offline page
-  return caches.open(CACHE).then(function (cache) {
-    return cache.match(request).then(function (matching) {
-      if (!matching || matching.status === 404) {
-        // The following validates that the request was for a navigation to a new document
-        if (request.destination !== "document" || request.mode !== "navigate") {
-          return Promise.reject("no-match");
-        }
-
-        return cache.match(offlineFallbackPage);
-      }
-
-      return matching;
+    return caches.open(CACHE).then(function (cache) {
+        return cache.match(request).then(function (matching) {
+            return matching || Promise.reject('no-match');
+        });
     });
-  });
-}
-
-function updateCache(request, response) {
-  return caches.open(CACHE).then(function (cache) {
-    return cache.put(request, response);
-  });
 }
