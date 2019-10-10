@@ -9,15 +9,9 @@ $(function () {
 
 $(function () {
     $(".share-button").each(function () {
-        $(this).attr("data-url", $(this).attr("data-url") + "&url=" + document.URL + "&title=" + document.title);
+        $(this).attr("href", $(this).attr("href") + "&url=" + document.URL + "&title=" + document.title);
     });
 });
-
-$('.share-button').on('click', function(e) {
-  var surl = $(this).data('url');
-  window.open(surl, '_blank');
-});
-
 
 // encode current url to qr-code
 var qrcode = new QRCode({
