@@ -14,7 +14,7 @@ $(function () {
 });
 
 $('.share-button').on('click', function(e) {
-    window.location = $(this).data('url');
+    window.open = ($(this).data('url'), '_blank');
 });
 
 
