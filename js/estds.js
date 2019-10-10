@@ -13,6 +13,10 @@ $(function () {
     });
 });
 
+$('.share-button').on('click', function(e) {
+    window.open = $(this).data('url');
+});
+
 
 // encode current url to qr-code
 var qrcode = new QRCode({
