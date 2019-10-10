@@ -7,7 +7,7 @@
   "scope": ".",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "transparent",
+  "theme_color": "#494f54",
   "icons": [
     {
       "src": "https://estds.yicode.ac/pwa/pwa512.png",
