@@ -9,7 +9,7 @@ $(function () {
 
 $(function () {
     $(".share-button").each(function () {
-        $(this).attr("href", $(this).attr("href") + "&url=" + document.URL + "&title=" + document.title);
+        $(this).attr("data-url", $(this).attr("data-url") + "&url=" + document.URL + "&title=" + document.title);
     });
 });
 
