@@ -3,18 +3,18 @@
   "short_name": "ESTDS2020",
   "description": "ESTDS2020 | Nanjing, China | Oct 2020",
   "lang": "en",
-  "start_url": "/",
+  "start_url": "\/",
   "scope": ".",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#494f54",
   "icons": [
     {
-      "src": "https://estds.yicode.ac/pwa/pwa512.png",
+      "src": "https:\/\/estds.yicode.ac\/pwa\/pwa512.png",
       "sizes": "512x512"
     },
     {
-      "src": "https://estds.yicode.ac/pwa/pwa512.png",
+      "src": "https:\/\/estds.yicode.ac\/pwa\/pwa512.png",
       "sizes": "192x192"
     }
   ],
