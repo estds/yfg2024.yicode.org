@@ -1,40 +1,57 @@
-  /* after a service worker is installed and the user navigates to a different page or 
-  refreshes,the service worker will begin to receive fetch events */  
-  self.addEventListener('fetch', (event) => {
-    event.respondWith(caches.open('cache').then((cache) => {
-      return cache.match(event.request).then((response) => {
-        console.log("cache request: " + event.request.url);
-         var fetchPromise = fetch(event.request).then((networkResponse) => {           
-  // if we got a response from the cache, update the cache                   
-  console.log("fetch completed: " + event.request.url, networkResponse);
-    if (networkResponse) {
-      console.debug("updated cached page: " + event.request.url, networkResponse);
-        cache.put(event.request, networkResponse.clone());}
-          return networkResponse;
-            }, function (event) {   
-  // rejected promise - just ignore it, we're offline!   
-            console.log("Error in fetch()", event);
-            event.waitUntil(
-  // our 'cache' here is named *cache* in the caches.open()
-            caches.open('cache').then((cache) => { 
-            return cache.addAll
-            ([            
-  // cache.addAll(), takes a list of URLs, then fetches them from 
-  // the server and adds the response to the cache          
-          './index.html', // cache your index page
-          './assets/css/app.main.css', // cache app.main css
-          './images/*', // cache all images
-          './app.webmanifest',
-  // external url fetch, twitter's as an example
-          'https://platform.twitter.com/widgets.js', ]); }) 
-          ); });
-  // respond from the cache, or the network
-    return response || fetchPromise;
-  }); }));
-  });
+// This is the "Offline page" service worker
 
-  // always updating i.e latest version available
-  self.addEventListener('install', (event) => {
-      self.skipWaiting();
-      console.log("Latest version installed!");
+const CACHE = "pwabuilder-page";
+
+// TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
+const offlineFallbackPage = "offline.html";
+
+// Install stage sets up the offline page in the cache and opens a new cache
+self.addEventListener("install", function (event) {
+  console.log("[PWA Builder] Install Event processing");
+
+  event.waitUntil(
+    caches.open(CACHE).then(function (cache) {
+      console.log("[PWA Builder] Cached offline page during install");
+
+      if (offlineFallbackPage === "offline.html") {
+        return cache.add(new Response("TODO: Update the value of the offlineFallbackPage constant in the serviceworker."));
+      }
+
+      return cache.add(offlineFallbackPage);
+    })
+  );
+});
+
+// If any fetch fails, it will show the offline page.
+self.addEventListener("fetch", function (event) {
+  if (event.request.method !== "GET") return;
+
+  event.respondWith(
+    fetch(event.request).catch(function (error) {
+      // The following validates that the request was for a navigation to a new document
+      if (
+        event.request.destination !== "document" ||
+        event.request.mode !== "navigate"
+      ) {
+        return;
+      }
+
+      console.error("[PWA Builder] Network request Failed. Serving offline page " + error);
+      return caches.open(CACHE).then(function (cache) {
+        return cache.match(offlineFallbackPage);
+      });
+    })
+  );
+});
+
+// This is an event that can be fired from your page to tell the SW to update the offline page
+self.addEventListener("refreshOffline", function () {
+  const offlinePageRequest = new Request(offlineFallbackPage);
+
+  return fetch(offlineFallbackPage).then(function (response) {
+    return caches.open(CACHE).then(function (cache) {
+      console.log("[PWA Builder] Offline page updated from refreshOffline event: " + response.url);
+      return cache.put(offlinePageRequest, response);
+    });
   });
+});
