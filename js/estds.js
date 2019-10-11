@@ -16,7 +16,7 @@ $(function () {
 $('.share-button').on('click', function(sharevent) {
   var surl = $(this).data('url');
   sharevent.preventDefault();
-  window.open(surl, '_system');
+  window.open(surl, '_top', "width=300,height=400");
 });
 
 // encode current url to qr-code
