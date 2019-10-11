@@ -9,8 +9,14 @@ $(function () {
 
 $(function () {
     $(".share-button").each(function () {
-        $(this).attr("href", $(this).attr("href") + "&url=" + document.URL + "&title=" + document.title);
+        $(this).attr("data-url", $(this).attr("data-url") + "&url=" + document.URL + "&title=" + document.title);
     });
+});
+
+$('.share-button').on('click', function(sharevent) {
+  var surl = $(this).data('url');
+  sharevent.preventDefault();
+  window.open(surl, '_system');
 });
 
 // encode current url to qr-code
