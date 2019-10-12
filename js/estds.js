@@ -19,12 +19,14 @@ $('.share-button').on('click', function(sharevent) {
   window.open(surl, '', "width=540,height=320");
 });
 
-$("#share-social").popover({
-  html : true,
-  content: function() {
-      var content = $(this).attr("data-popover-content");
-      return $(content).children(".popover-body").html();
-  }
+$(function(){
+    $(".share-social").popover({
+        html : true,
+        content: function() {
+          var content = $(this).attr("data-popover-content");
+          return $(content).children(".popover-body").html();
+        },
+    });
 });
 
 // encode current url to qr-code
