@@ -19,6 +19,15 @@ $('.share-button').on('click', function(sharevent) {
   window.open(surl, '', "width=540,height=320");
 });
 
+$("#share-social").popover({
+  html : true,
+  trigger: 'focus',
+  content: function() {
+      var content = $(this).attr("data-popover-content");
+      return $(content).children(".popover-body").html();
+  }
+});
+
 // encode current url to qr-code
 var qrcode = new QRCode({
   content: window.location.href,
