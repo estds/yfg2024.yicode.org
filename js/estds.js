@@ -21,7 +21,6 @@ $('.share-button').on('click', function(sharevent) {
 
 $("#share-social").popover({
   html : true,
-  trigger: 'focus',
   content: function() {
       var content = $(this).attr("data-popover-content");
       return $(content).children(".popover-body").html();
