@@ -19,15 +19,19 @@ $('.share-button').on('click', function(sharevent) {
   window.open(surl, '', "width=540,height=320");
 });
 
-$(function(){
-    $(".share-social").popover({
-        html : true,
-        content: function() {
-          var content = $(this).attr("data-popover-content");
-          return $(content).children(".popover-body").html();
-        },
-    });
-});
+$(function() {
+  $('.share-toggles').popover({
+    //container: 'body',
+    html: true,
+    trigger: 'focus',
+    placement: 'bottom',
+    //sanitize: false,
+    content: function() {
+      var pop_target = $(this).attr("data-popover-content");
+      return $(pop_target).children(".popover-content").html();
+    }
+  });
+})
 
 // encode current url to qr-code
 var qrcode = new QRCode({
