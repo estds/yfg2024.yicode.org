@@ -9,14 +9,8 @@ $(function () {
 
 $(function () {
     $(".share-button").each(function () {
-        $(this).attr("data-url", $(this).attr("data-url") + "&url=" + document.URL + "&title=" + document.title);
+        $(this).attr("href", $(this).attr("href") + "&url=" + document.URL + "&title=" + document.title);
     });
-});
-
-$('.share-button').on('click', function(sharevent) {
-  var surl = $(this).data('url');
-  sharevent.preventDefault();
-  window.open(surl, '', "width=540,height=320");
 });
 
 $(function() {
