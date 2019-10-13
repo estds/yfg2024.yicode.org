@@ -2,39 +2,53 @@
   
   <div class="related-organisations">
   </div>
-  
-  <!--
-  <div class="share-buttons btn-group btn-block" role="group" aria-label="Share buttons">
-    <button title="Twitter" class="share-button text-white btn" id="twitter" data-url="http://bshare.optimix.cn/bshare_redirect?site=twitter&amp;type=0">
-      <i class="fab fa-twitter fa-fw"></i>
-    </button>
-    <button title="Facebook" class="share-button text-white btn" id="facebook" data-url="http://bshare.optimix.cn/bshare_redirect?site=facebook&amp;type=0">
-      <i class="fab fa-facebook-f fa-fw"></i>
-    </button>
-    <button title="Linkedin" class="share-button text-white btn" id="linkedin" data-url="http://bshare.optimix.cn/bshare_redirect?site=linkedin&amp;type=0">
-      <i class="fab fa-linkedin-in fa-fw"></i>
-    </button>
-    <button title="Sina Weibo" class="share-button text-white btn" id="weibo" data-url="http://bshare.optimix.cn/bshare_redirect?site=sinaminiblog&amp;type=0">
-      <i class="fab fa-weibo fa-fw"></i>
-    </button> 
-    <button id="url-qr" type="button" class="text-white btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <i class="fas fa-qrcode"></i>
-    </button>
-    <div class="dropdown-menu dropdown-menu-right p-2" aria-labelledby="btnGroupDrop1" style="min-width: 0;">
-      <div id="url-qr-wrap"></div>
-    </div>
-  </div>
-  -->
-  
-  <!-- Popover #1 -->
-  <button class="btn btn-primary share-social" tabindex="0" data-toggle="popover" data-trigger="focus" data-popover-content="#a1" data-placement="bottom">Popover Example</button>
 
-  <!-- Content for Popover #1 -->    
-  <div id="a1" class="d-none">
-      <div class="popover-body">
-      <button title="Facebook" class="share-button text-white btn" id="facebook" data-url="http://bshare.optimix.cn/bshare_redirect?site=facebook&amp;type=0">facebook</button>
+  
+  <div class="share-buttons" aria-label="Share buttons">
+    <!-- Start: Toggle buttons for sharing -->
+    <div class="btn-group" role="group">
+      <button id="share-toggle-sns" class="btn btn-outline-primary share-toggles" type="button" data-popover-content="#popover-content-sns">
+        <i class="far fa-share-square fa-fw mr-1"></i>Share
+      </button>
+      <button id="share-toggle-qr" class="btn btn-outline-secondary share-toggles" type="button" data-popover-content="#popover-content-qr">
+        <i class="fas fa-qrcode fa-fw mr-1"></i>Scan
+      </button>
+    </div>
+    <!-- End: Toggle buttons for sharing -->
+  </div>
+  
+  <!-- Start: Contents of popovers -->
+  <div class="d-none">
+    <!-- Start: Contents of popovers #popover-content-sns -->
+    <div id="popover-content-sns">
+      <div class="popover-content">
+        <div class="btn-group-vertical">
+          <a title="Twitter" class="share-button text-white btn" id="twitter" href="http://bshare.optimix.cn/bshare_redirect?site=twitter&amp;type=0" target="_blank">
+            <i class="fab fa-twitter fa-fw"></i>
+          </a>
+          <a title="Facebook" class="share-button text-white btn" id="facebook" href="http://bshare.optimix.cn/bshare_redirect?site=facebook&amp;type=0" target="_blank">
+            <i class="fab fa-facebook-f fa-fw"></i>
+          </a>
+          <a title="Linkedin" class="share-button text-white btn" id="linkedin" href="http://bshare.optimix.cn/bshare_redirect?site=linkedin&amp;type=0" target="_blank">
+            <i class="fab fa-linkedin-in fa-fw"></i>
+          </a>
+          <a title="Sina Weibo" class="share-button text-white btn" id="weibo" href="http://bshare.optimix.cn/bshare_redirect?site=sinaminiblog&amp;type=0" target="_blank">
+            <i class="fab fa-weibo fa-fw"></i>
+          </a> 
+        </div>
       </div>
-  </div>   
+    </div>
+    <!-- End: Contents of popovers #popover-content-sns -->
+
+    <!-- Start: Contents of popovers #popover-content-qr -->
+    <div id="popover-content-qr">
+      <div class="popover-content">
+        <div id="url-qr-wrap"></div>
+      </div>
+    </div>
+    <!-- End: Contents of popovers #popover-content-qr -->
+  </div>
+  <!-- End: Contents of popovers -->
 
 </div>
 
