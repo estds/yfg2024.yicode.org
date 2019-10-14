@@ -44,16 +44,16 @@ $(function toggle_share_bspopup() {
 // using Web Share API if it is available
 const shareButton = document.querySelector('#share-toggle-sns');
 
+if (navigator.share) { 
+	shareButton.classList.remove("share-toggles");
+}
+    
 shareButton.addEventListener('click', event => {
-  if (navigator.share) { 
    navigator.share({
-      title: 'WebShare API Demo',
-      url: 'https://codepen.io/ayoisaiah/pen/YbNazJ'
+      title: document.title,
+      url: document.URL,
     }).then(() => {
       console.log('Thanks for sharing!');
     })
     .catch(console.error);
-    } else {
-        toggle_share_bspopup();
-    }
 });
