@@ -2,8 +2,9 @@
 layout: post
 title: "SSL encryption enabled"
 date: 2019-10-08
-abstract: "We value your security."
-fimage: "https://user-images.githubusercontent.com/56233807/66390374-d81dad80-e9ca-11e9-894d-ee1153b039fd.jpg"
+abstract: "We have encrypted our entire website now to provide extra protection for you."
+fimage: "https://user-images.githubusercontent.com/56233807/66511410-8ca8f380-eadf-11e9-9139-264a18fd46f3.jpg"
+action: "Know more"
 ---
 
 We value your security.
