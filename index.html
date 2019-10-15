@@ -47,18 +47,22 @@ title: Home
                               </div>
                               <script src="/js/email-subscription.js"></script>
                               <!-- Card END -->
-
+                              
+                              {% for post in site.posts limit: 3 %}
                               <!-- Card START -->
                               <div class="col-md-6 mb-4">
                                     <div class="card d-block">
                                           <img class="card-img-top" src="https://user-images.githubusercontent.com/56233807/66511410-8ca8f380-eadf-11e9-9139-264a18fd46f3.jpg" alt="Security" /> 
                                           <div class="card-body">
-                                                <p class="card-text">We have encrypted our entire website now to provide extra protection for you.</p>
-                                                <a href="/blog/2019/10/08/ssl-enabled" class="btn btn-primary">Know more<i class="fas fa-angle-double-right ml-1"></i></a>
+                                                <p class="">{{ post.title }}</p>
+                                                <p class="card-text">{{ post.abstract }}</p>
+                                                <a href="{{ post.url }}" class="btn btn-primary">{{ post.raction }}<i class="fas fa-chevron-circle-right ml-1"></i></a>
                                           </div>
                                     </div>
                               </div>
                               <!-- Card END -->
+                              {% endfor %}
+
                         </div>
                   </div>
                   
