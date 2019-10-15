@@ -96,6 +96,11 @@
   background-color: #007ab9;
 }
 
+#to-top {
+  bottom: 3rem;
+  right: 3rem;
+}
+
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
