@@ -88,7 +88,7 @@ if (this.hash !== "") {
 //#to-top button appears after scrolling
 var fixed = false;
 $(document).scroll(function() {
-if ($(this).scrollTop() > 250) {
+if ($(this).scrollTop() > 200) {
     if (!fixed) {
 	fixed = true;
 	// $('#to-top').css({position:'fixed', display:'block'});
