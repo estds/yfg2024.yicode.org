@@ -99,6 +99,8 @@
 #to-top {
   bottom: 3rem;
   right: 3rem;
+  position: fixed;
+  display: none;
 }
 
 @media (min-width: 768px) {
