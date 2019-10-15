@@ -97,8 +97,8 @@
 }
 
 #to-top {
-  bottom: 3rem;
-  right: 3rem;
+  bottom: 1rem;
+  right: 1rem;
   position: fixed;
   display: none;
 }
