@@ -58,6 +58,17 @@ shareButton.addEventListener('click', event => {
     .catch(console.error);
 });
 
+// 
+
+$("#home-carousel .carousel-item").each(function() {
+	var attr = $(this).attr('data-image');
+
+	if (typeof attr !== typeof undefined && attr !== false) {
+		$(this).css('background', 'url(' + attr + ') center center');
+	}
+
+});
+
 
 // Scrolls smoothly to anchor
 $(document).ready(function(){
