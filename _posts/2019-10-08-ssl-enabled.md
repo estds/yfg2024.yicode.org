@@ -18,4 +18,4 @@ Below is a flow chart (Dadian, 2019) explaining how SSL works to protect you.
 Thank you and enjoy!
 
 ## Reference
-1. Dadian, D. (2019). SSL - what it means, how it works and where it is used. [online] *Powersolution.com*. Available at: https://www.powersolution.com/ssl-what-it-means-how-it-works-whereused/ [Accessed 8 Oct. 2019].
+1. Dadian, D. (2019). SSL - what it means, how it works and where it is used. [online] *Powersolution.com*. Available [here](https://www.powersolution.com/ssl-what-it-means-how-it-works-whereused/) [Accessed 8 Oct. 2019].
