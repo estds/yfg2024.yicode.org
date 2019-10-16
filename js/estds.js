@@ -58,7 +58,7 @@ shareButton.addEventListener('click', event => {
     .catch(console.error);
 });
 
-// 
+// set carousel item by data-image attribute
 
 $("#home-carousel .carousel-item").each(function() {
 	var attr = $(this).attr('data-image');
