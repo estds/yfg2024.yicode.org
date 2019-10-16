@@ -11,9 +11,7 @@ We value your security.
 
 From now on, our entire site has enforced [SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security) encryption. SSL encryption provides an extra layer of protection while you use our website.
 
-Below is a flow chart (Dadian, 2019) explaining how SSL works to protect you.
-
-![SSL explained](https://user-images.githubusercontent.com/56233807/66959033-6672de80-f01e-11e9-8b53-a8dd14da9ea4.png){: .img-fluid}
+{% include figure.html url="https://user-images.githubusercontent.com/56233807/66959033-6672de80-f01e-11e9-8b53-a8dd14da9ea4.png" caption="A flow chart explaining how SSL works (Dadian, 2019)" %}
 
 Thank you and enjoy!
 
