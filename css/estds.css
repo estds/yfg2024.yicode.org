@@ -119,6 +119,7 @@
 	bottom: 0;
 	background-color: rgba(0,0,0,0.8);
 	color: rgba(255,255,255,.5);
+	padding: 3px 6px;
 }
 
 @media (min-width: 768px) {
