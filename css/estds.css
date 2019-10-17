@@ -113,6 +113,14 @@
 	height: 480px;
 }
 
+#home-carousel .carousel-item .credit-label {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+	color: rgba(255,255,255,.5);
+}
+
 @media (min-width: 768px) {
 	.jumbotron {
 		padding-top: calc(var(--jumbotron-padding-y) * 2);
