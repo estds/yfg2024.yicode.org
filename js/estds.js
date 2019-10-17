@@ -64,7 +64,7 @@ $("#home-carousel .carousel-item").each(function() {
 	var attr = $(this).attr('data-image');
 
 	if (typeof attr !== typeof undefined && attr !== false) {
-		$(this).css('background', 'url(' + attr + ') center center');
+		$(this).css('background-image', 'url(' + attr + ')');
 	}
 
 });
