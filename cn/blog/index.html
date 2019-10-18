@@ -1,0 +1,45 @@
+---
+layout: default
+lang: zh
+title: Blog posts
+---
+
+<div class="container py-5">
+  <div class="row">
+    <div class="col-md-9">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb small">
+          <li class="breadcrumb-item"><a href="/"><i class="fas fa-home mr-1"></i>Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Blog</li>
+        </ol>
+      </nav>
+      
+      <div aria-label="content">
+
+        <a href="atom.xml" class="float-right text-secondary p-1" data-toggle="tooltip" data-placement="left" title="Get RSS feed here">
+            <i class="fas fa-rss-square fa-lg"></i>
+          </a>
+
+          <h1>{{ page.title }}</h1>
+
+          <div class="content my-3">
+
+            {% for post in site.posts %}
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
+                  <p class="card-text">{{ post.abstract }}<a href="{{ post.url }}" title="{{ post.title }}" class="mx-1"><i class="far fa-arrow-alt-circle-right"></i></a></p>
+                  <p class="card-text"><small class="text-muted">{{ post.date | date: "%Y-%m-%d" }}</small></p>
+                </div>
+              </div>
+            {% endfor %}
+
+          </div>
+
+      </div>
+    </div>
+    <div class="col-md-3">
+      {% include right-sidebar.html %}
+    </div>
+  </div>
+</div>
