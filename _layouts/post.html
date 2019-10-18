@@ -13,10 +13,10 @@ layout: default
       <div aria-label="content">
 
       <h1 class="hyphenate">{{ page.title }}</h1>
-      <ul class="meta small text-secondary list-inline p-1 m-0">
-        <li class="list-inline-item"><i class="far fa-calendar-alt mr-1"></i>{% include date.html %}</li>
-        <li class="list-inline-item {{ page.lang }}">{% include languages.html %}</li>
-      </ul>
+      <div class="meta small text-secondary d-flex justify-content-between">
+        <div class="meta meta-date"><i class="far fa-calendar-alt mr-1"></i>{% include date.html %}</div>
+        <div class="meta meta-languages"><div class="languages {{ page.lang }}">{% include languages.html %}</div></div>
+      </div>
 
       <div class="content rounded bg-white p-4 my-3">
         {{ content }}
