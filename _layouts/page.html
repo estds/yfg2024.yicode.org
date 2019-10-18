@@ -15,7 +15,7 @@ layout: default
         <h1 class="hyphenate">{{ page.title }}</h1>
         <div class="meta small text-secondary d-flex justify-content-between">
           <div class="meta"></div>
-          {% if page.ref %}
+          {% if page.ref and page.lang %}
           <div class="meta meta-languages"><div class="languages {{ page.lang }}">{% include languages.html %}</div></div>
           {% endif %}
         </div>
