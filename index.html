@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+lang: en
 ---
 
       <section class="p-0">
@@ -41,7 +42,9 @@ title: Home
                               <script src="/js/email-subscription.js"></script>
                               <!-- Card END -->
                               
-                              {% for post in site.posts limit: 3 %}
+                              {% assign posts=site.posts | where:"lang", page.lang %}
+                              
+                              {% for post in posts limit: 3 %}
                               <!-- Card START -->
                               <div class="col-md-6 mb-4">
                                     <div class="card d-block">
