@@ -23,7 +23,7 @@ title: Blog posts
 
           <div class="content my-3">
 
-            {% for post in site.posts %}
+            {% for post in site.posts | where:"lang", page.lang %}
               <div class="card mb-3">
                 <div class="card-body">
                   <h5 class="card-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
