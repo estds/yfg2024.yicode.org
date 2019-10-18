@@ -15,7 +15,9 @@ layout: default
       <h1 class="hyphenate">{{ page.title }}</h1>
       <div class="meta small text-secondary d-flex justify-content-between">
         <div class="meta meta-date"><i class="far fa-calendar-alt mr-1"></i>{% include date.html %}</div>
+        {% if page.lang %}
         <div class="meta meta-languages"><div class="languages {{ page.lang }}">{% include languages.html %}</div></div>
+        {% endif %}
       </div>
 
       <div class="content rounded bg-white p-4 my-3">
