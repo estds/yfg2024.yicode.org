@@ -24,8 +24,10 @@ layout: default
       </div>
     </div>
     <div class="col-md-3">
-      {% if page.lang %}
-        {% include {{ page.lang }}-right-sidebar.html %}
+      {% if post.lang == "zh" %}
+        {% include zh/right-sidebar.html %}
+      {% else %}
+        {% include right-sidebar.html %}
       {% endif %}
     </div>
   </div>
