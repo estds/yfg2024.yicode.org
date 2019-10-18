@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Acknowledgement"
-
+lang: en
 ref: acknowledgement-page
 ---
 
