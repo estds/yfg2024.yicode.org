@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Acknowledgement"
+ref: acknowledgement-page
 ---
 
 ## Frontend
