@@ -1,0 +1,5 @@
+{% if page.lang == 'zh' %}
+    {{ page.date | date: "%Y年%-m月%-d号" }}
+{% else %}
+    {{ page.date | date_to_string }}
+{% endif %}
