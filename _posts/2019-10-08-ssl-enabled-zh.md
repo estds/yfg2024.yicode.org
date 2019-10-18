@@ -6,6 +6,7 @@ date: 2019-10-08
 abstract: "我们已将整个网站部署了SSL加密，以更好地保护您的安全。"
 fimage: "https://user-images.githubusercontent.com/56233807/66511410-8ca8f380-eadf-11e9-9139-264a18fd46f3.jpg"
 raction: "了解更多"
+ref: ssl-enabled
 ---
 
 我们认为您的安全最为重要。
