@@ -6,6 +6,7 @@ date: 2019-10-08
 abstract: "We have encrypted our entire website now to provide extra protection for you."
 fimage: "https://user-images.githubusercontent.com/56233807/66511410-8ca8f380-eadf-11e9-9139-264a18fd46f3.jpg"
 raction: "Know more"
+ref: ssl-enabled
 ---
 
 We value your security.
