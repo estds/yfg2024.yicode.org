@@ -22,9 +22,12 @@ title: Blog posts
 
           <h1>{{ page.title }}</h1>
 
+          
           <div class="content my-3">
 
-            {% for post in site.posts | where:"lang", page.lang %}
+            {% assign posts=site.posts | where:"lang", page.lang %}
+            
+            {% for post in site.posts}
               <div class="card mb-3">
                 <div class="card-body">
                   <h5 class="card-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
