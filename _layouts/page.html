@@ -21,7 +21,11 @@ layout: default
       </div>
     </div>
     <div class="col-md-3">
-      {% include right-sidebar.html %}
+      {% if page.lang == "zh" %}
+        {% include zh/right-sidebar.html %}
+      {% else %}
+        {% include right-sidebar.html %}
+      {% endif %}
     </div>
   </div>
 </div>
