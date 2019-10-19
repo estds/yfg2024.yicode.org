@@ -5,7 +5,7 @@ lang: en
 ref: pwa-instructions
 ---
 
-Our website could function like a native App on your mobile devices through the [PWA](https://en.wikipedia.org/wiki/Progressive_web_applications) (Progressive Web Applications) concept.
+Our website could function like a native App on your mobile devices thanks to the deployment of [PWA](https://en.wikipedia.org/wiki/Progressive_web_applications) (Progressive Web Applications).
 
 Here are guidelines to use it like an native App on your mobile devices.
 
