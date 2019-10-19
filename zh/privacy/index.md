@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "隐私策略"
-lang: en
+lang: zh
 ref: privacy-policies
 ---
 
