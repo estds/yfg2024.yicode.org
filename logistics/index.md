@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Support for Logistics"
+title: "Logistics"
 lang: en
 ref: logistics-page
 ---
