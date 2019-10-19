@@ -18,7 +18,7 @@ ref: blog-posts
           <div class="meta meta-date"></div>
           {% if page.ref and page.lang %}
           <div class="meta meta-languages meta-rss d-flex align-items-center">
-            <div class="rss-feed bg-info rounded"><a href="atom.xml" class="text-white px-1" data-toggle="tooltip" data-placement="left" title="Get RSS feed here"><i class="fas fa-rss-square"></i></a></div>
+            <div class="rss-feed bg-info rounded mr-1"><a href="atom.xml" class="text-white px-1" data-toggle="tooltip" data-placement="left" title="Get RSS feed here"><i class="fas fa-rss-square"></i></a></div>
             <div class="languages bg-dark rounded d-flex align-items-center {{ page.lang }}">{% include languages.html %}</div>
           </div>
           {% endif %}
