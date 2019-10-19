@@ -13,16 +13,9 @@ ref: blog-posts
       <div aria-label="content">
 
         <h1>{{ page.title }}</h1>
-        <div class="meta small text-secondary d-flex justify-content-between">
-          <div class="meta meta-date"></div>
-          <div class="meta meta-languages">
-            <div class="rss-feed"><a href="atom.xml" class="float-right text-secondary p-1" data-toggle="tooltip" data-placement="left" title="Get RSS feed here"><i class="fas fa-rss-square fa-lg"></i></a></div>
-            <div class="languages {{ page.lang }}">{% include languages.html %}</div>
-          </div>
-        </div>
         
         <div class="meta small text-secondary d-flex justify-content-between">
-          <div class="meta meta-date"><i class="far fa-calendar-alt mr-1"></i>{% include date.html %}</div>
+          <div class="meta meta-date"></div>
           {% if page.ref and page.lang %}
           <div class="meta meta-languages meta-rss">
             <div class="rss-feed bg-info rounded"><a href="atom.xml" class="text-white px-1" data-toggle="tooltip" data-placement="left" title="Get RSS feed here"><i class="fas fa-rss-square"></i></a></div>
