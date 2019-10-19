@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "会务相关"
+title: "会务"
 lang: zh
 ref: logistics-page
 ---
