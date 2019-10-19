@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "Progressive Web Apps"
+lang: en
+ref: pwa-instructions
 ---
 
 Our website could function like a native App on your mobile devices through the [PWA](https://en.wikipedia.org/wiki/Progressive_web_applications) (Progressive Web Applications) concept.
