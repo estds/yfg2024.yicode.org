@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="container py-5">
   <div class="row">
-    <div class="col-md-9">
+    <div class="col-md-9 left-col">
       {% if page.lang == "zh" %}
         {% include zh/breadcrumb.html %}
       {% else %}
@@ -26,7 +26,7 @@ layout: default
 
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 right-col d-print-none">
       {% if page.lang == "zh" %}
         {% include zh/right-sidebar.html %}
       {% else %}
