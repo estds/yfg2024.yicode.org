@@ -12,7 +12,7 @@ ref: pwa-instructions
 ## iOS设备
 
 1. 在您的iOS设备中，用Safari浏览器打开我们的[主页](https://estds.yicode.ac)。
-1. 点击屏幕底部的分享按钮（![](/img/ios-safari-share-icon.svg))）。
+1. 点击屏幕底部的分享按钮（![](/img/ios-safari-share-icon.svg)）。
 1. 找到“添加到主屏幕”按钮并点击。
 1. 在接下来弹出的窗口点击“完成”。
 1. 返回主屏幕您就可以像使用原生程序一样使用我们的网站。
