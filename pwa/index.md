@@ -20,7 +20,7 @@ Here are guidelines to use it like an native App on your mobile devices.
 ## Android devices
 
 1. Visit our [homepage](https://estds.yicode.ac) in Google Chrome on your Android device. (You might see a prompt message at the bottom of the screen to add us to your home screen here. If not, please continue.)
-1. Tap the settings button on the top right cornor.
+1. Tap the settings button (![](/img/icon-settings-v.svg)) on the top right cornor.
 1. Find "Install ESTDS2020" and tap it.
 1. You should be able to find us on your home screen as an App.
 
@@ -39,7 +39,7 @@ There are two ways to install us as an App. You can either use __a shortcut in t
 
 ### The shortcut in the address bar
 1. Visit our [homepage](https://estds.yicode.ac) in Windows Edge.
-1. Click the settings button on the top right cornor.
+1. Click the settings button (![](/img/icon-settings-h.svg)) on the top right cornor.
 1. Go to "Apps" and click "Install this site as an app".
 1. You should be able to find us in your Start Menu.
 
@@ -54,6 +54,6 @@ There are two ways to install us as an App. You can either use __a shortcut in t
 
 ### The shortcut in the address bar
 1. Visit our [homepage](https://estds.yicode.ac) in Google Chrome.
-1. Click the settings button on the top right cornor.
+1. Click the settings button (![](/img/icon-settings-v.svg)) on the top right cornor.
 1. Find "Install ESTDS2020" and click it.
 1. You should be able to find us as an App in your launchpad (Mac OS) or Start Menu (Windows).
