@@ -39,7 +39,7 @@ lang: en
                                           </div>
                                     </div>
                               </div>
-                              <script src="/js/email-subscription.js"></script>
+                              <script src="/assets/js/email-subscription.js"></script>
                               <!-- Card END -->
                               
                               {% assign posts=site.posts | where:"lang", page.lang %}
@@ -48,7 +48,7 @@ lang: en
                               <!-- Card START -->
                               <div class="col-md-6 mb-4">
                                     <div class="card d-block">
-                                          <img class="card-img-top" src="{% if post.fimage %}{{ post.fimage }}{% else %}/img/card-image.jpg{% endif %}" /> 
+                                          <img class="card-img-top" src="{% if post.fimage %}{{ post.fimage }}{% else %}/assets/img/card-image.jpg{% endif %}" /> 
                                           <div class="card-body">
                                                 <h5 class="card-title">{{ post.title }}</h5>
                                                 <p class="card-text">{{ post.abstract }}</p>
