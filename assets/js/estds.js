@@ -60,7 +60,7 @@ shareButton.addEventListener('click', event => {
 
 // set carousel item by data-image attribute
 
-$("#home-carousel .carousel-item").each(function() {
+$(".bg-by-attr").each(function() {
 	var attr = $(this).attr('data-image');
 
 	if (typeof attr !== typeof undefined && attr !== false) {
