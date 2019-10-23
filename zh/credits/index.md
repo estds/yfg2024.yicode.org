@@ -4,6 +4,7 @@ title: "致谢"
 lang: zh
 ref: acknowledgement-page
 ---
+对本网站的建设，我们谨作以下致谢。
 
 ## 前端
 
