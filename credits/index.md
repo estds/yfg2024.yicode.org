@@ -1,9 +1,10 @@
 ---
 layout: page
-title: "Acknowledgement"
+title: "Credits"
 lang: en
 ref: acknowledgement-page
 ---
+We wold like to make the following acknowledgement for the development of this website.
 
 ## Frontend
 
