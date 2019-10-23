@@ -17,6 +17,10 @@
 		hyphens: auto;
 }
 
+.text-serif {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 /** animate the navbar toggle **/
 .icon-bar {
 	width: 22px; 
