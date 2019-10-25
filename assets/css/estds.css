@@ -123,6 +123,7 @@
 .meta-languages .languages.zh a.zh,
 .meta-languages .languages.en a.en{
 	background-color: #007bff;
+	pointer-events: none;
 }
 
 /* #home-carousel */
