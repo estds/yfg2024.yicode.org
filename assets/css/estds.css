@@ -132,7 +132,7 @@
 	height: 480px;
 }
 
-#home-carousel .carousel-item .credit-label {
+.credit-label {
 	position: absolute;
 	left: 0;
 	bottom: 0;
