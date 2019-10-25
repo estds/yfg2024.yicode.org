@@ -13,7 +13,7 @@ ref: ssl-enabled
 
 从现在开始，我们的整个网站都将使用[SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security)加密。SSL加密可以在您使用我们的网站时，起到额外的保护作用。
 
-{% include figure.html url="https://user-images.githubusercontent.com/56233807/67166000-5b7ebd80-f340-11e9-8645-c50bc73e1933.png" caption="SLL加密的运作方式 (Dadian, 2019)" %}
+{% include figure.html url="https://user-images.githubusercontent.com/56233807/67166000-5b7ebd80-f340-11e9-8645-c50bc73e1933.png" caption="SSL加密的运作方式 (Dadian, 2019)" %}
 
 感谢您，祝您愉快！
 
