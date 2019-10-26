@@ -139,7 +139,7 @@
 	background-position: center center;
 }
 
-.bg-by-attr.over-lay-dark:before {
+.bg-by-attr.overlay-dark:before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -150,7 +150,7 @@
 	opacity: .6; 
 }
 
-.bg-by-attr.over-lay-light:before {
+.bg-by-attr.overlay-light:before {
 	content: '';
 	position: absolute;
 	top: 0;
