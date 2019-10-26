@@ -133,6 +133,16 @@
 	height: 480px;
 }
 
+.bg-by-attr {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.stand-out {
+	min-height: 540px;
+}
+
 .credit-label {
 	position: absolute;
 	left: 0;
@@ -143,12 +153,6 @@
 	font-size: 70%;
 	max-width: 100%;
 	z-index: 9;
-}
-
-.bg-by-attr {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
 }
 
 .display-5 {
