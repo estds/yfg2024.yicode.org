@@ -139,6 +139,28 @@
 	background-position: center center;
 }
 
+.bg-by-attr.over-lay-dark:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom,rgba(0, 0, 0, 1), rgba(117, 19, 93, 0.73));
+	opacity: .6; 
+}
+
+.bg-by-attr.over-lay-light:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom,rgba(142, 191, 255, .36), rgba(255, 255, 255, 0.93));
+	opacity: .6; 
+}
+
 .stand-out {
 	min-height: 540px;
 	font-size: 120%;
