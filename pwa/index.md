@@ -37,7 +37,7 @@ There are two ways to install us as an App. You can either use __a shortcut in t
 1. Click the "install" button in the popup window.
 1. You should be able to find us as an App in your Start Menu.
 
-### The shortcut in the address bar
+### The settings menu
 1. Visit our [homepage](https://estds.yicode.ac) in Windows Edge.
 1. Click the settings button (![](/assets/img/icon-settings-h.svg)) on the top right cornor.
 1. Go to "Apps" and click "Install this site as an app".
@@ -52,7 +52,7 @@ There are two ways to install us as an App. You can either use __a shortcut in t
 1. Click the ![](/assets/img/icon-install-plus-circle.svg) button in the address bar.
 1. Click the "install" button in the popup window.
 
-### The shortcut in the address bar
+### The settings menu
 1. Visit our [homepage](https://estds.yicode.ac) in Google Chrome.
 1. Click the settings button (![](/assets/img/icon-settings-v.svg)) on the top right cornor.
 1. Find "Install ESTDS2020" and click it.
