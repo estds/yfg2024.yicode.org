@@ -1,47 +1,47 @@
-// Activate Bootstrap tooltips
+// tweaks via javascript
+$(document).ready(function(){
 
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
+	// set .bg-by-attr item by data-image attribute
+	$(".bg-by-attr").each(function() {
+		var attr = $(this).attr('data-image');
 
-// facilitate share buttons
+		if (typeof attr !== typeof undefined && attr !== false) {
+			$(this).css('background-image', 'url(' + attr + ')');
+		}
 
-/*
-$(function () {
-    $(".share-button").each(function () {
-        $(this).attr("href", $(this).attr("href") + "&url=" + document.URL + "&title=" + document.title);
-    });
+	});
+
+	// activate Bootstrap tooltips
+	$('[data-toggle="tooltip"]').tooltip();
+	
+	// encode current url to qr-code and put it into #url-qr-wrap
+	var qrcode = new QRCode({
+		content: window.location.href,
+		padding: 0,
+		width: 96,
+		height: 96,
+		color: "#494f54",
+		background: "#ffffff",
+		ecl: "M"
+	});
+	var svg = qrcode.svg();
+	$("#url-qr-wrap").append(svg);
+	
+	
+	// targeting popover contents of .share-toggles
+	$('.share-toggles').popover({
+		//container: 'body',
+		html: true,
+		trigger: 'focus',
+		placement: 'bottom',
+		sanitize: false,
+		content: function() {
+			var pop_target = $(this).attr("data-popover-content");
+			return $(pop_target).children(".popover-content").clone();
+		}
+	});
+		
 });
-*/
-
-// encode current url to qr-code
-var qrcode = new QRCode({
-  content: window.location.href,
-  padding: 0,
-  width: 96,
-  height: 96,
-  color: "#494f54",
-  background: "#ffffff",
-  ecl: "M"
-});
-var svg = qrcode.svg();
-$("#url-qr-wrap").append(svg);
-
-
-// targeting popover contents
-$(function toggle_share_bspopup() {
-  $('.share-toggles').popover({
-    //container: 'body',
-    html: true,
-    trigger: 'focus',
-    placement: 'bottom',
-    sanitize: false,
-    content: function() {
-      var pop_target = $(this).attr("data-popover-content");
-      return $(pop_target).children(".popover-content").clone();
-    }
-  });
-})
 
 // using Web Share API if it is available
 const shareButton = document.querySelector('#share-toggle-sns');
@@ -60,16 +60,7 @@ shareButton.addEventListener('click', event => {
     .catch(console.error);
 });
 
-// set carousel item by data-image attribute
 
-$(".bg-by-attr").each(function() {
-	var attr = $(this).attr('data-image');
-
-	if (typeof attr !== typeof undefined && attr !== false) {
-		$(this).css('background-image', 'url(' + attr + ')');
-	}
-
-});
 
 
 // Scrolls smoothly to anchor
