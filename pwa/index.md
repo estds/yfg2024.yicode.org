@@ -32,7 +32,7 @@ There are two ways to install us as an App. You can either use __a shortcut in t
 
 ### The shortcut in the address bar
 
-1. Visit our [homepage](https://estds.yicode.ac) in Windows Edge. You should see a little ![](/img/icon-install-plus-circle.svg) button in the address bar next to the bookmark button.
+1. Visit our [homepage](https://estds.yicode.ac) in Windows Edge. You should see a little ![](/assets/img/icon-install-plus-circle.svg) button in the address bar next to the bookmark button.
 1. Click the ![](/assets/img/icon-install-plus-circle.svg) button in the address bar.
 1. Click the "install" button in the popup window.
 1. You should be able to find us as an App in your Start Menu.
