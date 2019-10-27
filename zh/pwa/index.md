@@ -54,6 +54,6 @@ _在一些桌面设备上，您也可以像使用原生程序一样使用我们�
 1. 在接下来弹出的对话框中点击“安装”。
 
 ### 设置按钮
-1. 在Windows Edge浏览器中打开我们的[主页](https://estds.yicode.ac)。
+1. 在Google Chrome浏览器中打开我们的[主页](https://estds.yicode.ac)。
 1. 点击右上角的设置按钮（![](/assets/img/icon-settings-v.svg)）。
 1. 找到“安装ESTDS2020”按钮并点击。
