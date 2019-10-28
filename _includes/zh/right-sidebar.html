@@ -1,55 +1,25 @@
 <div class="right-sidebar">
-  
+
   <div class="related-organisations">
   </div>
-  
+
   <!-- Start: .share-buttons -->
   <div class="share-buttons" aria-label="Share buttons">
 
-   <!-- Start: Toggle buttons for sharing -->
-   <div class="btn-group btn-block" role="group">
-     <a tabindex="0" id="share-toggle-sns" class="btn btn-warning share-toggles" data-popover-content="#popover-content-sns" data-trigger="focus">
-       <i class="far fa-share-square fa-fw mr-1"></i>分享至
-     </a>
-     <a tabindex="0" id="share-toggle-qr" class="btn btn-dark share-toggles" data-popover-content="#popover-content-qr" data-trigger="focus">
-       <i class="fas fa-qrcode fa-fw mr-1"></i>扫一扫
-     </a>
-   </div>
-   <!-- End: Toggle buttons for sharing -->
+    <!-- Start: Toggle buttons for sharing -->
+    <div class="btn-group btn-block" role="group">
+      <a tabindex="0" id="share-toggle-sns" class="btn btn-warning share-toggles" data-popover-content="#popover-content-sns" data-trigger="focus">
+        <i class="far fa-share-square fa-fw mr-1"></i>分享至
+      </a>
+      <a tabindex="0" id="share-toggle-qr" class="btn btn-dark share-toggles" data-popover-content="#popover-content-qr" data-trigger="focus">
+        <i class="fas fa-qrcode fa-fw mr-1"></i>扫一扫
+      </a>
+    </div>
+    <!-- End: Toggle buttons for sharing -->
+    
+    {% include zh/sns-share-entries.html %}
 
-   <!-- Start: Contents of popovers -->
-   <div class="d-none">
-     <!-- Start: Contents of popovers #popover-content-sns -->
-     <div id="popover-content-sns">
-       <div class="popover-content">
-         <div class="btn-group-vertical share-buttons">
-           <a title="Twitter" class="share-button text-left text-white btn" id="twitter" href="https://twitter.com/intent/tweet?url={{ site.baseurl | url_encode }}{{ page.url | url_encode }}&text={{ page.title | url_encode }}%20%7C%20{{ site.name_zh | url_encode}}&hashtags=water,sustainability,Nanjing" target="_blank">
-             <i class="fab fa-twitter fa-fw mr-1"></i>Twitter
-           </a>
-           <a title="Facebook" class="share-button text-left text-white btn" id="facebook" href="https://www.facebook.com/sharer.php?u={{ site.baseurl | url_encode }}{{ page.url | url_encode }}" target="_blank">
-             <i class="fab fa-facebook-f fa-fw mr-1"></i>Facebook
-           </a>
-           <a title="Linkedin" class="share-button text-left text-white btn" id="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.baseurl | url_encode }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}%20%7C%20{{ site.name_zh | url_encode}}" target="_blank">
-             <i class="fab fa-linkedin-in fa-fw mr-1"></i>LinkedIn
-           </a>
-           <a title="Sina Weibo" class="share-button text-left text-white btn" id="weibo" href="http://service.weibo.com/share/share.php?url={{ site.baseurl | url_encode }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}%20%7C%20{{ site.name_zh | url_encode}}" target="_blank">
-             <i class="fab fa-weibo fa-fw mr-1"></i>微博
-           </a>
-         </div>
-       </div>
-     </div>
-     <!-- End: Contents of popovers #popover-content-sns -->
-
-     <!-- Start: Contents of popovers #popover-content-qr -->
-     <div id="popover-content-qr">
-       <div class="popover-content">
-         <div id="url-qr-wrap"></div>
-       </div>
-     </div>
-     <!-- End: Contents of popovers #popover-content-qr -->
-   </div>
-   <!-- End: Contents of popovers -->
   </div>
   <!-- End: .share-buttons -->
-  
+
 </div>
