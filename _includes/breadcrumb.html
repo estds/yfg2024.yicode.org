@@ -2,12 +2,7 @@
         <ol class="breadcrumb small">
           <li class="breadcrumb-item"><a href="/"><i class="fas fa-home mr-1"></i>Home</a></li>
           {% if page.id %}<li class="breadcrumb-item"><a href="/blog">Blog</a></li>{% endif %}
-          {% if page.parent %}
-            {% assign crumbs = page.parent | split: '/' %}
-            {% for crumb in crumbs offset: 1 %}
-            <li class="breadcrumb-item"><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | capitalize }}</a></li>
-            {% endfor %}
-          {% endif %}
+          {% if page.parent %}<li class="breadcrumb-item"><a href="{{ page.parent_dir }}">{{ page.parent }}</a></li>{% endif %}
           <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
         </ol>
       </nav>
