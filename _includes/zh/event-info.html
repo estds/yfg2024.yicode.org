@@ -1,0 +1,22 @@
+<section class="eventinfo">
+  <div class="card-deck">
+    <div class="card p-1">
+      <div class="card-body p-0 d-flex align-items-center text-truncate">
+        <div class="text-success p-3"><i class="fas fa-clock fa-2x fa-fw"></i></div>
+        <div class="bg-white p-3 text-truncate">
+          <h5 class="text-secondary small text-truncate">时间</h5>
+          <p class="mb-0 text-truncate">{{ page.start | date: "%Y年%m月%d日 %H:%M" }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="card p-1">
+      <div class="card-body p-0 d-flex align-items-center text-truncate">
+        <div class="text-success p-3"><i class="fas fa-map-marker-alt fa-2x fa-fw"></i></div>
+        <div class="bg-white p-3 text-truncate">
+          <h5 class="text-secondary small text-truncate">地点</h5>
+          <p class="mb-0 text-truncate">{{ page.venue }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
