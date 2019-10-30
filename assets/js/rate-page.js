@@ -1,4 +1,4 @@
-$(document).ready(function ratePage() {
+$(document).ready(function() {
 
     // popup after sending the message
     $("#form_15840").submit(function(e){
