@@ -2,7 +2,10 @@
         <ol class="breadcrumb small">
           <li class="breadcrumb-item"><a href="/"><i class="fas fa-home mr-1"></i>Home</a></li>
           {% if page.id %}<li class="breadcrumb-item"><a href="/blog">Blog</a></li>{% endif %}
-          {% if page.parent and page.parent_dir %}<li class="breadcrumb-item"><a href="{{ page.parent_dir }}">{{ page.parent }}</a></li>{% endif %}
+          {% if page.parent %}
+          {% assign parent_page = site.pages | where_exp: "item", "item.ref == page.parent and item.lang == page.lang" %}
+          <li class="breadcrumb-item"><a href="{{ parent_page.url }}">{{ parent_page.title }}</a></li>
+          {% endif %}
           <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
         </ol>
       </nav>
