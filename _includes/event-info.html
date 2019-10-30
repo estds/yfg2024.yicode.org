@@ -5,7 +5,7 @@
         <div class="text-success p-3"><i class="fas fa-clock fa-2x fa-fw"></i></div>
         <div class="bg-white py-1 text-truncate">
           <h5 class="text-secondary small text-truncate">Time</h5>
-          <p class="mb-0 text-truncate">{{ page.start | date: "%-d %b %Y %H:%M" }}</p>
+          <p class="mb-0 text-truncate">{% if page.start %}{{ page.start | date: "%-d %b %Y %H:%M" }}{% else %}TBD{% endif %}</p>
         </div>
       </div>
     </div>
@@ -14,7 +14,7 @@
         <div class="text-success p-3"><i class="fas fa-map-marker-alt fa-2x fa-fw"></i></div>
         <div class="bg-white py-1 text-truncate">
           <h5 class="text-secondary small text-truncate">Place</h5>
-          <p class="mb-0 text-truncate">{{ page.place }}</p>
+          <p class="mb-0 text-truncate">{% if page.place %}{{ page.place }}{% else %}TBD{% endif %}</p>
         </div>
       </div>
     </div>
