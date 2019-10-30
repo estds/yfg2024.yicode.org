@@ -4,7 +4,7 @@
           {% if page.id %}<li class="breadcrumb-item"><a href="/blog">Blog</a></li>{% endif %}
           {% if page.parent %}
           {% assign parent_page = site.pages | where_exp: "item", "item.ref == page.parent and item.lang == page.lang" %}
-          <li class="breadcrumb-item"><a href="{{ parent_page.url }}">{{ parent_page.title }}</a></li>
+          {% for item in parent_page %}<li class="breadcrumb-item"><a href="{{ item.url }}">{{ item.title }}</a></li>
           {% endif %}
           <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
         </ol>
