@@ -1,9 +1,8 @@
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb small">
           <li class="breadcrumb-item"><a href="/zh"><i class="fas fa-home mr-1"></i>主页</a></li>
-          {% if page.id %}
-          <li class="breadcrumb-item"><a href="/zh/blog">博客</a></li>
-          {% endif %}
+          {% if page.id %}<li class="breadcrumb-item"><a href="/zh/blog">博客</a></li>{% endif %}
+          {% if page.parent and page.parent_dir %}<li class="breadcrumb-item"><a href="{{ page.parent_dir }}">{{ page.parent }}</a></li>{% endif %}
           <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
         </ol>
       </nav>
