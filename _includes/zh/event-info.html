@@ -5,7 +5,7 @@
         <div class="text-success p-3"><i class="fas fa-clock fa-2x fa-fw"></i></div>
         <div class="bg-white py-1 text-truncate">
           <h5 class="text-secondary small text-truncate">时间</h5>
-          <p class="mb-0 text-truncate">{{ page.start | date: "%Y年%m月%d日 %H:%M" }}</p>
+          <p class="mb-0 text-truncate">{% if page.start %}{{ page.start | date: "%Y年%m月%d日 %H:%M" }}{% else %}待定{% endif %}</p>
         </div>
       </div>
     </div>
@@ -14,7 +14,7 @@
         <div class="text-success p-3"><i class="fas fa-map-marker-alt fa-2x fa-fw"></i></div>
         <div class="bg-white py-1 text-truncate">
           <h5 class="text-secondary small text-truncate">地点</h5>
-          <p class="mb-0 text-truncate">{{ page.venue }}</p>
+          <p class="mb-0 text-truncate">{% if page.place %}{{ page.place }}{% else %}待定{% endif %}</p>
         </div>
       </div>
     </div>
