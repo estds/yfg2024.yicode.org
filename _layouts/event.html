@@ -1,0 +1,9 @@
+---
+layout: page
+---
+{% if page.lang == "zh" %}
+  {% include zh/event-info.html %}
+{% else %}
+  {% include event-info.html %}
+{% endif %}
+{{ content }}
