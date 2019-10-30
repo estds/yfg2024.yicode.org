@@ -1,23 +1,22 @@
 <section class="event-info mb-3">
   <div class="card-group">
-    <div class="card">
+    <div class="card bg-dark text-white">
       <div class="card-body p-0 d-flex align-items-center text-truncate">
-        <div class="text-success p-3"><i class="fas fa-clock fa-2x fa-fw"></i></div>
-        <div class="bg-white py-1 text-truncate">
-          <h5 class="text-secondary small text-truncate">时间</h5>
-          <p class="mb-0 text-truncate">{% if page.start %}{{ page.start | date: "%Y年%m月%d日 %H:%M" }}{% else %}待定{% endif %}</p>
+        <div class="text-white-50 p-3"><i class="fas fa-clock fa-2x fa-fw"></i></div>
+        <div class="py-1 text-truncate">
+          <h5 class="text-white-50 small text-truncate">时间</h5>
+          <p class="mb-0 text-truncate"><b>{% if page.start %}{{ page.start | date: "%Y年%m月%d日 %H:%M" }}{% else %}待定{% endif %}</b></p>
         </div>
       </div>
     </div>
-    <div class="card">
+    <div class="card bg-secondary text-white">
       <div class="card-body p-0 d-flex align-items-center text-truncate">
-        <div class="text-success p-3"><i class="fas fa-map-marker-alt fa-2x fa-fw"></i></div>
-        <div class="bg-white py-1 text-truncate">
-          <h5 class="text-secondary small text-truncate">地点</h5>
-          <p class="mb-0 text-truncate">{% if page.place %}{{ page.place }}{% else %}待定{% endif %}</p>
+        <div class="text-white-50 p-3"><i class="fas fa-map-marker-alt fa-2x fa-fw"></i></div>
+        <div class="py-1 text-truncate">
+          <h5 class="text-white-50 small text-truncate">地点</h5>
+          <p class="mb-0 text-truncate"><b>{% if page.place %}{{ page.place }}{% else %}待定{% endif %}</b></p>
         </div>
       </div>
     </div>
   </div>
 </section>
-
