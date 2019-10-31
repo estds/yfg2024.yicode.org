@@ -1,0 +1,29 @@
+---
+layout: ical
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:https://estds.yicode.ac
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Shanghai
+X-LIC-LOCATION:Asia/Shanghai
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+{% assign entries=site.pages | where:"layout", "event" %}{% for item in entries %}BEGIN:VEVENT
+DTSTAMP:{{ item.start | date: "%Y%m%dT%H%M%SZ" }}
+UID:{{ item.start | date: "%Y%m%dT%H%M%SZ" }}-{{ item.ref }}
+DTSTART;TZID=Asia/Shanghai:{{ item.start | date: "%Y%m%dT%H%M%S" }}
+DTEND;TZID=Asia/Shanghai:{{ item.end | date: "%Y%m%dT%H%M%SZ" }}
+SUMMARY:{{ item.title }}
+DESCRIPTION:More information is availabe at {{ site.baseurl }}{{ item.url }}
+LOCATION:{{ item.place }}
+END:VEVENT
+{% endfor %}
+END:VCALENDAR
