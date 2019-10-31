@@ -5,6 +5,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:https://estds.yicode.ac
 CALSCALE:GREGORIAN
+NAME:My Calendar Name
+X-WR-CALNAME:{{ site.name }}
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+METHOD:PUBLISH
 BEGIN:VTIMEZONE
 TZID:Asia/Shanghai
 TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Shanghai
@@ -16,7 +21,7 @@ TZNAME:CST
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
-{% assign entries=site.pages | where:"layout", "event" %}{% for item in entries %}BEGIN:VEVENT
+{% assign entries=site.pages | where:"layout", "event" %}{% for item in entries %}{% if item.lang == "en" %}BEGIN:VEVENT
 DTSTAMP:{{ item.start | date: "%Y%m%dT%H%M%SZ" }}
 UID:{{ item.start | date: "%Y%m%dT%H%M%SZ" }}-{{ item.lang }}-{{ item.ref }}
 DTSTART;TZID=Asia/Shanghai:{{ item.start | date: "%Y%m%dT%H%M%S" }}
@@ -24,5 +29,5 @@ DTEND;TZID=Asia/Shanghai:{{ item.end | date: "%Y%m%dT%H%M%S" }}
 SUMMARY:{{ item.title }}
 DESCRIPTION:See {{ site.baseurl }}{{ item.url }}
 LOCATION:{{ item.place }}
-END:VEVENT
+END:VEVENT{% endif %}
 {% endfor %}END:VCALENDAR
