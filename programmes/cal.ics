@@ -25,5 +25,4 @@ SUMMARY:{{ item.title }}
 DESCRIPTION:See {{ site.baseurl }}{{ item.url }}
 LOCATION:{{ item.place }}
 END:VEVENT
-{% endfor %}
-END:VCALENDAR
+{% endfor %}END:VCALENDAR
