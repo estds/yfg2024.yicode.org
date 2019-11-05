@@ -30,6 +30,7 @@ Photographs by the following artists have been used on this website, to whom we 
 ### Carousel on home page
 
 - "Bird's-eye view photography of boats near houses" by [Emile Guillemot](https://unsplash.com/photos/ARosbKOjd68) (original photo cropped), license free
+- "Mu Se Jin Ling" by Dechao Zhang (original photo cropped), [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 - "The Jiming Temple standing in the sunshine after the snow" by [Kenneth Yang](https://unsplash.com/photos/lJWJLkwIsng) (original photo cropped), license free
 - "People waiting for train at the station during sunset" by [Zhimai Zhang](https://unsplash.com/photos/mVflgHko2Gs) (original photo cropped), license free
 - "Green hills" by [Wang Douglas](https://unsplash.com/photos/S9izCjMijLI) (original photo cropped), license free
