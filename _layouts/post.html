@@ -26,7 +26,7 @@ layout: default
         </div>
         {% endif %}
 
-        <div class="content rounded{% if page.fimage and page.fimage_credit %}-bottom{% endif %} bg-white p-4 mb-3">
+        <div class="content rounded{% if page.fimage and page.fimage_credit %}-bottom mb-3{% else %} my-3{% endif %} bg-white p-4">
           {{ content }}
         </div>
 
