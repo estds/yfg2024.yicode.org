@@ -16,7 +16,7 @@ lang: zh
                         <div class="row">
                               <!-- Card START -->
                               <div class="col-md-6 mb-4">
-                                    <div class="card d-block">
+                                    <div class="card d-block h-100">
                                           <img class="card-img-top" src="https://user-images.githubusercontent.com/56233807/66511412-8d418a00-eadf-11e9-8ede-14efd19c681b.jpg" alt="Newsletter" /> 
                                           <div class="card-body">
                                                 <form name="subscribeform" id="subscribeform" action="" enctype="multipart/form-data">
@@ -47,7 +47,7 @@ lang: zh
                               {% for post in posts limit: 3 %}
                               <!-- Card START -->
                               <div class="col-md-6 mb-4">
-                                    <div class="card d-block">
+                                    <div class="card d-block h-100">
                                           <img class="card-img-top" src="{% if post.fimage %}{{ post.fimage }}{% else %}/assets/img/card-image.jpg{% endif %}" />
                                           <div class="card-body">
                                                 <h5 class="card-title">{{ post.title }}</h5>
@@ -61,7 +61,7 @@ lang: zh
                               {% endfor %}
                               <!-- Card START -->
                               <div class="col-md-6 mb-4">
-                                    <div class="card d-block">
+                                    <div class="card d-block h-100">
                                           <img class="card-img-top" src="https://user-images.githubusercontent.com/56233807/67703216-53420600-f970-11e9-9215-548a07e8e7e6.jpg" /> 
                                           <div class="card-body">
                                                 <h5 class="card-title">更多信息</h5>
