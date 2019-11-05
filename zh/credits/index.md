@@ -46,4 +46,4 @@ ref: acknowledgement-page
 - "Free plant" 作者：[Cameron Venti](https://unsplash.com/photos/NliTYm_jD5o)（原图有剪裁）
 
 ### 其他
-- "Two persons riding on boats" 作者：[郑 无忌](https://unsplash.com/photos/zboO0K1WfY4)（原图有剪裁）
+- "Two persons riding on boats" 作者：[郑 无忌](https://unsplash.com/photos/zboO0K1WfY4)（原图有剪裁，并添加论坛标示）
