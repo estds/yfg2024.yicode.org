@@ -29,21 +29,26 @@ ref: acknowledgement-page
 
 ### 主页幻灯片
 
-- "Bird's-eye view photography of boats near houses" 作者：[Emile Guillemot](https://unsplash.com/photos/ARosbKOjd68)（原图有剪裁）
-- "The Jiming Temple standing in the sunshine after the snow" 作者：[Kenneth Yang](https://unsplash.com/photos/lJWJLkwIsng)（原图有剪裁）
-- "People waiting for train at the station during sunset" 作者：[Zhimai Zhang](https://unsplash.com/photos/mVflgHko2Gs)（原图有剪裁）
-- "Green hills" 作者：[Wang Douglas](https://unsplash.com/photos/S9izCjMijLI)（原图有剪裁）
+- "Bird's-eye view photography of boats near houses" 作者：[Emile Guillemot](https://unsplash.com/photos/ARosbKOjd68)（原图有剪裁），免授权
+- "The Jiming Temple standing in the sunshine after the snow" 作者：[Kenneth Yang](https://unsplash.com/photos/lJWJLkwIsng)（原图有剪裁），免授权
+- "People waiting for train at the station during sunset" 作者：[Zhimai Zhang](https://unsplash.com/photos/mVflgHko2Gs)（原图有剪裁），免授权
+- "Green hills" 作者：[Wang Douglas](https://unsplash.com/photos/S9izCjMijLI)（原图有剪裁），免授权
+
+### 主页卡片
+- "Brown wooden wall rack hanged on wall" 作者：[Bernard Hermant](https://unsplash.com/photos/4WFltRAJSXE)（原图有剪裁）
+- "Man sitting on bench reading newspaper" 作者：[Roman Kraft](https://unsplash.com/photos/_Zua2hyvTBk)（原图有剪裁），免授权
+- 其余作品请见博文内说明
 
 ### [更加绿色的一点小事](/zh/greener)
-- "Wake up book" 作者：[Markus Spiske](https://unsplash.com/photos/oJZJdhFL2gk)（原图有剪裁）
-- "White ceramic mug" 作者：[NordWood Themes](https://unsplash.com/photos/nDd3dIkkOLo)（原图有剪裁）
-- "People near train station" 作者：[Zhimai Zhang](https://unsplash.com/photos/iTf45b2M_0U)（原图有剪裁）
-- "Scattered sheets of white paper covering the entire frame" 作者：[Brandi Redd](https://unsplash.com/photos/aJTiW00qqtI)（原图有剪裁）
-- "Macro shot of black pendant lamps" 作者：[Robert Haverly](https://unsplash.com/photos/_kmr5wKVW7E)（原图有剪裁）
-- "Six women's white dresses hanging on hangers" 作者：[Charisse Kenion](https://unsplash.com/photos/69epvVgm0Ws)（原图有剪裁）
-- "Grey coffe jar" 作者：[Mae Mu](https://unsplash.com/photos/0EWWLx_etkw)（原图有剪裁）
-- "Pea pods" 作者：[Monika Grabkowska](https://unsplash.com/photos/JoIw75HWMtI)（原图有剪裁）
-- "Free plant" 作者：[Cameron Venti](https://unsplash.com/photos/NliTYm_jD5o)（原图有剪裁）
+- "Wake up book" 作者：[Markus Spiske](https://unsplash.com/photos/oJZJdhFL2gk)（原图有剪裁），免授权
+- "White ceramic mug" 作者：[NordWood Themes](https://unsplash.com/photos/nDd3dIkkOLo)（原图有剪裁），免授权
+- "People near train station" 作者：[Zhimai Zhang](https://unsplash.com/photos/iTf45b2M_0U)（原图有剪裁），免授权
+- "Scattered sheets of white paper covering the entire frame" 作者：[Brandi Redd](https://unsplash.com/photos/aJTiW00qqtI)（原图有剪裁），免授权
+- "Macro shot of black pendant lamps" 作者：[Robert Haverly](https://unsplash.com/photos/_kmr5wKVW7E)（原图有剪裁），免授权
+- "Six women's white dresses hanging on hangers" 作者：[Charisse Kenion](https://unsplash.com/photos/69epvVgm0Ws)（原图有剪裁），免授权
+- "Grey coffe jar" 作者：[Mae Mu](https://unsplash.com/photos/0EWWLx_etkw)（原图有剪裁），免授权
+- "Pea pods" 作者：[Monika Grabkowska](https://unsplash.com/photos/JoIw75HWMtI)（原图有剪裁），免授权
+- "Free plant" 作者：[Cameron Venti](https://unsplash.com/photos/NliTYm_jD5o)（原图有剪裁），免授权
 
 ### 其他
-- "Two persons riding on boats" 作者：[郑 无忌](https://unsplash.com/photos/zboO0K1WfY4)（原图有剪裁，并添加论坛标示）
+- "Two persons riding on boats" 作者：[郑 无忌](https://unsplash.com/photos/zboO0K1WfY4)（原图有剪裁，并添加论坛标示），免授权
