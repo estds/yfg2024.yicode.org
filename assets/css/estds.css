@@ -186,3 +186,10 @@
 .feature-image {
 	min-height: 30vh;
 }
+
+@media print {
+	.left-col {
+		max-width: 100;
+		flex: 0 0 100%;
+	}
+}
