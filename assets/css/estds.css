@@ -2,7 +2,7 @@
 	--jumbotron-padding-y: 3rem;
 }
 
-.home-columns .card-columns {
+.card-columns {
   @include media-breakpoint-only(md) {
     column-count: 2;
   }
