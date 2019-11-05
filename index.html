@@ -12,9 +12,10 @@ lang: en
         <div class="container">
 
             <div class="row">
-                  <div class="col-md-9 home-columns">
-                        <div class="card-columns">
+                  <div class="col-md-9">
+                        <div class="row">
                               <!-- Card START -->
+                              <div class="col-md-6 mb-4">
                                     <div class="card d-block">
                                           <img class="card-img-top" src="https://user-images.githubusercontent.com/56233807/66511412-8d418a00-eadf-11e9-8ede-14efd19c681b.jpg" alt="Newsletter" /> 
                                           <div class="card-body">
@@ -37,6 +38,7 @@ lang: en
                                                 </form>
                                           </div>
                                     </div>
+                              </div>
                               <script src="/assets/js/email-subscription.js"></script>
                               <!-- Card END -->
                               
@@ -44,6 +46,7 @@ lang: en
                               
                               {% for post in posts limit: 3 %}
                               <!-- Card START -->
+                              <div class="col-md-6 mb-4">
                                     <div class="card d-block">
                                           <img class="card-img-top" src="{% if post.fimage %}{{ post.fimage }}{% else %}/assets/img/card-image.jpg{% endif %}" /> 
                                           <div class="card-body">
@@ -52,10 +55,12 @@ lang: en
                                                 <a href="{{ post.url }}" class="btn btn-primary">{% if post.raction %}{{ post.raction }}{% else %}Read on{% endif %}<i class="fas fa-chevron-circle-right ml-1"></i></a>
                                           </div>
                                     </div>
+                              </div>
                               <!-- Card END -->
                               {% endfor %}
 
                               <!-- Card START -->
+                              <div class="col-md-6 mb-4">
                                     <div class="card d-block">
                                           <img class="card-img-top" src="https://user-images.githubusercontent.com/56233807/67703216-53420600-f970-11e9-9215-548a07e8e7e6.jpg" /> 
                                           <div class="card-body">
@@ -64,6 +69,7 @@ lang: en
                                                 <a href="/blog" class="btn btn-info">Read all<i class="fas fa-chevron-circle-right ml-1"></i></a>
                                           </div>
                                     </div>
+                              </div>
                               <!-- Card END -->
 
                         </div>
@@ -77,4 +83,3 @@ lang: en
               
         </div><!-- End of .container -->
       </div><!-- End of .album -->
-
