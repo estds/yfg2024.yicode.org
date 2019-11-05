@@ -29,22 +29,27 @@ Photographs by the following artists have been used on this website, to whom we 
 
 ### Carousel on home page
 
-- "Bird's-eye view photography of boats near houses" by [Emile Guillemot](https://unsplash.com/photos/ARosbKOjd68) (Original photo cropped)
-- "The Jiming Temple standing in the sunshine after the snow" by [Kenneth Yang](https://unsplash.com/photos/lJWJLkwIsng) (Original photo cropped)
-- "People waiting for train at the station during sunset" by [Zhimai Zhang](https://unsplash.com/photos/mVflgHko2Gs) (Original photo cropped)
-- "Green hills" by [Wang Douglas](https://unsplash.com/photos/S9izCjMijLI) (Original photo cropped)
+- "Bird's-eye view photography of boats near houses" by [Emile Guillemot](https://unsplash.com/photos/ARosbKOjd68) (original photo cropped), license free
+- "The Jiming Temple standing in the sunshine after the snow" by [Kenneth Yang](https://unsplash.com/photos/lJWJLkwIsng) (original photo cropped), license free
+- "People waiting for train at the station during sunset" by [Zhimai Zhang](https://unsplash.com/photos/mVflgHko2Gs) (original photo cropped), license free
+- "Green hills" by [Wang Douglas](https://unsplash.com/photos/S9izCjMijLI) (original photo cropped), license free
+
+### Cards on homepage
+- "Brown wooden wall rack hanged on wall" by [Bernard Hermant](https://unsplash.com/photos/4WFltRAJSXE)(original photo cropped), license free
+- "Man sitting on bench reading newspaper" by [Roman Kraft](https://unsplash.com/photos/_Zua2hyvTBk) (original photo cropped), license free
+- Other photographs are credited in each blog post
 
 ### [Little bits to go greener](/greener)
-- "Wake up book" by [Markus Spiske](https://unsplash.com/photos/oJZJdhFL2gk) (Original photo cropped)
-- "White ceramic mug" by [NordWood Themes](https://unsplash.com/photos/nDd3dIkkOLo) (Original photo cropped)
-- "People near train station" by [Zhimai Zhang](https://unsplash.com/photos/iTf45b2M_0U) (Original photo cropped)
-- "Scattered sheets of white paper covering the entire frame" by [Brandi Redd](https://unsplash.com/photos/aJTiW00qqtI) (Original photo cropped)
-- "Macro shot of black pendant lamps" by [Robert Haverly](https://unsplash.com/photos/_kmr5wKVW7E) (Original photo cropped)
-- "Six women's white dresses hanging on hangers" by [Charisse Kenion](https://unsplash.com/photos/69epvVgm0Ws) (Original photo cropped)
-- "Grey coffe jar" by [Mae Mu](https://unsplash.com/photos/0EWWLx_etkw) (Original photo cropped)
-- "Pea pods" by [Monika Grabkowska](https://unsplash.com/photos/JoIw75HWMtI) (Original photo cropped)
-- "Free plant" by [Cameron Venti](https://unsplash.com/photos/NliTYm_jD5o) (Original photo cropped)
+- "Wake up book" by [Markus Spiske](https://unsplash.com/photos/oJZJdhFL2gk) (original photo cropped), license free
+- "White ceramic mug" by [NordWood Themes](https://unsplash.com/photos/nDd3dIkkOLo) (original photo cropped), license free
+- "People near train station" by [Zhimai Zhang](https://unsplash.com/photos/iTf45b2M_0U) (original photo cropped), license free
+- "Scattered sheets of white paper covering the entire frame" by [Brandi Redd](https://unsplash.com/photos/aJTiW00qqtI) (original photo cropped), license free
+- "Macro shot of black pendant lamps" by [Robert Haverly](https://unsplash.com/photos/_kmr5wKVW7E) (original photo cropped), license free
+- "Six women's white dresses hanging on hangers" by [Charisse Kenion](https://unsplash.com/photos/69epvVgm0Ws) (original photo cropped), license free
+- "Grey coffe jar" by [Mae Mu](https://unsplash.com/photos/0EWWLx_etkw) (original photo cropped), license free
+- "Pea pods" by [Monika Grabkowska](https://unsplash.com/photos/JoIw75HWMtI) (original photo cropped), license free
+- "Free plant" by [Cameron Venti](https://unsplash.com/photos/NliTYm_jD5o) (original photo cropped), license free
 
 ### Others
-- "Two persons riding on boats" by [Zheng Wuji](https://unsplash.com/photos/zboO0K1WfY4) (Original photo cropped and masked with Forum logo)
+- "Two persons riding on boats" by [Zheng Wuji](https://unsplash.com/photos/zboO0K1WfY4) (original photo cropped and masked with Forum logo), license free
 
