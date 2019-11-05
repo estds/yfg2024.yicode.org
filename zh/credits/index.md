@@ -30,6 +30,7 @@ ref: acknowledgement-page
 ### 主页幻灯片
 
 - "Bird's-eye view photography of boats near houses" 作者：[Emile Guillemot](https://unsplash.com/photos/ARosbKOjd68)（原图有剪裁），免授权
+- "暮色金陵" 作者：张德超（原图有剪裁），[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 - "The Jiming Temple standing in the sunshine after the snow" 作者：[Kenneth Yang](https://unsplash.com/photos/lJWJLkwIsng)（原图有剪裁），免授权
 - "People waiting for train at the station during sunset" 作者：[Zhimai Zhang](https://unsplash.com/photos/mVflgHko2Gs)（原图有剪裁），免授权
 - "Green hills" 作者：[Wang Douglas](https://unsplash.com/photos/S9izCjMijLI)（原图有剪裁），免授权
