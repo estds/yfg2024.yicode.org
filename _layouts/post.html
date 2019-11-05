@@ -12,17 +12,23 @@ layout: default
 
       <div aria-label="content">
 
-      <h1>{{ page.title }}</h1>
-      <div class="meta small text-secondary d-flex justify-content-between">
-        <div class="meta meta-date"><i class="far fa-calendar-alt mr-1"></i>{% include date.html %}</div>
-        {% if page.ref and page.lang %}
-        <div class="meta meta-languages"><div class="languages bg-dark rounded d-flex align-items-center {{ page.lang }}">{% include languages.html %}</div></div>
+        <h1>{{ page.title }}</h1>
+        <div class="meta small text-secondary d-flex justify-content-between">
+          <div class="meta meta-date"><i class="far fa-calendar-alt mr-1"></i>{% include date.html %}</div>
+          {% if page.ref and page.lang %}
+          <div class="meta meta-languages"><div class="languages bg-dark rounded d-flex align-items-center {{ page.lang }}">{% include languages.html %}</div></div>
+          {% endif %}
+        </div>
+        
+        {% if page.fimage and page.fimage_credit %}
+        <div class="feature-image mt-3 position-relative rounded-top bg-by-attr" data-image="{{ page.fimage }}">
+          <div class="credit-label text-truncate">{{ page.fimage_credit }}</div>
+        </div>
         {% endif %}
-      </div>
 
-      <div class="content rounded bg-white p-4 my-3">
-        {{ content }}
-      </div>
+        <div class="content rounded{% if page.fimage and page.fimage_credit %}-bottom{% endif %} bg-white p-4 mb-3">
+          {{ content }}
+        </div>
 
       </div>
     </div>
