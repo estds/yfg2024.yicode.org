@@ -189,7 +189,7 @@
 
 @media print {
 	.left-col {
-		max-width: 100;
+		max-width: 100%;
 		flex: 0 0 100%;
 	}
 }
