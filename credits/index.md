@@ -35,7 +35,7 @@ Photographs by the following artists have been used on this website, to whom we 
 - "Green hills" by [Wang Douglas](https://unsplash.com/photos/S9izCjMijLI) (original photo cropped), license free
 
 ### Cards on homepage
-- "Brown wooden wall rack hanged on wall" by [Bernard Hermant](https://unsplash.com/photos/4WFltRAJSXE)(original photo cropped), license free
+- "Brown wooden wall rack hanged on wall" by [Bernard Hermant](https://unsplash.com/photos/4WFltRAJSXE) (original photo cropped), license free
 - "Man sitting on bench reading newspaper" by [Roman Kraft](https://unsplash.com/photos/_Zua2hyvTBk) (original photo cropped), license free
 - Other photographs are credited in each blog post
 
