@@ -46,5 +46,5 @@ Photographs by the following artists have been used on this website, to whom we 
 - "Free plant" by [Cameron Venti](https://unsplash.com/photos/NliTYm_jD5o) (Original photo cropped)
 
 ### Others
-- "Two persons riding on boats" by [Zheng Wuji](https://unsplash.com/photos/zboO0K1WfY4) (Original photo cropped)
+- "Two persons riding on boats" by [Zheng Wuji](https://unsplash.com/photos/zboO0K1WfY4) (Original photo cropped and masked with Forum logo)
 
