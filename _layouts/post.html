@@ -22,7 +22,7 @@ layout: default
         
         {% if page.fimage and page.fimage_credit %}
         <div class="feature-image mt-3 position-relative rounded-top bg-by-attr" data-image="{{ page.fimage }}">
-          <div class="credit-label text-truncate">{{ page.fimage_credit }}</div>
+          <div class="credit-label text-truncate">{% if page.lang == "zh" %}图：{% else %}Photo: {% endif %}{{ page.fimage_credit }}</div>
         </div>
         {% endif %}
 
