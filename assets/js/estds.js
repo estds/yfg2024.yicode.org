@@ -53,6 +53,7 @@ if (navigator.share) {
 shareButton.addEventListener('click', event => {
    navigator.share({
       title: document.title,
+      text: document.title,
       url: document.URL,
     }).then(() => {
       console.log('Thanks for sharing!');
