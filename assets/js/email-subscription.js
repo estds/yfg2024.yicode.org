@@ -1,20 +1,24 @@
+jQuery(".validate").keypress(function(e){
+    jQuery(this).removeClass('is-invalid')
+})
+
 function checkform() {
     re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
     if (!(re.test(jQuery("#email").val()))) {
         jQuery("#result").empty().append('<span class="text-danger">Please enter a valid email.</span>');
-        jQuery("#email").focus();
+        jQuery("#email").addClass('is-invalid').focus();
         return false;
     }
 
     if (jQuery("#attribute1").val() == "") {
         jQuery("#result").empty().append('<span class="text-danger">Please enter your first name.</span>');
-        jQuery("#attribute1").focus();
+        jQuery("#attribute1").addClass('is-invalid').focus();
         return false;
     }
     if (jQuery("#attribute2").val() == "") {
         jQuery("#result").empty().append('<span class="text-danger">Please enter your last name.</span>');
-        jQuery("#attribute2").focus();
+        jQuery("#attribute2").addClass('is-invalid').focus();
         return false;
     }
 
