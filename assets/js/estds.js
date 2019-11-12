@@ -46,13 +46,6 @@ $(document).ready(function(){
 		}
 	});
 	
-	// input clear button
-	$('.clearable').keypress(function(){
-		$(this).siblings('.clear').removeClass('d-none');
-	});
-	$('.clear').click(function(){
-		$(this).addClass('d-none').siblings('.clearable').val(null);
-	});
 		
 });
 
