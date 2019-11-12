@@ -14,7 +14,7 @@ $(document).ready(function(){
 	// open external links in a new tab/window
 	$('a').filter(function() {
 		return this.hostname && this.hostname !== location.hostname;
-	}).attr('target', '_blank').append('<sup class="fas fa-external-link-alt"></sup>');
+	}).attr('target', '_blank').append('<sup class="fas fa-external-link-alt ml-1"></sup>');
 
 	// activate Bootstrap tooltips
 	$('[data-toggle="tooltip"]').tooltip();
