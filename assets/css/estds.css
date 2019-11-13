@@ -94,15 +94,16 @@
 }
 
 /* search on page */
-.search-on-page {
-	position: relative;
+.search-op-header {
+  position: relative;
 }
-.search-on-page .clear {
-	position: absolute;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-	right: 0.5rem
+
+.search-op-header .clear {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0.5rem
 }
 
 /** Special elements **/
