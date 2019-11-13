@@ -46,6 +46,24 @@ $(document).ready(function(){
 		}
 	});
 	
+	// search-op list
+	$(".search-op").each(function() {
+
+		$(".search-op-input").on("keyup", function() {
+			var value = $(this).val().toLowerCase();
+			$(this).parent().siblings(".search-op-list").children().filter(function() {
+				$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+			});
+			$(this).siblings('.clear').removeClass('d-none');
+		});
+
+		$(".clear").click(function() {
+			$(this).addClass("d-none").siblings(".search-op-input").val(null);
+			$(this).parent().siblings(".search-op-list").children().show();
+		});
+
+	});
+
 		
 });
 
