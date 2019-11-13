@@ -4,17 +4,17 @@ title: "常见问题"
 ref: faq-page
 lang: zh
 ---
-<div class="search-on-page my-2">
-  <input id="onpagesearch" type="search" placeholder="搜索..." class="form-control clearable">
-</div>
+<div class="search-op my-2">
+  <div class="search-op-header">
+    <input type="text" placeholder="搜索..." class="search-op-input form-control">
+    <button type="button" class="close clear d-none" aria-label="Clear">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
 
-<div id="questions">
-
-  <dl class="my-4">
-    <dt>
+  <ul class="search-op-list list-group list-group-flush my-4">
+    <li class="list-group-item">
       <h2 id="how-do-i-add-programmes-of-the-forum-to-calendars-on-my-device">我怎样将论坛的议程添加至日历应用？</h2>
-    </dt>
-    <dd>
       <p> 您可以在日历应用中订阅我们的日程（即将日程添加至您的日历应用）。我们的日历源如下：</p>
       <pre class="border rounded p-2 bg-light"><code>https://estds.yicode.ac/zh/programmes/ical.ics</code></pre>
       <p>由于不同设备的操作系统各异，您可能需要按照不同的步骤操作。</p>
@@ -24,27 +24,14 @@ lang: zh
         <li>在<strong>Android</strong>设备上，由于并非所有系统都设置有默认的日历应用，您可以利用<a href="https://f-droid.org/zh_Hans/">此应用</a>订阅我们的在线日历。</li>
         <li>在<strong>Windows</strong>设备上，您可以<a href="https://support.office.com/zh-cn/article/在-outlook-com-中导入或订阅日历-cff1429c-5af6-41ec-a5b4-74f2c278e98c?omkt=zh-CN&ui=zh-CN&rs=zh-CN&ad=CN">在microsoft账户中订阅我们的在线日历</a>，并利用Office Outlook或Windows Calendar等应用同步至您的设备。</li>
       </ul>
-    </dd>
-  </dl>
+    </li>
 
-  <dl class="my-4">
-    <dt>
+    <li class="list-group-item">
       <h2 id="how-do-i-use-the-website-on-my-mobile-device">我怎样在移动设备上使用论坛网站？</h2>
-    </dt>
-    <dd>
       <p>我们的整个网站都针对移动设备进行了优化，因此您可以随时在您的网络浏览器中访问我们的网站。为了确保最佳使用效果，我们建议您将浏览器应用更新至最新版本。</p>
       <p>另外，您还可以在您的移动设备上像使用原生应用一样使用我们的网站，您可以参阅我们的<a href="/zh/pwa">PWA页面</a>了解如何操作。</p>
-    </dd>
-  </dl>
+    </li>
+  </ul>
+
 </div>
 
-<script>
-  $(document).ready(function() {
-    $("#onpagesearch").on("keyup", function() {
-      var value = $(this).val().toLowerCase();
-      $("#questions dl").filter(function() {
-        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-      });
-    });
-  });
-</script>
