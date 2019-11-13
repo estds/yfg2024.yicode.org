@@ -5,17 +5,18 @@ ref: faq-page
 lang: en
 ---
 
-<div class="search-on-page my-2">
-  <input id="onpagesearch" type="search" placeholder="Search..." class="form-control clearable">
-</div>
+<div class="search-op my-2">
+  <div class="search-op-header">
+    <input type="text" placeholder="Search.." class="search-op-input form-control">
+    <button type="button" class="close clear d-none" aria-label="Clear">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
 
-<div id="questions">
+  <ul class="search-op-list list-group list-group-flush my-4">
 
-  <dl class="my-4">
-    <dt>
+    <li class="list-group-item">
       <h2 id="how-do-i-add-programmes-of-the-forum-to-calendars-on-my-device">How do I add programmes of the Forum to calendars on my device?</h2>
-    </dt>
-    <dd>
       <p>You could subscribe to our programme calendar via calendar apps on your device (i.e., add our programmes to your calendar on your device). Our calendar feed is available at:</p>
       <pre class="border rounded p-2 bg-light"><code>https://estds.yicode.ac/programmes/ical.ics</code></pre>
       <p>You may have to follow different instructions for adding our programmes to your calendar, depending on the operating systems of your device.</p>
@@ -25,27 +26,12 @@ lang: en
         <li>For <strong>Android</strong> devices, since there is no calendar app by default, you may find <a href="https://f-droid.org/en/packages/at.bitfire.icsdroid/">this app</a> very useful for subscription to our calendar feed.</li>
         <li>For <strong>Windows</strong> devices, you may <a href="https://support.office.com/en-us/article/import-or-subscribe-to-a-calendar-in-outlook-com-cff1429c-5af6-41ec-a5b4-74f2c278e98c">subscribe to our programme calendar in your microsoft account</a>, which could be synchronised to your calendar apps on your windows devices running Office Outlook or Windows Calendar.</li>
       </ul>
-    </dd>
-  </dl>
+    </li>
 
-  <dl class="my-4">
-    <dt>
+    <li class="list-group-item">
       <h2 id="how-do-i-use-the-website-on-my-mobile-device">How do I use the website on my mobile device?</h2>
-    </dt>
-    <dd>
       <p>Our entire website is optimised for use on mobile devices. You can always visit our website in most web browsers on your devices. To ensure your best experience, we recommend you to keep your web browser apps up to date.</p>
       <p>Meanwhile, you could also use our website like a native app on your mobile device, for which please read our <a href="/pwa">PWA page</a>.</p>
-    </dd>
-  </dl>
+    </li>
+  </ul>
 </div>
-
-<script>
-  $(document).ready(function() {
-    $("#onpagesearch").on("keyup", function() {
-      var value = $(this).val().toLowerCase();
-      $("#questions dl").filter(function() {
-        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-      });
-    });
-  });
-</script>
