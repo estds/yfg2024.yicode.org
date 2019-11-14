@@ -56,7 +56,9 @@ $(document).ready(function(){
 			});
 			if( value.length > 0 ) {
 				$(this).siblings('.clear').removeClass('d-none');
-			};
+			} else {
+				$(this).siblings('.clear').addClass('d-none');
+			}
 		});
 
 		$(".clear").click(function() {
