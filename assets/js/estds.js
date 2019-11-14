@@ -63,7 +63,7 @@ $(document).ready(function(){
 
 		$(".clear").click(function() {
 			$(this).addClass("d-none").siblings(".search-op-input").val(null);
-			$(this).parent().siblings(".search-op-list").children().show();
+			$(this).closest(".search-op").find(".search-op-list").children().show();
 		});
 
 	});
