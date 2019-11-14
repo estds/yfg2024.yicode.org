@@ -36,7 +36,7 @@ ref: acknowledgement-page
 - "Green hills" 作者：[Wang Douglas](https://unsplash.com/photos/S9izCjMijLI)（原图有剪裁），免授权
 
 ### 主页卡片
-- "Brown wooden wall rack hanged on wall" 作者：[Bernard Hermant](https://unsplash.com/photos/4WFltRAJSXE)（原图有剪裁）
+- "Brown wooden wall rack hanged on wall" 作者：[Bernard Hermant](https://unsplash.com/photos/4WFltRAJSXE)（原图有剪裁），免授权
 - "Man sitting on bench reading newspaper" 作者：[Roman Kraft](https://unsplash.com/photos/_Zua2hyvTBk)（原图有剪裁），免授权
 - 其余作品请见博文内说明
 
