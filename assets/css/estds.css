@@ -196,10 +196,6 @@
 	line-height: 1.2;
 }
 
-.feature-image {
-	min-height: 30vh;
-}
-
 @media print {
 	.left-col {
 		max-width: 100%;
