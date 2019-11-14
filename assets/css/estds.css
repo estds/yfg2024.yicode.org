@@ -205,4 +205,8 @@
 		max-width: 100%;
 		flex: 0 0 100%;
 	}
+
+	.feature-image {
+		min-height: 180px;
+	}
 }
