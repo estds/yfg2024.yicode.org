@@ -51,7 +51,7 @@ $(document).ready(function(){
 
 		$(".search-op-input").on("keyup", function() {
 			var value = $(this).val().toLowerCase();
-			$(this).parent().siblings(".search-op-list").children().filter(function() {
+			$(this).closest(".search-op").find(".search-op-list").children().filter(function() {
 				$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
 			});
 			if( value.length > 0 ) {
