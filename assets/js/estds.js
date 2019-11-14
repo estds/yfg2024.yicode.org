@@ -54,7 +54,9 @@ $(document).ready(function(){
 			$(this).parent().siblings(".search-op-list").children().filter(function() {
 				$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
 			});
-			$(this).siblings('.clear').removeClass('d-none');
+			if( value.length > 0 ) {
+				$(this).siblings('.clear').removeClass('d-none');
+			};
 		});
 
 		$(".clear").click(function() {
