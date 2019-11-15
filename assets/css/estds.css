@@ -128,9 +128,10 @@
 
 .alert-area {
 	position: fixed;
-	right: 1rem;
-	top: 2rem;
+	right: 0rem;
+	top: 0rem;
 	z-index: 910;
+	margin: 1rem .5rem;
 }
 
 .meta-languages .languages.zh a.zh,
