@@ -32,7 +32,7 @@ _在一些桌面设备上，您也可以像使用原生程序一样使用我们�
 
 ### 地址栏的快捷方式
 
-1. 在Windows Edge浏览器中打开我们的[主页](https://estds.yicode.ac)。您可以地址栏靠近书签按钮处看到一个小的 ![](/assets/img/icon-install-plus-circle.svg) 按钮。
+1. 在Windows Edge浏览器中打开我们的[主页](https://estds.yicode.ac)。您可以在地址栏靠近书签按钮处看到一个小的 ![](/assets/img/icon-install-plus-circle.svg) 按钮。
 1. 点击地址栏中的 ![](/assets/img/icon-install-plus-circle.svg) 按钮。
 1. 在接下来弹出的对话框中点击“安装”。
 1. 您可以在开始菜单中进入我们的应用。
@@ -49,7 +49,7 @@ _在一些桌面设备上，您也可以像使用原生程序一样使用我们�
 
 ### 地址栏的快捷方式
 
-1. 在Google Chrome浏览器中打开我们的[主页](https://estds.yicode.ac)。您可以地址栏靠近书签按钮处看到一个小的 ![](/assets/img/icon-install-plus-circle.svg) 按钮。
+1. 在Google Chrome浏览器中打开我们的[主页](https://estds.yicode.ac)。您可以在地址栏靠近书签按钮处看到一个小的 ![](/assets/img/icon-install-plus-circle.svg) 按钮。
 1. 点击地址栏中的 ![](/assets/img/icon-install-plus-circle.svg) 按钮。
 1. 在接下来弹出的对话框中点击“安装”。
 
