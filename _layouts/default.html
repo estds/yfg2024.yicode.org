@@ -78,12 +78,15 @@
         {% include footer.html %}
       {% endif %}
 
+    </footer>
+    
+    <div class="alert-area">
       {% if page.lang == "zh" %}
         {% include zh/ie-alert.html %}
       {% else %}
         {% include ie-alert.html %}
       {% endif %}
-    </footer>
+    </div>
     
     <!-- QR Code JavaScript -->
     <script src="https://cdn.zhoues.com/qrcode/qrcode.min.js"></script>
@@ -108,15 +111,6 @@
         }
       }
     </script>
-    
-    <!-- Trigger IE alert in IE -->
-    <!--[if IE ]>
-    <script>
-      $(document).ready(function(){
-        $('#msie-alert').toast('show');
-      });
-    </script>
-    <![endif]-->
 
     
   </body>
