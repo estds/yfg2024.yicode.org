@@ -16,9 +16,9 @@
       if (document.cookie.indexOf('CookieConsent=true')<0) {
           $('#cookie-alert').toast('show');
           $('#cookie-alert #cookie-alert-close').click(function () {
-              $('#cookie-alert').toast('hide');
+            document.cookie = 'CookieConsent=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/';
+            $('#cookie-alert').toast('hide');
           });
-          document.cookie = 'CookieConsent=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/';
       }
   });
 </script>
