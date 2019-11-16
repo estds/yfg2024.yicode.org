@@ -128,8 +128,8 @@
 
 .alert-area {
 	position: fixed;
-	left: 0rem;
-	bottom: 0rem;
+	right: 0rem;
+	top: 0rem;
 	z-index: 910;
 	margin: .5rem;
 }
