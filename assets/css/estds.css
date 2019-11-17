@@ -76,21 +76,18 @@
 
 /* share button styles */
 .share-buttons .share-button:hover {
-	opacity:0.8
+	color: #ffffff;
 }
-.share-buttons #facebook {
+.share-buttons #facebook:hover {
 	background-color: #002e63;
 }
-.share-buttons #twitter {
+.share-buttons #twitter:hover {
 	background-color: #2aaae0;
 }
-.share-buttons #weibo {
+.share-buttons #weibo:hover {
 	background-color: #d52827;
 }
-.share-buttons #googleplus {
-	background-color: #d6492f;
-}
-.share-buttons #linkedin {
+.share-buttons #linkedin:hover {
 	background-color: #007ab9;
 }
 
