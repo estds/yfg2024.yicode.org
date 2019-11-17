@@ -14,7 +14,7 @@
   $(document).ready(function () {
       //if cookie hasn't been set...
       if (document.cookie.indexOf('CookieConsent=true')<0) {
-          window.setTimeout(function() { $('#cookie-alert').toast('show');}, 2000);
+          setTimeout(function() { $('#cookie-alert').toast('show');}, 2000);
           $('#cookie-alert .consent').click(function () {
             document.cookie = 'CookieConsent=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/';
             $('#cookie-alert').toast('hide');
