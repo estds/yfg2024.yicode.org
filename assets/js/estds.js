@@ -58,6 +58,7 @@ $(document).ready(function(){
 				$(this).siblings('.clear').removeClass('d-none');
 			} else {
 				$(this).siblings('.clear').addClass('d-none');
+				$(this).closest(".search-op").find(".search-op-list").children().show();
 			}
 		});
 
