@@ -32,7 +32,7 @@ ref: blog-posts
                 <div class="card-body">
                   <h5 class="card-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
                   <p class="card-text">{{ post.abstract }}<a href="{{ post.url }}" title="{{ post.title }}" class="mx-1"><i class="far fa-arrow-alt-circle-right"></i></a></p>
-                  <p class="card-text text-secondary meta small"><i class="far fa-calendar-alt mr-1"></i>{% include date.html %}</p>
+                  <p class="card-text text-secondary meta small"><i class="far fa-calendar-alt mr-1"></i><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%-m月%-d号" }}</time></p>
                 </div>
               </div>
             {% endfor %}
