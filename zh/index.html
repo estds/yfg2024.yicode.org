@@ -17,7 +17,7 @@ lang: zh
                               <!-- Card START -->
                               <div class="col-lg-6 mb-4">
                                     <div class="card d-block h-100">
-                                          <img class="card-img-top" src="https://user-images.githubusercontent.com/56233807/68249126-fe873680-ffd2-11e9-85c0-6a78e0d2416a.jpg" alt="Newsletter" /> 
+                                          <img class="card-img-top" src="https://user-images.githubusercontent.com/56233807/69320530-f3d7cd00-0c73-11ea-9829-80ba1e6da39b.jpg" alt="Newsletter" /> 
                                           <div class="card-body">
                                                 <form name="subscribeform" id="subscribeform" action="" enctype="multipart/form-data">
                                                       <div class="mb-2">
@@ -48,7 +48,7 @@ lang: zh
                               <!-- Card START -->
                               <div class="col-lg-6 mb-4">
                                     <div class="card d-block h-100">
-                                          <img class="card-img-top" src="{% if post.fimage %}{{ post.fimage }}{% else %}/assets/img/card-image.jpg{% endif %}" />
+                                          <img class="card-img-top" src="{% if post.fimage %}{{ post.fimage }}{% else %}/assets/img/card-image.jpg{% endif %}" alt="{{ post.title }}" />
                                           <div class="card-body">
                                                 <h5 class="card-title">{{ post.title }}</h5>
                                                 <p class="card-text">{{ post.abstract }}</p>
@@ -62,7 +62,7 @@ lang: zh
                               <!-- Card START -->
                               <div class="col-lg-6 mb-4">
                                     <div class="card d-block h-100">
-                                          <img class="card-img-top" src="https://user-images.githubusercontent.com/56233807/67703216-53420600-f970-11e9-9215-548a07e8e7e6.jpg" /> 
+                                          <img class="card-img-top" src="https://user-images.githubusercontent.com/56233807/69320526-f3d7cd00-0c73-11ea-9054-e69ddea9f4f3.jpg" alt="More information" /> 
                                           <div class="card-body">
                                                 <h5 class="card-title">更多信息</h5>
                                                 <p class="card-text">您可以浏览我们所有的博文，获取更多信息。</p>
