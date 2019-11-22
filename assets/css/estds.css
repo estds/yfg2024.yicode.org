@@ -175,7 +175,7 @@
 }
 
 .bg-by-attr.overlay-rainy:before {
-	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+	background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
 }
 
 .bg-by-attr.overlay-cloudy:before {
