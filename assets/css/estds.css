@@ -149,7 +149,7 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-.bg-by-attr.overlay::before {
+.overlay::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -158,36 +158,36 @@
 	left: 0;
 	opacity: .6; 
 }
-.bg-by-attr.overlay-dark:before {
+.overlay.overlay-dark:before {
 	background-image: linear-gradient(to bottom,rgba(0, 0, 0, 1), rgba(117, 19, 93, 0.73));
 }
 
-.bg-by-attr.overlay-light:before {
+.overlay.overlay-light:before {
 	background-image: linear-gradient(to bottom,rgba(142, 191, 255, .36), rgba(255, 255, 255, 0.93));
 }
 
-.bg-by-attr.overlay-carbon:before {
+.overlay.overlay-carbon:before {
 	background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
 }
 
-.bg-by-attr.overlay-snow:before {
+.overlay.overlay-snow:before {
 	background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
-.bg-by-attr.overlay-warm:before {
+.overlay.overlay-warm:before {
 	background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
 }
 
-.bg-by-attr.overlay-cold:before {
-	background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+.overlay.overlay-cold:before {
+	background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
-.bg-by-attr.overlay-rain:before {
+.overlay.overlay-rain:before {
 	background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
 }
 
-.bg-by-attr.overlay-constance:before {
-	background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+.overlay.overlay-lake:before {
+	background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
 }
 
 .stand-out {
