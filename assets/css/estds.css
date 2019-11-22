@@ -166,6 +166,14 @@
 	background-image: linear-gradient(to bottom,rgba(142, 191, 255, .36), rgba(255, 255, 255, 0.93));
 }
 
+.bg-by-attr.overlay-carbon:before {
+	background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+	background-blend-mode: multiply;
+}
+
+.bg-by-attr.overlay-snow:before {
+	background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
 .bg-by-attr.overlay-warm:before {
 	background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
 }
