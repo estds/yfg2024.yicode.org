@@ -149,27 +149,49 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-
-.bg-by-attr.overlay-dark:before {
+.bg-by-attr.overlay::before {
 	content: '';
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-image: linear-gradient(to bottom,rgba(0, 0, 0, 1), rgba(117, 19, 93, 0.73));
 	opacity: .6; 
+}
+.bg-by-attr.overlay-dark:before {
+	background-image: linear-gradient(to bottom,rgba(0, 0, 0, 1), rgba(117, 19, 93, 0.73));
 }
 
 .bg-by-attr.overlay-light:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
 	background-image: linear-gradient(to bottom,rgba(142, 191, 255, .36), rgba(255, 255, 255, 0.93));
-	opacity: .6; 
+}
+
+.bg-by-attr.overlay-warm:before {
+	background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+.bg-by-attr.overlay-cold:before {
+	background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+}
+
+.bg-by-attr.overlay-rainy:before {
+	background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.bg-by-attr.overlay-cloudy:before {
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.bg-by-attr.overlay-whale:before {
+	background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+}
+
+.bg-by-attr.overlay-constance:before {
+	background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+.bg-by-attr.overlay-caramel:before {
+	background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
 }
 
 .stand-out {
