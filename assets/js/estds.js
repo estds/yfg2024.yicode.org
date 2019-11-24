@@ -34,7 +34,7 @@ $(document).ready(function(){
 	
 	
 	// targeting popover contents of .share-toggles
-	$('.share-toggles').popover({
+	$('.popover-toggles').popover({
 		//container: 'body',
 		html: true,
 		trigger: 'focus',
