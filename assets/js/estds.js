@@ -76,7 +76,7 @@ $(document).ready(function(){
 const shareButton = document.querySelector('#share-toggle-sns');
 
 if (navigator.share) { 
-	shareButton.classList.remove("share-toggles");
+	shareButton.classList.remove("popover-toggles");
 }
     
 shareButton.addEventListener('click', event => {
