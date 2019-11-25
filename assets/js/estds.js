@@ -68,39 +68,39 @@ $(document).ready(function(){
 
 	});
 	
+	// Click .btn-copy buttons to copy to clipboard
 
-	// Set Tooltips for .copy2clip buttons
-
-	$('.copy2clipboard').tooltip({
-		trigger: 'click',
-		placement: 'bottom'
-	});
-
-	function setTooltip(message) {
-		$('.copy2clipboard').tooltip('hide')
-			.attr('data-original-title', message)
-			.tooltip('show');
-	}
-
-	function hideTooltip() {
-		setTimeout(function() {
-			$('.copy2clipboard').tooltip('hide');
-		}, 1000);
-	}
-
-	// Copy to clipboard and trigger tooltips
-
-	var clipboard = new Clipboard('.copy2clipboard');
+	var clipboard = new ClipboardJS('.btn-copy');
 
 	clipboard.on('success', function(e) {
-		setTooltip('Copied!');
+	  	setTooltip('Success!');
 		hideTooltip();
+		e.clearSelection();
 	});
 
 	clipboard.on('error', function(e) {
-		setTooltip('Whoops, something went wrong. Please copy manually.');
+		setTooltip('Oops, something went wrong.');
 		hideTooltip();
 	});
+
+
+	// Set Tooltips for .btn-copy buttons
+
+	$('.btn-copy').tooltip({
+	  trigger: 'click',
+	});
+
+	function setTooltip(message) {
+	  $('.btn-copy').tooltip('hide')
+	    .attr('data-original-title', message)
+	    .tooltip('show');
+	}
+
+	function hideTooltip() {
+	  setTimeout(function() {
+	    $('.btn-copy').tooltip('hide').attr('data-original-title', 'Copy it');
+	  }, 700);
+	}
 
 		
 });
