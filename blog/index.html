@@ -16,7 +16,7 @@ ref: blog-posts
         
         <div id="popover-content-rss" class="d-none">
           <div class="popover-content">
-            <div class="input-group">
+            <div class="input-group input-group-sm">
               <input id="rss-feed-url" type="text" class="form-control" value="{{ site.baseurl }}/blog/atom.xml">
               <div class="input-group-append">
                 <button class="btn btn-outline-secondary copy2clipboard" type="button" data-clipboard-target="#rss-feed-url"><i class="far fa-copy"></i></button>
@@ -27,7 +27,7 @@ ref: blog-posts
         <div class="meta small text-secondary d-flex justify-content-between">
           <div class="meta meta-date"></div>
           <div class="meta meta-languages meta-rss d-flex align-items-center">
-            <div class="rss-feed bg-info rounded mr-1"><a href="#" class="text-white px-1 popover-toggles" role="button" data-popover-content="#popover-content-rss"><i class="fas fa-rss-square"></i></a></div>
+            <div class="rss-feed bg-info rounded mr-1"><a tabindex="0" href="#" class="text-white px-1 popover-toggles" role="button" data-popover-content="#popover-content-rss"><i class="fas fa-rss-square"></i></a></div>
             <div class="languages bg-dark rounded d-flex align-items-center {{ page.lang }}">{% include languages.html %}</div>
           </div>
         </div>
