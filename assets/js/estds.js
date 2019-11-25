@@ -67,40 +67,6 @@ $(document).ready(function(){
 		});
 
 	});
-	
-	// Click .btn-copy buttons to copy to clipboard
-
-	var clipboard = new ClipboardJS('.btn-copy');
-
-	clipboard.on('success', function(e) {
-	  	setTooltip('Success!');
-		hideTooltip();
-		e.clearSelection();
-	});
-
-	clipboard.on('error', function(e) {
-		setTooltip('Oops, something went wrong.');
-		hideTooltip();
-	});
-
-
-	// Set Tooltips for .btn-copy buttons
-
-	$('.btn-copy').tooltip({
-	  trigger: 'click',
-	});
-
-	function setTooltip(message) {
-	  $('.btn-copy').tooltip('hide')
-	    .attr('data-original-title', message)
-	    .tooltip('show');
-	}
-
-	function hideTooltip() {
-	  setTimeout(function() {
-	    $('.btn-copy').tooltip('hide').attr('data-original-title', 'Copy it');
-	  }, 700);
-	}
 
 		
 });
