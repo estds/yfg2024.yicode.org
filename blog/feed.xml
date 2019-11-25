@@ -10,7 +10,7 @@ lang: en
 	<description>{{ site.name }}</description>
 	<language>en-us</language>
 	<copyright>CC-BY-NC-SA 4.0 International</copyright>
-	<lastBuildDate>{{ site.time }}</lastBuildDate>
+	<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 	<docs>{{ site.baseurl }}/blog</docs>
 	<managingEditor>estds@nhri.cn (ESTDS)</managingEditor>
 	<webMaster>estds@nhri.cn (ESTDS)</webMaster>
@@ -20,7 +20,7 @@ lang: en
 	<item>
 		<title>{{ post.title }}</title>
 		<description>{{ post.content | xml_escape }}</description>
-		<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+		<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 		<guid>{{ site.baseurl }}{{ post.url }}</guid>
 	</item>
 	{% endfor %}
