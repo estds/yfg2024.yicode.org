@@ -1,5 +1,6 @@
 name: ESTDS2020 | Nanjing, China | 18~20 Oct. 2020
 name_zh: ESTDS2020 | 中国·南京 | 2020年10月18~20日
+sname: ESTDS2020
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 timezone: Asia/Shanghai
