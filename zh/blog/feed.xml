@@ -1,0 +1,28 @@
+---
+layout: feed
+lang: zh
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+	<title>{{ site.sname }}</title>
+	<link>{{ site.baseurl }}/zh</link>
+	<description>{{ site.name_zh }}</description>
+	<language>zh-cn</language>
+	<copyright>CC-BY-NC-SA 4.0 International</copyright>
+	<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+	<docs>{{ site.baseurl }}/zh/blog</docs>
+	<managingEditor>estds@nhri.cn (ESTDS)</managingEditor>
+	<webMaster>estds@nhri.cn (ESTDS)</webMaster>
+	<ttl>60</ttl>
+	{% assign posts=site.posts | where:"lang", page.lang %}
+	{% for post in posts %}
+	<item>
+		<title>{{ post.title }}</title>
+		<description>{{ post.content | xml_escape }}</description>
+		<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+		<guid>{{ site.baseurl }}{{ post.url }}</guid>
+	</item>
+	{% endfor %}
+	</channel>
+</rss>
