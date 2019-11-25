@@ -19,6 +19,7 @@ lang: en
 	{% for post in posts %}
 	<item>
 		<title>{{ post.title }}</title>
+		<link>{{ site.baseurl }}{{ post.url }}</link>
 		<description>{{ post.content | xml_escape }}</description>
 		<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
 		<guid>{{ site.baseurl }}{{ post.url }}</guid>
