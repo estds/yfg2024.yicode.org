@@ -37,7 +37,6 @@ $(document).ready(function(){
 	$('.popover-toggles').popover({
 		//container: 'body',
 		html: true,
-		trigger: 'focus',
 		placement: 'bottom',
 		sanitize: false,
 		content: function() {
