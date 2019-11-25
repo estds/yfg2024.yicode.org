@@ -14,14 +14,22 @@ ref: blog-posts
 
         <h1>{{ page.title }}</h1>
         
+        <div id="popover-content-rss" class="d-none">
+          <div class="popover-content">
+            <div class="input-group">
+              <input id="rss-feed-url" type="text" class="form-control" value="{{ site.baseurl }}/blog/atom.xml">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary copy2clipboard" type="button" data-clipboard-target="#rss-feed-url"><i class="far fa-copy"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="meta small text-secondary d-flex justify-content-between">
           <div class="meta meta-date"></div>
-          {% if page.ref and page.lang %}
           <div class="meta meta-languages meta-rss d-flex align-items-center">
-            <div class="rss-feed bg-info rounded mr-1"><a href="atom.xml" class="text-white px-1" data-toggle="tooltip" data-placement="left" title="Get RSS feed here"><i class="fas fa-rss-square"></i></a></div>
+            <div class="rss-feed bg-info rounded mr-1"><a href="#" class="text-white px-1 popover-toggles" role="button" data-popover-content="#popover-content-rss"><i class="fas fa-rss-square"></i></a></div>
             <div class="languages bg-dark rounded d-flex align-items-center {{ page.lang }}">{% include languages.html %}</div>
           </div>
-          {% endif %}
         </div>
         
         {% assign posts=site.posts | where:"lang", page.lang %}
