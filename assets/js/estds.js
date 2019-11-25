@@ -68,6 +68,40 @@ $(document).ready(function(){
 		});
 
 	});
+	
+
+	// Set Tooltips for .copy2clip buttons
+
+	$('.copy2clip').tooltip({
+		trigger: 'click',
+		placement: 'bottom'
+	});
+
+	function setTooltip(message) {
+		$('.copy2clip').tooltip('hide')
+			.attr('data-original-title', message)
+			.tooltip('show');
+	}
+
+	function hideTooltip() {
+		setTimeout(function() {
+			$('.copy2clip').tooltip('hide');
+		}, 1000);
+	}
+
+	// Copy to clipboard and trigger tooltips
+
+	var clipboard = new Clipboard('.copy2clip');
+
+	clipboard.on('success', function(e) {
+		setTooltip('Copied!');
+		hideTooltip();
+	});
+
+	clipboard.on('error', function(e) {
+		setTooltip('Whoops, something went wrong. Please copy manually.');
+		hideTooltip();
+	});
 
 		
 });
