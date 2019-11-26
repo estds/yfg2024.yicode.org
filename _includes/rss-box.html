@@ -1,0 +1,46 @@
+                    <script src="https://cdn.zhoues.com/clipboard.js/2.0.4/clipboard.min.js"></script>
+                    <div id="rss-feed-box" class="input-group input-group-sm">
+                      <input id="rss-feed-url" type="text" class="form-control" value="{{ site.baseurl }}/blog/feed.xml" readonly="readonly">
+                      <div class="input-group-append">
+                        <button class="btn btn-success btn-copy" data-clipboard-target="#rss-feed-url" data-toggle="tooltip" data-placement="top" title="Copy it"><i class="far fa-fw fa-copy"></i></button>
+                        <a href="/faq#use-rss" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="What is this?"><i class="far fa-fw fa-question-circle"></i></a>
+                      </div>
+                    </div>
+                    </div>
+                    <script>
+                      $(document).ready(function() {
+
+                        // Click .btn-copy buttons to copy to clipboard
+
+                        var clipboard = new ClipboardJS('.btn-copy');
+
+                        clipboard.on('success', function(e) {
+                          setTooltip('Success!');
+                          hideTooltip();
+                          e.clearSelection();
+                        });
+
+                        clipboard.on('error', function(e) {
+                          setTooltip('Oops, something went wrong.');
+                          hideTooltip();
+                        });
+
+
+                        // Set Tooltips for .btn-copy buttons
+
+                        function setTooltip(message) {
+                          $('.btn-copy').tooltip('hide')
+                            .attr('data-original-title', message)
+                            .tooltip('show');
+                        }
+
+                        function hideTooltip() {
+                          setTimeout(function() {
+                            $('.btn-copy').tooltip('hide').attr('data-original-title', 'Copy it');
+                          }, 700);
+                        }
+
+
+                      });
+
+                    </script>
