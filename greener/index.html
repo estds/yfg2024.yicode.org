@@ -81,24 +81,7 @@ ref: go-greener
     <h2 id="bring-more-people-onboard" class="display-4">Bring more people onboard</h2>
     <p>We might be only able to do little, but every single bit helps, just as the ancient wisdom tells us, constant dripping wears away a stone, and little strokes fell down great oaks. Share to other people when you leave us, and let's be each other's companion on our way to be more sustainable. The road ahead might be very long, but we will not be alone.</p>
 
-    <!-- Start: .share-buttons -->
-    <div class="share-buttons" aria-label="Share buttons">
-
-      <!-- Start: Toggle buttons for sharing -->
-      <div class="btn-group" role="group">
-        <a tabindex="0" id="share-toggle-sns" class="btn btn-outline-warning popover-toggles" role="button" data-popover-content="#popover-content-sns" data-trigger="focus">
-          <i class="far fa-share-square fa-fw mr-1"></i>Share
-        </a>
-        <a tabindex="0" id="share-toggle-qr" class="btn btn-outline-light popover-toggles" role="button" data-popover-content="#popover-content-qr" data-trigger="focus">
-          <i class="fas fa-qrcode fa-fw mr-1"></i>Scan
-        </a>
-      </div>
-      <!-- End: Toggle buttons for sharing -->
-
-      {% include sns-share-entries.html %}
-      
-    </div>
-    <!-- End: .share-buttons -->
+    {% include share-buttons.html sns_button_style="btn-outline-warning" qr_button_style="btn-outline-light" %}
   </div>
   <div class="credit-label small">Photo credit: Cameron Venti</div>
 
