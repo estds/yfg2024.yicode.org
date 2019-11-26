@@ -2,11 +2,11 @@
   <div class="share-buttons" aria-label="Share buttons">
 
     <!-- Start: Toggle buttons for sharing -->
-    <div class="btn-group {{ include.button_group_class | default: "w-auto" }}" role="group">
-      <a tabindex="0" id="share-toggle-sns" class="popover-toggles btn {{ include.sns_button_class | default: "btn-warning" }}" role="button" data-popover-content="#popover-content-sns" data-trigger="focus">
+    <div class="btn-group {{ include.button_group_class | default: 'w-auto' }}" role="group">
+      <a tabindex="0" id="share-toggle-sns" class="popover-toggles btn {{ include.sns_button_class | default: 'btn-warning' }}" role="button" data-popover-content="#popover-content-sns" data-trigger="focus">
         <i class="far fa-share-square fa-fw mr-1"></i>Share
       </a>
-      <a tabindex="0" id="share-toggle-qr" class="popover-toggles btn {{ includes.qr_button_class | default: "btn-dark"}}" role="button" data-popover-content="#popover-content-qr" data-trigger="focus">
+      <a tabindex="0" id="share-toggle-qr" class="popover-toggles btn {{ includes.qr_button_class | default: 'btn-dark' }}" role="button" data-popover-content="#popover-content-qr" data-trigger="focus">
         <i class="fas fa-qrcode fa-fw mr-1"></i>Scan
       </a>
     </div>
