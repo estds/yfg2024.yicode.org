@@ -2,14 +2,14 @@
                       {% if page.lang == "zh" %}
                       <input id="ical-feed-url" type="text" class="form-control text-monospace" value="{{ site.baseurl }}/zh/programmes/ical.ics" readonly="readonly">
                       <div class="input-group-append">
-                        <button class="btn btn-success btn-copy" data-clipboard-target="#ical-feed-url" data-toggle="tooltip" data-placement="top" title="拷贝"><i class="far fa-fw fa-copy"></i></button>
-                        <a href="/zh/faq/#add-to-calendars" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="这是什么？"><i class="far fa-fw fa-question-circle"></i></a>
+                        <button class="btn btn-outline-success btn-copy" data-clipboard-target="#ical-feed-url" data-toggle="tooltip" data-placement="top" title="拷贝"><i class="far fa-fw fa-copy"></i></button>
+                        <a href="/zh/faq/#add-to-calendars" class="btn btn-outline-secondary" data-toggle="tooltip" data-placement="top" title="这是什么？"><i class="far fa-fw fa-question-circle"></i></a>
                       </div>
                       {% else %}
                       <input id="ical-feed-url" type="text" class="form-control text-monospace" value="{{ site.baseurl }}/programmes/ical.ics" readonly="readonly">
                       <div class="input-group-append">
-                        <button class="btn btn-success btn-copy" data-clipboard-target="#ical-feed-url" data-toggle="tooltip" data-placement="top" title="Copy it"><i class="far fa-fw fa-copy"></i></button>
-                        <a href="/faq/#add-to-calendars" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="What is this?"><i class="far fa-fw fa-question-circle"></i></a>
+                        <button class="btn btn-outline-success btn-copy" data-clipboard-target="#ical-feed-url" data-toggle="tooltip" data-placement="top" title="Copy it"><i class="far fa-fw fa-copy"></i></button>
+                        <a href="/faq/#add-to-calendars" class="btn btn-outline-secondary" data-toggle="tooltip" data-placement="top" title="What is this?"><i class="far fa-fw fa-question-circle"></i></a>
                       </div>
                       {% endif %}
                     </div>
