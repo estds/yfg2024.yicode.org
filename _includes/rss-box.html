@@ -26,38 +26,38 @@
 
                         clipboard.on('success', function(e) {
                           {% if page.lang == "zh" %}
-                          setTooltip('成功!');
+                          setTooltip(e.trigger, '成功!');
                           {% else %}
-                          setTooltip('Success!');
+                          setTooltip(e.trigger, 'Success!');
                           {% endif %}
-                          hideTooltip();
+                          hideTooltip(e.trigger);
                           e.clearSelection();
                         });
 
                         clipboard.on('error', function(e) {
                           {% if page.lang == "zh" %}
-                          setTooltip('哎呀出错咯');
+                          setTooltip(e.trigger, '哎呀出错咯');
                           {% else %}
-                          setTooltip('Oops, something went wrong.');
+                          setTooltip(e.trigger, 'Oops, something went wrong.');
                           {% endif %}
-                          hideTooltip();
+                          hideTooltip(e.trigger);
                         });
 
 
                         // Set Tooltips for .btn-copy buttons
 
-                        function setTooltip(message) {
-                          $('.btn-copy').tooltip('hide')
+                        function setTooltip(btn, message) {
+                          $(btn).tooltip('hide')
                             .attr('data-original-title', message)
                             .tooltip('show');
                         }
 
-                        function hideTooltip() {
+                        function hideTooltip(btn, message) {
                           setTimeout(function() {
                             {% if page.lang == "zh" %}
-                            $('.btn-copy').tooltip('hide').attr('data-original-title', '拷贝');
+                            $(btn).tooltip('hide').attr('data-original-title', '拷贝');
                             {% else %}
-                            $('.btn-copy').tooltip('hide').attr('data-original-title', 'Copy it');
+                            $(btn).tooltip('hide').attr('data-original-title', 'Copy it');
                             {% endif %}
                           }, 700);
                         }
