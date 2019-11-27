@@ -4,10 +4,18 @@
     <!-- Start: Toggle buttons for sharing -->
     <div class="btn-group {{ include.button_group_class | default: 'w-auto' }}" role="group">
       <a tabindex="0" id="share-toggle-sns" class="popover-toggles btn {{ include.sns_button_class | default: 'btn-warning' }}" role="button" data-popover-content="#popover-content-sns" data-trigger="focus">
+        {% if page.lang == "zh" %}
+        <i class="far fa-share-square fa-fw mr-1"></i>分享至
+        {% else %}
         <i class="far fa-share-square fa-fw mr-1"></i>Share
+        {% endif %}
       </a>
       <a tabindex="0" id="share-toggle-qr" class="popover-toggles btn {{ include.qr_button_class | default: 'btn-dark' }}" role="button" data-popover-content="#popover-content-qr" data-trigger="focus">
+        {% if page.lang == "zh" %}
+        <i class="fas fa-qrcode fa-fw mr-1"></i>扫一扫
+        {% else %}
         <i class="fas fa-qrcode fa-fw mr-1"></i>Scan
+        {% endif %}
       </a>
     </div>
     <!-- End: Toggle buttons for sharing -->
@@ -28,7 +36,11 @@
               <i class="fab fa-linkedin-in fa-fw mr-1"></i>LinkedIn
             </a>
             <a title="Sina Weibo" class="share-button list-group-item p-2 text-decoration-none" id="weibo" href="http://service.weibo.com/share/share.php?url={{ site.baseurl | url_encode }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}%20%7C%20{{ site.name | url_encode }}" target="_blank">
+              {% if page.lang == "zh" %}
+              <i class="fab fa-weibo fa-fw mr-1"></i>微博
+              {% else %}
               <i class="fab fa-weibo fa-fw mr-1"></i>Weibo
+              {% endif %}
             </a>
           </div>
         </div>
