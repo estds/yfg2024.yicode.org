@@ -1,10 +1,6 @@
-                    {% if include.js == "true" %}
-                    <script src="https://cdn.zhoues.com/clipboard.js/2.0.4/clipboard.min.js"></script>
-                    {% endif %}
-
                     {% if page.lang == "zh" %}
 
-                    <div id="ical-feed-box" class="input-group input-group-sm">
+                    <div id="ical-feed-box" class="input-group input-group-sm {{ include.load_js }}">
                       <input id="ical-feed-url" type="text" class="form-control" value="{{ site.baseurl }}/zh/programmes/ical.ics" readonly="readonly">
                       <div class="input-group-append">
                         <button class="btn btn-success btn-copy" data-clipboard-target="#ical-feed-url" data-toggle="tooltip" data-placement="top" title="拷贝"><i class="far fa-fw fa-copy"></i></button>
@@ -24,7 +20,8 @@
 
                     {% endif %}
                     
-                    {% if include.js == "true" %}
+                    {% if include.load_js == "true" %}
+                    <script src="https://cdn.zhoues.com/clipboard.js/2.0.4/clipboard.min.js"></script>
                     <script>
                       $(document).ready(function() {
 
