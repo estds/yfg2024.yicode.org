@@ -1,0 +1,77 @@
+                    {% if include.js == "true" %}
+                    <script src="https://cdn.zhoues.com/clipboard.js/2.0.4/clipboard.min.js"></script>
+                    {% endif %}
+
+                    {% if page.lang == "zh" %}
+
+                    <div id="ical-feed-box" class="input-group input-group-sm">
+                      <input id="ical-feed-url" type="text" class="form-control" value="{{ site.baseurl }}/zh/programmes/ical.ics" readonly="readonly">
+                      <div class="input-group-append">
+                        <button class="btn btn-success btn-copy" data-clipboard-target="#ical-feed-url" data-toggle="tooltip" data-placement="top" title="拷贝"><i class="far fa-fw fa-copy"></i></button>
+                        <a href="/zh/faq#how-do-i-add-programmes-of-the-forum-to-calendars-on-my-device" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="这是什么？"><i class="far fa-fw fa-question-circle"></i></a>
+                      </div>
+                    </div>
+
+                    {% else %}
+
+                    <div id="ical-feed-box" class="input-group input-group-sm">
+                      <input id="ical-feed-url" type="text" class="form-control" value="{{ site.baseurl }}/programmes/ical.ics" readonly="readonly">
+                      <div class="input-group-append">
+                        <button class="btn btn-success btn-copy" data-clipboard-target="#ical-feed-url" data-toggle="tooltip" data-placement="top" title="Copy it"><i class="far fa-fw fa-copy"></i></button>
+                        <a href="/faq#how-do-i-add-programmes-of-the-forum-to-calendars-on-my-device" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="What is this?"><i class="far fa-fw fa-question-circle"></i></a>
+                      </div>
+                    </div>
+
+                    {% endif %}
+                    
+                    {% if include.js == "true" %}
+                    <script>
+                      $(document).ready(function() {
+
+                        // Click .btn-copy buttons to copy to clipboard
+
+                        var clipboard = new ClipboardJS('.btn-copy');
+
+                        clipboard.on('success', function(e) {
+                          {% if page.lang == "zh" %}
+                          setTooltip('成功!');
+                          {% else %}
+                          setTooltip('Success!');
+                          {% endif %}
+                          hideTooltip();
+                          e.clearSelection();
+                        });
+
+                        clipboard.on('error', function(e) {
+                          {% if page.lang == "zh" %}
+                          setTooltip('哎呀出错咯');
+                          {% else %}
+                          setTooltip('Oops, something went wrong.');
+                          {% endif %}
+                          hideTooltip();
+                        });
+
+
+                        // Set Tooltips for .btn-copy buttons
+
+                        function setTooltip(message) {
+                          $('.btn-copy').tooltip('hide')
+                            .attr('data-original-title', message)
+                            .tooltip('show');
+                        }
+
+                        function hideTooltip() {
+                          setTimeout(function() {
+                            {% if page.lang == "zh" %}
+                            $('.btn-copy').tooltip('hide').attr('data-original-title', '拷贝');
+                            {% else %}
+                            $('.btn-copy').tooltip('hide').attr('data-original-title', 'Copy it');
+                            {% else %}
+                          }, 700);
+                        }
+
+
+                      });
+
+                    </script>
+                    {% endif %}
