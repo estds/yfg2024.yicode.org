@@ -19,7 +19,8 @@
                     </div>
 
                     {% endif %}
-                    
+
+                    {% if include.load_js == "true" %}
                     <script src="https://cdn.zhoues.com/clipboard.js/2.0.4/clipboard.min.js"></script>
                     <script>
                       $(document).ready(function() {
@@ -70,3 +71,4 @@
                       });
 
                     </script>
+                    {% endif %}
