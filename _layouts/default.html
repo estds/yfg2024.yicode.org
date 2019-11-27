@@ -2,11 +2,7 @@
 <html lang="{{ page.lang }}">
   <head>
     <meta charset="utf-8">
-    {% if page.lang == "zh" %}
-      {% include zh/meta.html %}
-    {% else %}
-      {% include meta.html %}
-    {% endif %}
+    {% include meta.html %}
     
     <link rel="icon" href="/favicon.ico">
     
@@ -53,11 +49,7 @@
   <body class="{{ page.layout }}">
 
     <header id="top">
-      {% if page.lang == "zh" %}
-        {% include zh/header.html %}
-      {% else %}
-        {% include header.html %}
-      {% endif %}
+      {% include header.html %}
     </header>
 
     <main role="main">
@@ -72,11 +64,7 @@
 
     <footer class="container text-muted py-5">
       
-      {% if page.lang == "zh" %}
-        {% include zh/footer.html %}
-      {% else %}
-        {% include footer.html %}
-      {% endif %}
+      {% include footer.html %}
 
     </footer>
     
