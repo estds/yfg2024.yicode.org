@@ -1,6 +1,4 @@
-name: ESTDS2020 | Nanjing, China | 17~19 Sept. 2020
-name_zh: ESTDS2020 | 中国·南京 | 2020年9月17~19日
-sname: ESTDS2020
+name: ESTDS2020
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 timezone: Asia/Shanghai
@@ -8,3 +6,5 @@ livereload: true
 baseurl: https://estds.yicode.ac
 cfrc_start: 2020-09-17
 cfrc_end: 2020-09-19
+cfrc_place: Nanjing, China
+cfrc_place_zh: 中国·南京
