@@ -5,19 +5,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:https://estds.yicode.ac
 CALSCALE:GREGORIAN
-NAME:ESTDS2020
-X-WR-CALNAME:ESTDS2020
+NAME:{{ site.name }}
+X-WR-CALNAME:{{ site.name }}
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 METHOD:PUBLISH
 BEGIN:VTIMEZONE
-TZID:Asia/Shanghai
-TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Shanghai
-X-LIC-LOCATION:Asia/Shanghai
+TZID:{{ site.timezone }}
+TZURL:http://tzurl.org/zoneinfo-outlook/{{ site.timezone }}
+X-LIC-LOCATION:{{ site.timezone }}
 BEGIN:STANDARD
 TZOFFSETFROM:+0800
 TZOFFSETTO:+0800
-TZNAME:CST
+TZNAME:{{ site.time | date: "%Z" }}
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
