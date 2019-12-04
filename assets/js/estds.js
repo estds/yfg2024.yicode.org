@@ -34,6 +34,10 @@ $(document).ready(function(){
 	
 	
 	// targeting popover contents of .share-toggles
+	$('.popover-toggles').click(function(event){
+		event.preventDefault();
+	});
+	
 	$('.popover-toggles').popover({
 		//container: 'body',
 		html: true,
