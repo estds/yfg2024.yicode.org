@@ -6,3 +6,5 @@ permalink: /blog/:year/:month/:day/:title
 timezone: Asia/Shanghai
 livereload: true
 baseurl: https://estds.yicode.ac
+cfrc_start: 2020-09-17
+cfrc_end: 2020-09-19
