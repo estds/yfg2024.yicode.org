@@ -3,7 +3,7 @@ layout: ical
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:https://estds.yicode.ac
+PRODID:{{ site.baseurl }}
 CALSCALE:GREGORIAN
 NAME:{{ site.name }}
 X-WR-CALNAME:{{ site.name }}
