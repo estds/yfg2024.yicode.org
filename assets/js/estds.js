@@ -1,3 +1,8 @@
+// remove loading animation after page loaded
+$(window).load(function() {
+	$('#loading').remove();
+});
+
 // tweaks via javascript
 $(document).ready(function(){
 
