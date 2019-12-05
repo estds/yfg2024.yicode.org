@@ -98,51 +98,54 @@ shareButton.addEventListener('click', event => {
 
 
 // Scrolls smoothly to anchor
-$(document).ready(function(){
-// Add smooth scrolling to all .sjump links
-$(".sjump").on('click', function(event) {
+$(document).ready(function() {
+  // Add smooth scrolling to all .sjump links
+  $(".sjump").on('click', function(event) {
 
-// Make sure this.hash has a value before overriding default behavior
-if (this.hash !== "") {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+	    
+      // prevent default action
+      event.preventDefault();
 
-  // Store hash
-  var hash = this.hash;
+      // Store hash
+      var hash = this.hash;
 
-  // Using jQuery's animate() method to add smooth page scroll
-  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-  $('html, body').animate({
-    scrollTop: $(hash).offset().top
-  }, 800, function(){
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function() {
 
-    // Add hash (#) to URL when done scrolling (default click behavior)
-    //window.location.hash = hash;
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        //window.location.hash = hash;
+      });
+    } // End if
   });
-} // End if
-});
 });
 
 //#to-top button appears after scrolling
 var fixed = false;
 $(document).scroll(function() {
-if ($(this).scrollTop() > 200) {
+  if ($(this).scrollTop() > 200) {
     if (!fixed) {
-	fixed = true;
-	// $('#to-top').css({position:'fixed', display:'block'});
-	$('#to-top').show("slow", function() {
-	    $('#to-top').css({
-		position: 'fixed',
-		display: 'block'
-	    });
-	});
+      fixed = true;
+      // $('#to-top').css({position:'fixed', display:'block'});
+      $('#to-top').show("slow", function() {
+        $('#to-top').css({
+          position: 'fixed',
+          display: 'block'
+        });
+      });
     }
-} else {
+  } else {
     if (fixed) {
-	fixed = false;
-	$('#to-top').hide("slow", function() {
-	    $('#to-top').css({
-		display: 'none'
-	    });
-	});
+      fixed = false;
+      $('#to-top').hide("slow", function() {
+        $('#to-top').css({
+          display: 'none'
+        });
+      });
     }
-}
+  }
 });
