@@ -1,10 +1,8 @@
-// remove loading animation after page loaded
-$(window).load(function() {
-	$('#loading').remove();
-});
-
 // tweaks via javascript
 $(document).ready(function(){
+	
+	// remove loading animation
+	$('#loading').remove();
 
 	// set .bg-by-attr item by data-image attribute
 	$(".bg-by-attr").each(function() {
