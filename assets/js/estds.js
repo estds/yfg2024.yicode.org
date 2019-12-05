@@ -33,11 +33,12 @@ $(document).ready(function(){
 	$("#url-qr-wrap").append(svg);
 	
 	
-	// targeting popover contents of .share-toggles
-	$('.popover-toggles').click(function(event){
+	// stop default action of .no-action
+	$('.no-action').click(function(event){
 		event.preventDefault();
 	});
-	
+
+	// targeting popover contents of .share-toggles	
 	$('.popover-toggles').popover({
 		//container: 'body',
 		html: true,
@@ -103,8 +104,6 @@ $(".sjump").on('click', function(event) {
 
 // Make sure this.hash has a value before overriding default behavior
 if (this.hash !== "") {
-  // Prevent default anchor click behavior
-  event.preventDefault();
 
   // Store hash
   var hash = this.hash;
