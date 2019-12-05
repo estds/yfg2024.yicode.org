@@ -1,6 +1,6 @@
 /* loading animation */
 #loading {
-  position: absolute;
+  position: fixed;
   top: 30vh;
   width: 100%;
   text-align: center;
