@@ -4,7 +4,7 @@ title: "SSL encryption enabled"
 lang: en
 date: 2019-10-08
 abstract: "We have encrypted our entire website now to provide extra protection for you."
-fimage: "https://user-images.githubusercontent.com/56233807/69320532-f4706380-0c73-11ea-8c65-d1936bb134aa.jpg"
+fimage: "https://user-images.githubusercontent.com/56233807/70690657-177db880-1cf2-11ea-8e86-c563236b489c.jpg"
 fimage_credit: "Pixabay, license free"
 raction: "Know more"
 ref: ssl-enabled
