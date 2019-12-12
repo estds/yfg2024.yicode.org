@@ -14,7 +14,7 @@ We value your security.
 
 From now on, our entire site has enforced [SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security) encryption. SSL encryption provides an extra layer of protection while you use our website.
 
-{% include figure.html url="/assets/img/how-ssl-works-cn-dadian-2018.jpg" caption="A flow chart explaining how SSL works (Dadian, 2019)" %}
+{% include figure.html url="/assets/img/how-ssl-works-en-dadian-2018.jpg" caption="A flow chart explaining how SSL works (Dadian, 2019)" %}
 
 Thank you and enjoy!
 
