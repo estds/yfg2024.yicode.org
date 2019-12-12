@@ -4,7 +4,7 @@ title: "SSL加密已经启用"
 lang: zh
 date: 2019-10-08
 abstract: "我们已将整个网站部署了SSL加密，以更好地保护您的安全。"
-fimage: "https://user-images.githubusercontent.com/56233807/69320532-f4706380-0c73-11ea-8c65-d1936bb134aa.jpg"
+fimage: "https://user-images.githubusercontent.com/56233807/70690658-177db880-1cf2-11ea-864f-6d6713abbf3b.jpg"
 fimage_credit: "Pixabay 免授权"
 raction: "了解更多"
 ref: ssl-enabled
