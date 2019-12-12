@@ -4,7 +4,7 @@ title: "SSL encryption enabled"
 lang: en
 date: 2019-10-08
 abstract: "We have encrypted our entire website now to provide extra protection for you."
-fimage: "https://user-images.githubusercontent.com/56233807/70690657-177db880-1cf2-11ea-8e86-c563236b489c.jpg"
+fimage: "https://user-images.githubusercontent.com/56233807/66511410-8ca8f380-eadf-11e9-9139-264a18fd46f3.jpg"
 fimage_credit: "Pixabay, license free"
 raction: "Know more"
 ref: ssl-enabled
@@ -14,7 +14,7 @@ We value your security.
 
 From now on, our entire site has enforced [SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security) encryption. SSL encryption provides an extra layer of protection while you use our website.
 
-{% include figure.html url="https://user-images.githubusercontent.com/56233807/66959033-6672de80-f01e-11e9-8b53-a8dd14da9ea4.png" caption="A flow chart explaining how SSL works (Dadian, 2019)" %}
+{% include figure.html url="https://user-images.githubusercontent.com/56233807/70690657-177db880-1cf2-11ea-8e86-c563236b489c.jpg" caption="A flow chart explaining how SSL works (Dadian, 2019)" %}
 
 Thank you and enjoy!
 
