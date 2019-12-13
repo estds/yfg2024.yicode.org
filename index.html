@@ -14,33 +14,7 @@ lang: en
             <div class="row">
                   <div class="col-md-9">
                         <div class="row">
-                              <!-- Card START -->
-                              <div class="col-lg-6 mb-4">
-                                    <div class="card d-block h-100">
-                                          <img class="card-img-top" src="/assets/img/mail-boxes-on-wall.jpg" alt="Newsletter" /> 
-                                          <div class="card-body">
-                                                <form name="subscribeform" id="subscribeform" action="" enctype="multipart/form-data">
-                                                      <div class="mb-2">
-                                                            <input type="email" name="email" placeholder="Email" id="email" class="form-control validate" autocomplete="email" /> 
-                                                      </div>
-                                                      <div class="input-group mb-2">
-                                                            <input type="text" name="attribute1" class="attributeinput form-control validate" value="" id="attribute1" placeholder="First name" autocomplete="given-name" /><input type="text" name="attribute2" class="attributeinput form-control" value="" id="attribute2" placeholder="Last name" autocomplete="family-name" /> 
-                                                      </div>
-                                                      <div class="mb-2">
-                                                            <select name="attribute3" class="custom-select attributeinput form-control validate" id="attribute3"><optgroup label="Title"><option value="1">Mr.</option><option value="2">Ms.</option><option value="3">Mrs.</option><option value="4">Miss.</option><option value="5">Dr.</option><option value="6">Prof.</option></optgroup></select> 
-                                                      </div>
-                                                      <div style="display:none;">
-                                                            <input type="hidden" name="htmlemail" value="1" /> <input type="hidden" name="list[3]" value="signup" /> <input type="hidden" name="listname[3]" value="ESTDS Forum" /> <input type="text" name="VerificationCodeX" value="" size="20" class="form-control" /> 
-                                                      </div>
-                                                      <div>
-                                                            <button class="btn btn-success" onclick="if (checkform()) {submitForm();} return false;">Stay tuned</button><span id="result" class="d-inline-block ml-2 small"><span class="text-secondary"><i class="fas fa-caret-left mr-1"></i>for newsletters</span></span> 
-                                                      </div>
-                                                </form>
-                                          </div>
-                                    </div>
-                              </div>
-                              <script src="/assets/js/email-subscription.js"></script>
-                              <!-- Card END -->
+                              {% include email-subscription.html %}
                               
                               {% assign posts=site.posts | where:"lang", page.lang %}
                               
@@ -60,18 +34,7 @@ lang: en
                               <!-- Card END -->
                               {% endfor %}
 
-                              <!-- Card START -->
-                              <div class="col-lg-6 mb-4">
-                                    <div class="card d-block h-100">
-                                          <img class="card-img-top" src="/assets/img/man-reading-newspaper.jpg" alt="More information"/> 
-                                          <div class="card-body">
-                                                <h5 class="card-title">More information</h5>
-                                                <p class="card-text">You could find more information by browsing through all our posts.</p>
-                                                <a href="/blog" class="btn btn-info">Read all<i class="fas fa-chevron-circle-right ml-1"></i></a>
-                                          </div>
-                                    </div>
-                              </div>
-                              <!-- Card END -->
+                              {% include all-posts-link.html %}
 
                         </div>
                   </div>
