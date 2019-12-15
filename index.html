@@ -22,7 +22,7 @@ lang: en
                               <!-- Card START -->
                               <div class="col-lg-6 mb-4">
                                     <div class="card d-block h-100">
-                                          <img class="card-img-top" src="{% if post.fimage %}{{ post.fimage }}{% else %}/assets/img/card-image.jpg{% endif %}" alt="{{ post.title }}"/> 
+                                          <img class="card-img-top" src="{% if post.fimage %}https://cdn.jsdelivr.net/gh/estds/estds2020{{ post.fimage }}{% else %}https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/card-image.jpg{% endif %}" alt="{{ post.title }}"/> 
                                           <div class="card-body">
                                                 <h5 class="card-title">{{ post.title }}</h5>
                                                 <p class="card-text text-secondary meta small"><i class="far fa-calendar-alt mr-1"></i><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></p>
