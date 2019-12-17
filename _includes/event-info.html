@@ -6,11 +6,10 @@
         <div class="py-1 ml-3 text-truncate">
           {% if page.lang == "zh" %}
           <h5 class="text-white-50 small text-truncate">时间</h5>
-          <p class="mb-0 text-truncate"><b>{% if page.start %}<time datetime="{{ page.start | date_to_xmlschema }}">{{ page.start | date: "%Y年%m月%d日 %H:%M" }}</time>{% else %}待定{% endif %}</b></p>
           {% else %}
           <h5 class="text-white-50 small text-truncate">Time</h5>
-          <p class="mb-0 text-truncate"><b>{% if page.start %}<time datetime="{{ page.start | date_to_xmlschema }}">{{ page.start | date: "%-d %b %Y %H:%M" }}</time>{% else %}TBD{% endif %}</b></p>
           {% endif %}
+          <p class="mb-0 text-truncate"><b>{% if page.start %}{% include get_time.html time=page.start %}{% else %}TBD{% endif %}</b></p>
         </div>
       </div>
     </div>
