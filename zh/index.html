@@ -25,7 +25,7 @@ lang: zh
                                           <img class="card-img-top" src="{% if post.fimage %}https://cdn.jsdelivr.net/gh/estds/estds2020{{ post.fimage }}{% else %}https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/card-image.jpg{% endif %}" alt="{{ post.title }}" />
                                           <div class="card-body">
                                                 <h5 class="card-title">{{ post.title }}</h5>
-                                                <p class="card-text text-secondary meta small"><i class="far fa-calendar-alt mr-1"></i><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y年%-m月%-d号" }}</time></p>
+                                                <p class="card-text text-secondary meta small"><i class="far fa-calendar-alt mr-1"></i>{% include get_date.html time=post.date %}</p>
                                                 <p class="card-text">{{ post.abstract }}</p>
                                                 <a href="{{ post.url }}" class="btn btn-primary">{% if post.raction %}{{ post.raction }}{% else %}Read on{% endif %}<i class="fas fa-chevron-circle-right ml-1"></i></a>
                                           </div>
