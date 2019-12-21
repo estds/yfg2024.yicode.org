@@ -23,6 +23,8 @@ ref: acknowledgement-page
 
 本网站（除部分动态表单之外）均托管于GitHub.com（见[此项目库](https://github.com/estds/estds2020)）。网站搭建过程中我们从Jonathan McGlone所写的[该教程](http://jmcglone.com/guides/github-pages/)及Sylvain Durand所写的[另一教程](https://www.sylvaindurand.org/making-jekyll-multilingual/)受益良多，特此表示感谢。
 
+为了更好的用户体验，我们使用了[jsDelivr.com](https://www.jsdelivr.com)提供的免费CDN服务。
+
 ## 摄影作品
 
 本网站使用了以下艺术家的摄影作品，特表示感谢：
