@@ -22,6 +22,7 @@ We are grateful to the communities contributing to these wonderful projects.
 
 This website, apart from a certain number of dynamic forms, is hosted on GitHub.com (see [the repository](https://github.com/estds/estds2020)). To set up the website, we found enormous help from [the tutorial](http://jmcglone.com/guides/github-pages/) by Jonathan McGlone and [another one](https://www.sylvaindurand.org/making-jekyll-multilingual/) by Sylvain Durand, to whom we would like to extend our gratitude.
 
+For better user experience, we are using the free CDN service provided by [jsDelivr.com](https://www.jsdelivr.com).
 
 ## Photographs
 
