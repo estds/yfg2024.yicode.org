@@ -5,6 +5,30 @@ lang: en
 ref: abstract-submission
 parent: take-part-page
 ---
+<!-- Modal -->
+<div class="modal fade" id="submission-reminder" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="submission-reminder" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">A kind reminder</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Before you proceed, we would like to draw your attention to the following details:</p>
+        <ul>
+          <li>Please make sure that you have read and fully understood our <a href="/take-part" class="alert-link"><i>Instructions for Authors</i></a>;</li>
+          <li>Please fill in this form in <b class="text-info">English</b>;</li>
+          <li>Please don't use the "back" or "forward" buttons on this page as your work may be lost.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="alert alert-warning alert-dismissible fade show" role="alert">
   Please make sure that you have read and fully understood our <a href="/take-part" class="alert-link"><i>Instructions for Authors</i></a> before you continue. Please fill in this form in <b class="text-info">English</b>.
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -14,5 +38,6 @@ parent: take-part-page
 <iframe id="submission-form" class="embed-responsive-item w-100 border-0" scrolling="no" src="https://jrc.nhri.cn/app/mf/embed.php?id=13008" title="ESTDS2020 Abstract Submission"><a href="https://jrc.nhri.cn/app/mf/view.php?id=13008" title="ESTDS2020 Abstract Submission">ESTDS2020 Abstract Submission</a></iframe>
 <script src="https://cdn.jsdelivr.net/gh/estds/cdn-res/iframe-resizer/iframeResizer.min.js"></script>
 <script>
-  iFrameResize({ log: true }, '#submission-form')
+  $("#submission-reminder").modal('show');
+  iFrameResize({ log: true }, '#submission-form');
 </script>
