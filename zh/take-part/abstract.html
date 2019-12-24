@@ -5,8 +5,32 @@ lang: zh
 ref: abstract-submission
 parent: take-part-page
 ---
+<!-- Modal -->
+<div class="modal fade" id="submission-reminder" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="submission-reminder" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">友情提示</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>在您继续之前，我们想提示性注意以下细节：</p>
+        <ul>
+          <li>请确保您已经阅读并完全理解<a href="/zh/take-part" class="alert-link"><i>投稿须知</i></a>；</li>
+          <li>请使用<b class="text-info">英文</b>填写并提交稿件；</li>
+          <li>请不要在投稿页面使用浏览器的前进和后退按钮，您可能会丢失填写的内容。</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">我已了解</button>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="alert alert-warning alert-dismissible fade show" role="alert">
-  请您阅读并充分理解我们的<a href="/zh/take-part" class="alert-link mx-1">投稿须知</a>再继续。
+  请注意<button type="button" class="p-0 bg-transparent border-0 alert-link" data-toggle="modal" data-target="#submission-reminder">这些细节</button>。
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
@@ -17,3 +41,6 @@ parent: take-part-page
   <p class="lead">由于我们仅接收英文稿件，请您点击下方按钮切换至英文页面提交稿件。</p>
   <p><a href="/take-part/abstract" class="btn btn-dark">继续</a></p>
 </div>
+<script>
+  $("#submission-reminder").modal('show');
+</script>
