@@ -10,6 +10,6 @@ ref: merry-xmas
 ---
 We wish everybody a Christmas holiday of joy and happiness!
 
-As the New Year approaches, we are also counting down to our Forum which is going to take place in late September. Can't wait to see you all in Nanjing.
+As the New Year approaches, we are also counting down to our Forum which is going to take place in late September. Can't wait to see you all in Nanjing！
 
-Shortly after the Christmas break, we will announce more details of regarding the Forum. But for now, please have a good time with family and friends.
+Shortly after the Christmas break, we will announce more details regarding the Forum. But for now, please have a good time with family and friends.
