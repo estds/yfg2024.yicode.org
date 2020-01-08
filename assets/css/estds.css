@@ -93,6 +93,10 @@
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+img.people-avatar {
+	width: 60px; 
+}
+
 [role=button]:not(:disabled) {
 	cursor: pointer;
 }
