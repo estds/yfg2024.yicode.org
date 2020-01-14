@@ -97,6 +97,19 @@ img.people-avatar {
 	width: 60px; 
 }
 
+a.img-ext-link {
+	position: relative;
+	display: inline-block;
+}
+
+a.img-ext-link sup {
+	position: absolute;
+	top: -3px;
+	right: -3px;
+	color: #fff;
+	text-shadow: 0 0 2px #999;
+}
+
 [role=button]:not(:disabled) {
 	cursor: pointer;
 }
