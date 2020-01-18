@@ -107,7 +107,7 @@ a.img-ext-link sup {
 	top: -3px;
 	right: -3px;
 	text-shadow: 0 0 2px #999;
-	transform: scale(.8);
+	transform: scale(.6);
 }
 
 [role=button]:not(:disabled) {
