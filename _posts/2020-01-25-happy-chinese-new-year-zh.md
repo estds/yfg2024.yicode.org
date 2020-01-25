@@ -2,7 +2,7 @@
 layout: post
 title: "春节快乐"
 lang: zh
-date: 2019-12-25
+date: 2020-01-25
 abstract: "祝大家度过一个健康快乐的春节！"
 fimage: "/assets/img/lunar-new-year.jpg"
 fimage_credit: "Easton Mok 免授权"
