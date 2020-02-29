@@ -190,7 +190,9 @@ a.img-ext-link sup {
 .share-buttons #linkedin:hover {
 	background-color: #007ab9;
 }
-
+.share-buttons #email-share:hover {
+	background-color: #697c37;
+}
 /* search on page */
 .search-op-header {
   position: relative;
