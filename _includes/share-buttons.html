@@ -36,11 +36,10 @@
               <i class="fab fa-linkedin-in fa-fw mr-1"></i>LinkedIn
             </a>
             <a title="Sina Weibo" class="share-button list-group-item p-2 text-decoration-none" id="weibo" href="https://service.weibo.com/share/share.php?url={{ site.baseurl | url_encode }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}%20%7C%20{{ site.name | url_encode }}" target="_blank">
-              {% if page.lang == "zh" %}
-              <i class="fab fa-weibo fa-fw mr-1"></i>微博
-              {% else %}
-              <i class="fab fa-weibo fa-fw mr-1"></i>Weibo
-              {% endif %}
+              <i class="fab fa-weibo fa-fw mr-1"></i>{% if page.lang == "zh" %}微博{% else %}Weibo{% endif %}
+            </a>
+            <a title="Email" class="share-button list-group-item p-2 text-decoration-none" id="email-share" href="mailto:?subject={{ page.title | url_encode }}%20%7C%20{{ site.name | url_encode }}&amp;body={{ site.baseurl | url_encode }}{{ page.url | url_encode }}">
+              <i class="fas fa-envelope-open-text fa-fw mr-1"></i>{% if page.lang == "zh" %}电子邮件{% else %}Email{% endif %}
             </a>
           </div>
         </div>
