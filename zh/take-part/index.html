@@ -4,9 +4,67 @@ title: 参加论坛
 lang: zh
 ref: take-part-page
 ---
-<div class="jumbotron bg-transparent">
-  <h1 class="display-4">Coming soon!</h1>
-  <p class="lead">We are still working on this part of the website. It won't take long.</p>
-  <hr class="my-4">
-  <p>Please come back later.</p>
+<div class="m-1">
+  <ul class="nav nav-pills nav-justified mb-4" id="take-part-tab" role="tablist">
+    <li class="nav-item text-truncate">
+      <a class="nav-link text-truncate active" id="home-tab" data-toggle="tab" href="#abstract" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-file-alt fa-fw mr-1"></i>摘要</a>
+    </li>
+    <li class="nav-item text-truncate">
+      <a class="nav-link text-truncate disabled" id="profile-tab" data-toggle="tab" href="#register" role="tab" aria-controls="profile" aria-selected="false"><i class="fas fa-ticket-alt fa-fw mr-1"></i>注册</a>
+    </li>
+    <li class="nav-item text-truncate">
+      <a class="nav-link text-truncate disabled" id="contact-tab" data-toggle="tab" href="#tours" role="tab" aria-controls="contact" aria-selected="false"><i class="fas fa-torii-gate fa-fw mr-1"></i>参观</a>
+    </li>
+    <li class="nav-item text-truncate">
+      <a class="nav-link text-truncate disabled" id="exhibition-tab" data-toggle="tab" href="#exhibition" role="tab" aria-controls="contact" aria-selected="false"><i class="fas fa-store fa-fw mr-1"></i>展览</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="take-part">
+    <div class="tab-pane fade show active" id="abstract" role="tabpanel" aria-labelledby="home-tab">
+      <h1 id="guidelines-for-abstract-submission">摘要提交指南</h1>
+      <p class="alert alert-warning"><em>请注意，如您的摘要无法满足以下指南要求，我们可能会移除您的稿件并且不另行通知。</em></p>
+      <ol style="list-style-type: decimal">
+        <li>所有稿件应<strong>以英文书写</strong>。</li>
+        <li>所有稿件应通过论坛网站的在线提交页面提交。如果您遇到了技术困难，可以与秘书处联系，联系方式请见<a href="/about">此处</a>。</li>
+        <li>提交稿件时必须指定一个有效的电子邮件地址，所有关于投稿的通讯联络将发送至该邮箱。</li>
+        <li>稿件提交以后系统将立即发送确认邮件至指定的邮箱，请检查该邮件是否被您的垃圾邮件过滤器拦截。如您未收到该邮件，请与秘书处联系，联系方式请见<a href="/about">此处</a>。</li>
+        <li>摘要提交系统于<strong>2020年7月15日</strong>关闭以后，稿件将无法再进行任何修改变动。</li>
+        <li>作者在提交稿件时需指定作品的报告方式，论坛将在可能的情况下尽可能满足指定的报告方式，如无法满足，论坛将与作者提前联系协调。</li>
+        <li>稿件提交以后将立即在学术委员会的监督下由论坛指定的专家进行审核，该过程时长不定，但所有审核结果，不管录用与否，将于<strong>2020年8月30日</strong>前通过电子邮件通知至指定的邮箱。</li>
+        <li>对于同一作者或多名作者投稿的数量不做限制，但每名作者最多只能在论坛报告两篇作品。另外至少一名作者需在论坛开幕前注册参会，并以约定的方式在论坛报告。</li>
+        <li>作者对作品独立并完全承担作品的责任，包括但不仅限于作品的原创性及准确性。已录用稿件将完全按照所提交的内容进行转制呈现，包括原文可能存在的错误。</li>
+        <li>已录用稿件将按照<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>许可以电子或书面形式公开。</li>
+      </ol>
+      <p class="text-center my-4">
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#abstract-declaration">继续</button>
+      </p>
+    </div>
+    <div class="tab-pane py-3 fade" id="register" role="tabpanel" aria-labelledby="profile-tab">Regiter tab</div>
+    <div class="tab-pane py-3 fade" id="tours" role="tabpanel" aria-labelledby="contact-tab">Tours tab</div>
+    <div class="tab-pane py-3 fade" id="exhibition" role="tabpanel" aria-labelledby="contact-tab">Exibition tab</div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="abstract-declaration" tabindex="-1" role="dialog" aria-labelledby="AbstractDeclarationLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="AbstractDeclarationLabel">请注意</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>如您选择继续，我们将视作您已阅读并充分了解我们的<a href="/zh/privacy"><b>隐私策略</b></a>以及<a href="/zh/take-part/#abstract"><b>摘要提交指南</b></a>。</p>
+        <p>由于我们只接受英文书写的摘要，您将被重定向至英文界面提交摘要。</p>
+      </div>
+      <div class="modal-footer">
+        <div class="btn-group w-100" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">我再想想</button>
+          <a href="/take-part/abstract" class="btn btn-success">我想继续</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
