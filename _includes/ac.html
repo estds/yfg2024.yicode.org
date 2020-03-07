@@ -1,0 +1,45 @@
+    <ul class="people-list p-0">
+      <li class="media my-2">
+        <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-mahongqi.jpg" class="people-avatar rounded-circle mr-3" alt="Hongqi Ma">
+        <div class="media-body">
+          <h5 class="mt-0">{% if page.lang == "zh" %}<b>马洪琪</b> 院士 主席{% else %}<b>Hongqi Ma</b>, Prof., Chair{% endif %}</h5>
+          <p class="text-secondary">{% if page.lang == "zh" %}中国工程院院士{% else %}Academician of the Chinese Academy of Engineering{% endif %}</p>
+        </div>
+      </li>
+      <li class="media my-2">
+        <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-xuhui.jpg" class="people-avatar rounded-circle mr-3" alt="Hui Xu">
+        <div class="media-body">
+          <h5 class="mt-0">{% if page.lang == "zh" %}<b>徐辉</b> 博士、教授 副主席{% else %}<b>Hui Xu</b>, Dr., Prof., Vice Chair{% endif %}</h5>
+          <p class="text-secondary">{% if page.lang == "zh" %}河海大学校长{% else %}President of Hohai University{% endif %}</p>
+        </div>
+      </li>
+      <li class="media my-2">
+        <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-chenshenshui.jpg" class="people-avatar rounded-circle mr-3" alt="Shengshui Chen">
+        <div class="media-body">
+          <h5 class="mt-0">{% if page.lang == "zh" %}<b>陈生水</b> 博士、教授 副主席{% else %}<b>Shengshui Chen</b>, Dr., Prof., Vice Chair{% endif %}</h5>
+          <p class="text-secondary">{% if page.lang == "zh" %}南京水利科学研究院院长{% else %}President of Nanjing Hydraulic Research Institute{% endif %}</p>
+        </div>
+      </li>
+      <li class="media my-2 d-none">
+        <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-davidmaidment.jpg" class="people-avatar rounded-circle mr-3" alt="David Maidment">
+        <div class="media-body">
+          <h5 class="mt-0">{% if page.lang == "zh" %}<b>David Maidment</b> 博士、教授 副主席{% else %}<b>David Maidment</b>, Dr., Prof., Vice Chair{% endif %}</h5>
+          <p class="text-secondary">{% if page.lang == "zh" %}美国工程院院士{% else %}Member of the US National Academy of Engineering{% endif %}</p>
+        </div>
+      </li>
+      {% if include.full_list="yes" %}
+      <li class="media my-2">
+        <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-chenshenshui.jpg" class="people-avatar rounded-circle mr-3" alt="Shengshui Chen">
+        <div class="media-body">
+          <h5 class="mt-0">{% if page.lang == "zh" %}<b>陈生水</b> 博士、教授 副主席{% else %}<b>Shengshui Chen</b>, Dr., Prof., Vice Chair{% endif %}</h5>
+          <p class="text-secondary">{% if page.lang == "zh" %}南京水利科学研究院院长{% else %}President of Nanjing Hydraulic Research Institute{% endif %}</p>
+        </div>
+      </li>
+      {% endif %}
+      <li class="media my-2">
+        <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-update.jpg" class="people-avatar rounded-circle mr-3 invisible" alt="Updating">
+        <div class="media-body">
+          <h5 class="lead small text-secondary">{% if page.lang == "zh" %}此列表还将更新{% else %}This list is to be updated further{% endif %}</h5>
+        </div>
+      </li>
+    </ul>
