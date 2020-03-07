@@ -39,7 +39,7 @@
       <li class="media my-2">
         <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-update.jpg" class="people-avatar rounded-circle mr-3 invisible" alt="Updating">
         <div class="media-body">
-          <h5 class="lead small text-secondary">{% if page.lang == "zh" %}此列表还将更新{% else %}This list is to be updated further{% endif %}</h5>
+          <h5 class="lead small text-secondary">{% if page.lang == "zh" %}{% unless include.full_list == "yes" %}该列表已折叠，完整列表请见<a href="/zh/about/ac">此处</a>，{% endunless %}此列表还将继续更新。{% else %}{% unless include.full_list == "yes" %}This list has been folded. Please see a full list <a href="/about/ac">here</a>. {% endunless %}This list is to be updated further.{% endif %}</h5>
         </div>
       </li>
     </ul>
