@@ -48,5 +48,20 @@ last_update: 2020-01-06
     </div>
   </div>
 </div>
-<p>更多细节还正在确定中，您可以订阅我们的在线日历，在您喜欢的日历应用中查看我们的最新安排。</p>
-{% include ical-box.html load_js="true" %}
+<p>更多细节还正在确定中，您可以<a href="#" data-toggle="modal" data-target="#ical-feed-modal">订阅我们的在线日历</a>，在您喜欢的日历应用中查看我们的最新安排。</p>
+
+<!-- iCal Modal -->
+<div class="modal fade" id="ical-feed-modal" tabindex="-1" role="dialog" aria-labelledby="iCalModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close ml-4" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <p class="mb-3">You may use the following calendar feed:</p>
+        {% include ical-box.html load_js="true" %}
+      </div>
+    </div>
+  </div>
+</div>
+
