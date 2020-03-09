@@ -36,7 +36,7 @@
       </li>
       <li class="media my-2">
         <div class="media-body">
-          <h5 class="lead small text-secondary"><i class="fas fa-compress-alt fa-fw mr-1 text-warning"></i>{% if page.lang == "zh" %}{% unless include.full_list == "yes" %}此列表已折叠，完整列表请见<a href="/zh/about/oc">此处</a>。{% endunless %}此列表还将继续更新。{% else %}{% unless include.full_list == "yes" %}This list has been folded. Please see a full list <a href="/about/oc">here</a>. {% endunless %}This list is to be updated further.{% endif %}</h5>
+          <h5 class="lead small text-secondary">{% if page.lang == "zh" %}{% if include.full_list == "yes" %}<i class="fas fa-expand-alt fa-fw mr-1 text-info"></i>此列表可能还将继续更新。{% else %}<i class="fas fa-compress-alt fa-fw mr-1 text-warning"></i>此列表已折叠，完整列表请见<a href="/zh/about/oc">此处</a>。{% endif %}{% else %}{% if include.full_list == "yes" %}<i class="fas fa-expand-alt fa-fw mr-1 text-info"></i>This list may be updated further.{% else %}<i class="fas fa-compress-alt fa-fw mr-1 text-warning"></i>This list has been folded. Please see a full list <a href="/about/oc">here</a>。{% endif %}{% endif %}</h5>
         </div>
       </li>
     </ul>
