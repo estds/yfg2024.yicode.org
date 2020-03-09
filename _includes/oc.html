@@ -35,9 +35,8 @@
         </div>
       </li>
       <li class="media my-2">
-        <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-update.jpg" class="people-avatar rounded-circle mr-3 invisible" alt="Updating">
         <div class="media-body">
-          <h5 class="lead small text-secondary">{% if page.lang == "zh" %}{% unless include.full_list == "yes" %}此列表已折叠，完整列表请见<a href="/zh/about/oc">此处</a>。{% endunless %}此列表还将继续更新。{% else %}{% unless include.full_list == "yes" %}This list has been folded. Please see a full list <a href="/about/oc">here</a>. {% endunless %}This list is to be updated further.{% endif %}</h5>
+          <h5 class="lead small text-secondary"><i class="fas fa-compress-alt fa-fw mr-1 text-warning"></i>{% if page.lang == "zh" %}{% unless include.full_list == "yes" %}此列表已折叠，完整列表请见<a href="/zh/about/oc">此处</a>。{% endunless %}此列表还将继续更新。{% else %}{% unless include.full_list == "yes" %}This list has been folded. Please see a full list <a href="/about/oc">here</a>. {% endunless %}This list is to be updated further.{% endif %}</h5>
         </div>
       </li>
     </ul>
