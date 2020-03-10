@@ -1,0 +1,24 @@
+    <ul class="people-list p-0">
+      <li class="media my-2">
+        <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-zhengjinhai.jpg" class="people-avatar rounded-circle mr-3" alt="Jinhai Zheng">
+        <div class="media-body">
+          <h5 class="mt-0">{% if page.lang == "zh" %}<b>郑金海</b> 博士、教授 秘书长{% else %}<b>Jinhai Zheng</b>, Dr., Prof., Secretary General{% endif %}</h5>
+          <p class="text-secondary">{% if page.lang == "zh" %}河海大学副校长{% else %}Vice President of Hohai University{% endif %}</p>
+        </div>
+      </li>
+      <li class="media my-2">
+        <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-liyun.jpg" class="people-avatar rounded-circle mr-3" alt="Yun Li">
+        <div class="media-body">
+          <h5 class="mt-0">{% if page.lang == "zh" %}<b>李云</b> 教授 秘书长{% else %}<b>Yun Li</b>, Prof., Secretary General{% endif %}</h5>
+          <p class="text-secondary">{% if page.lang == "zh" %}南京水利科学研究院副院长{% else %}Vice President of Nanjing Hydraulic Research Institute{% endif %}</p>
+        </div>
+      </li>
+      {% if include.full_list == "yes" %}
+
+      {% endif %}
+      <li class="media my-2">
+        <div class="media-body">
+          <h5 class="lead small text-secondary">{% if page.lang == "zh" %}{% if include.full_list == "yes" %}<i class="fas fa-expand-alt fa-fw mr-1 text-info"></i>此列表可能还将继续更新。{% else %}<i class="fas fa-compress-alt fa-fw mr-1 text-warning"></i>此列表已折叠，完整列表请见<a href="/zh/about/sec">此处</a>。{% endif %}{% else %}{% if include.full_list == "yes" %}<i class="fas fa-expand-alt fa-fw mr-1 text-info"></i>This list may be updated further.{% else %}<i class="fas fa-compress-alt fa-fw mr-1 text-warning"></i>This list has been folded. Please see a full list <a href="/about/sec">here</a>.{% endif %}{% endif %}</h5>
+        </div>
+      </li>
+    </ul>

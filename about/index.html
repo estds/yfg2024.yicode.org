@@ -32,29 +32,8 @@ last_update: 2020-03-09
     {% include ac.html %}
     <h3 id="organising-committee">Organising Committee</h3>
     {% include oc.html %}
-    <h4 id="secretariat">Secretariat</h4>
-    <ul class="people-list p-0">
-      <li class="media my-2">
-        <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-zhengjinhai.jpg" class="people-avatar rounded-circle mr-3" alt="Jinhai Zheng">
-        <div class="media-body">
-          <h5 class="mt-0"><b>Jinhai Zheng</b>, Dr., Prof., Secretary General</h5>
-          <p class="text-secondary">Vice President of Hohai University</p>
-        </div>
-      </li>
-      <li class="media my-2">
-        <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-liyun.jpg" class="people-avatar rounded-circle mr-3" alt="Yun Li">
-        <div class="media-body">
-          <h5 class="mt-0"><b>Yun Li</b>, Prof., Secretary General</h5>
-          <p class="text-secondary">Vice President of Nanjing Hydraulic Research Institute</p>
-        </div>
-      </li>
-      <li class="media my-2">
-        <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-update.jpg" class="people-avatar rounded-circle mr-3 invisible" alt="Updating">
-        <div class="media-body">
-          <h5 class="lead small text-secondary">This list is to be updated further</h5>
-        </div>
-      </li>
-    </ul>
+    <h3 id="secretariat">Secretariat</h3>
+    {% include sec.html %}
   </div>
   <div class="list-group-item px-0">
     <h2 id="venue">Venue</h2>
@@ -63,6 +42,6 @@ last_update: 2020-03-09
   </div>
   <div class="list-group-item px-0">
     <h2 id="contact">Contact</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet lacinia neque. Suspendisse potenti. Etiam lorem sapien, porta nec maximus id, eleifend eget odio. Mauris velit justo, scelerisque sit amet tincidunt ac, ultrices ut purus. Cras ut porta orci, quis dapibus urna. Quisque varius lorem mi, vel pharetra ante pretium vel. Nulla fringilla et tortor ac fringilla. Duis ut vehicula urna.</p>
+    {% include contacts.html %}
   </div>
 </div>
