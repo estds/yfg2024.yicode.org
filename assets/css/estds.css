@@ -97,6 +97,10 @@ img.people-avatar {
 	width: 60px; 
 }
 
+.people-list li {
+    page-break-inside: avoid;
+}
+
 a.img-ext-link {
 	position: relative;
 	display: inline-block;
