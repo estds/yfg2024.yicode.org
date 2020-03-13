@@ -2,7 +2,7 @@
 layout: post
 title: "我们的第一号通知已经发布"
 lang: zh
-date: 2020-03-11
+date: 2020-03-13
 abstract: "论坛将推迟至11月份，摘要提交系统已经开放。"
 fimage: "/assets/img/xuanwu-lake-nanjing-zdc.jpg"
 fimage_credit: "张德超 CC BY-NC-SA 4.0"

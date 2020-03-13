@@ -2,7 +2,7 @@
 layout: post
 title: "We are making the 1st Announcement"
 lang: en
-date: 2020-03-11
+date: 2020-03-13
 abstract: "Forum postponed to November and abstract submission open"
 fimage: "/assets/img/xuanwu-lake-nanjing-zdc.jpg"
 fimage_credit: "Dechao Zhang, CC BY-NC-SA 4.0"
