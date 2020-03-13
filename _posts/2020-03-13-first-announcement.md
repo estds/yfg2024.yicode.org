@@ -16,7 +16,6 @@ Meanwhile, our abstract submission system is now ready and will be open until **
 
 ---
 ## Background
-
 {% include about-background.html %}
 
 ## Theme & topics
@@ -26,11 +25,9 @@ Meanwhile, our abstract submission system is now ready and will be open until **
 - Water security and sustainability
 
 ### Topics
-
 {% include about-topics.html %}
 
 ## Contacts
-
 {% include contacts.html %}
 
 ## Download

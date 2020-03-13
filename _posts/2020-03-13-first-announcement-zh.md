@@ -16,7 +16,6 @@ ref: announcement-1
 
 ---
 ## 背景
-
 {% include about-background.html %}
 
 ## 主题·议题
@@ -26,11 +25,9 @@ ref: announcement-1
 - 水安全与可持续发展
 
 ### 议题
-
 {% include about-topics.html %}
 
 ## 联系我们
-
 {% include contacts.html %}
 
 ## 下载
