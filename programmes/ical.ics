@@ -25,7 +25,7 @@ BEGIN:VEVENT
 DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
 UID:{{ site.cfrc_start | date: "%Y%m%dT%H%M%SZ" }}-{{ site.cfrc_end | date: "%Y%m%dT%H%M%SZ" }}
 DTSTART;VALUE=DATE:{{ site.cfrc_start | date: "%Y%m%d" }}
-DTEND;VALUE=DATE:{{ site.cfrc_end | plus:86400 | date: "%Y%m%d" }}
+DTEND;VALUE=DATE:{{ site.cfrc_end | date:'%s' | plus:86400 | date: "%Y%m%d" }}
 SUMMARY:{{ site.name }}
 URL:{{ site.baseurl }}
 DESCRIPTION:{{ site.name }}: {{ site.baseurl }}
