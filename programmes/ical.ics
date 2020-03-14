@@ -21,6 +21,16 @@ TZNAME:{{ site.time | date: "%Z" }}
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+UID:{{ site.cfrc_start | date: "%Y%m%dT%H%M%SZ" }}-{{ site.cfrc_end | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART;VALUE=DATE:{{ site.cfrc_start | date: "%Y%m%d" }}
+DTEND;VALUE=DATE:{{ site.cfrc_end | date: "%Y%m%d" }}
+SUMMARY:{{ site.name }}
+URL:{{ site.baseurl }}
+DESCRIPTION:{{ site.name }}: {{ site.baseurl }}
+LOCATION:{{ site.cfrc_place }}
+END:VEVENT
 {% assign entries=site.pages | where:"layout", "event" %}{% for item in entries %}{% if item.lang == "en" %}BEGIN:VEVENT
 DTSTAMP:{{ item.start | date: "%Y%m%dT%H%M%SZ" }}
 UID:{{ item.start | date: "%Y%m%dT%H%M%SZ" }}-{{ item.lang }}-{{ item.ref }}
