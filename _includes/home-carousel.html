@@ -9,7 +9,7 @@
       <div class="carousel-item ani-loading bg-by-attr active" data-image="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/boats-on-a-river.jpg">
         {% if page.lang == "zh" %}
         <div class="carousel-caption animated slideInUp">
-          <p class="mb-0">{{ site.cfrc_start | date: '%Y年%m月%d' }}至{{ site.cfrc_end | date: '%d日' }}</p>
+          <p class="lead mb-0">{{ site.cfrc_start | date: '%Y年%m月%d' }}至{{ site.cfrc_end | date: '%d日' }}</p>
           <h5 class="display-4">水安全与可持续发展</h5>
           <p>中国工程院国际工程科技发展战略高端论坛系列</p>
           <p><a href="/zh/about" class="btn btn-outline-light">了解更多</a></p>
@@ -17,7 +17,7 @@
         <div class="credit-label text-truncate">摄影：Emile Guillemot</div>
         {% else %}
         <div class="carousel-caption animated slideInUp">
-          <p class="mb-0">{{ site.cfrc_start | date: '%d' }} to {{ site.cfrc_end | date_to_string }}</p>
+          <p class="lead mb-0">{{ site.cfrc_start | date: '%d' }} to {{ site.cfrc_end | date_to_string }}</p>
           <h5 class="display-5">Water security &amp; sustainability</h5>
           <p>One of the ESTDS Forums sponsored by the Chinese Academy of Engineering</p>
           <p><a href="/about" class="btn btn-outline-light">Know more</a></p>
