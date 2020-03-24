@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Guidelines for presentation at the Plenary Session"
+title: "Guidelines for Plenary speakers"
 lang: en
 ref: guideline-plenary-speakers
 parent: take-part-page
 ---
-Presentations will be organised in the [Plenary Session](/programmes/plenary) in the form of **oral presentations**.
+Presentations at the [Plenary Session](/programmes/plenary) will be organised in the form of **oral presentations**.
 
 Speakers at the Plenary Session are required to limit their presentation to a maximum duration of 25 minutes (excluding Q&A time). After each block of presentations, panel discussions will be organised for Q&As.
 
