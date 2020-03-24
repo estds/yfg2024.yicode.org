@@ -18,6 +18,7 @@ The following devices will be connected in advance to the computer for the use o
 - A monitor (for the view of the speaker);
 - A mouse (for operating the computer);
 - A keyboard (for operating the computer);
+- An audio output system;
 - A remote control (for navigation of slides).
 
 The computer for the use of the speaker is equipped with the latest versions of the following software:
