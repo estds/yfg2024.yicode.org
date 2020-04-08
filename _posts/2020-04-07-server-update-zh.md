@@ -8,8 +8,7 @@ fimage: "/assets/img/server-hardware.jpg"
 fimage_credit: "Florian Krumm 免授权"
 ref: server-update
 ---
-更新：我们的投稿系统已经恢复工作。
-{: .alert .alert-success}
+**更新**：我们的投稿系统已经恢复工作。{: .alert .alert-success}
 
 由于服务器系统更新，我们的投稿系统将在当地时间2020年4月8日08:00开始无法使用，预计将于当日18:00恢复工作。
 
