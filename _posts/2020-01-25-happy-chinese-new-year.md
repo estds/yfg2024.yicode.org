@@ -4,7 +4,7 @@ title: "Happy Chinese New Year"
 lang: en
 date: 2020-01-25
 abstract: "Please have a happy and healthy Chinese New Year!"
-fimage: "/assets/img/lunar-new-year.jpg"
+fimage: "/assets/img/lunar-new-year-good-luck.jpg"
 fimage_credit: "Easton Mok, License free"
 ref: lunar-new-year
 ---
