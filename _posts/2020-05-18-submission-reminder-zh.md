@@ -15,5 +15,5 @@ ref: submission-reminder
 
 感谢您关注我们的论坛。
 
-<a href="/take-part" class="btn btn-success btn-lg btn-block">前去投稿</a>
+<a href="/zh/take-part" class="btn btn-success btn-lg btn-block">前去投稿</a>
 
