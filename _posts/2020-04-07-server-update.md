@@ -3,7 +3,7 @@ layout: post
 title: "Submission system temporarily unavailable"
 lang: en
 date: 2020-04-07
-abstract: "The system for abstract submission will not be available during server update on 7 April."
+abstract: "Abstract submission system will be unavailable during server update on 7 April."
 fimage: "/assets/img/server-hardware.jpg"
 fimage_credit: "Florian Krumm, license free"
 ref: server-update
