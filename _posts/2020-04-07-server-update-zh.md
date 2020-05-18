@@ -3,7 +3,7 @@ layout: post
 title: "投稿系统将暂时无法使用"
 lang: zh
 date: 2020-04-07
-abstract: "服务器更新期间投稿系统将停用。"
+abstract: "4月7号服务器更新期间投稿系统将停用。"
 fimage: "/assets/img/server-hardware.jpg"
 fimage_credit: "Florian Krumm 免授权"
 ref: server-update
