@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Forum Postponed to April 2021"
-lang: en
+lang: "en"
 date: 2019-06-30
 abstract: "We have further postponed the Forum and extended abstract submission."
 fimage: "/assets/img/david-guenther-9dcQu2mxuRc.jpg"
