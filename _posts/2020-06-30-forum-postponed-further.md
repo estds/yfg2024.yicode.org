@@ -12,6 +12,6 @@ We are deeply concerned by the COVID-19 pandemic. As the global fight against th
 
 Given the travel restrictions around the world and uncertainties in the removal of such policies among global governments, we are announcing that the Forum will be further postponed to 21 to 24, 2021.
 
-We will be closely monitoring the evolving situation and keep every participants of the Forum informed. If you have any concerns or questions, our [Secretariat](/zh/about/sec) will be most happy to offer assistance.
+We will be closely monitoring the evolving situation and keep every participants of the Forum informed. If you have any concerns or questions, our [Secretariat](/about/sec) will be most happy to offer assistance.
 
 In accordance to the postponed time, the deadline for [abstract submission](/take-part/) will also be extended to 15 January, 2021.
