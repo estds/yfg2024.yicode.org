@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Forum Postponed to April 2021"
-lang: "en"
-date: 2019-06-30
+lang: en
+date: 2020-06-30
 abstract: "We have further postponed the Forum and extended abstract submission."
 fimage: "/assets/img/david-guenther-9dcQu2mxuRc.jpg"
 fimage_credit: "David Guenther on Unsplash.com, license free"
@@ -15,3 +15,4 @@ Given the travel restrictions around the world and uncertainties in the removal 
 We will be closely monitoring the evolving situation and keep every participants of the Forum informed. If you have any concerns or questions, our [Secretariat](/about/sec) will be most happy to offer assistance.
 
 In accordance to the postponed time, the deadline for [abstract submission](/take-part/) will also be extended to 15 January, 2021.
+
