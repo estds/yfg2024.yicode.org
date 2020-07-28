@@ -9,4 +9,5 @@ search_exclusion: yes
     "end": "{{ item.end | date: "%Y-%m-%dT%H:%M:%S" }}",
     "url":"{{ site.baseurl }}{{ item.url }}"
   }{% unless forloop.last %},{% endunless %}
-  {% endif %}{% endfor %}]
+  {% endif %}{% endfor %}
+]
