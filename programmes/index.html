@@ -17,6 +17,7 @@ last_update: 2020-07-28
 
     $('#programmeCalendar').fullCalendar({
       themeSystem: 'bootstrap4',
+      firstDay: 0,
       //height: 600,
       header: {
         left: 'prev,next',
@@ -30,11 +31,11 @@ last_update: 2020-07-28
       eventLimit: true, // allow "more" link when too many events
       eventSources: [
 
-        // all other events
+        // individial sessions
         {
           url: 'events.json', // use the `url` property
         },
-        // full day events
+        // entire conference
         {
           events: [
             {
@@ -45,6 +46,7 @@ last_update: 2020-07-28
           ],
           color: '#28a745',   // an option!
         },
+        // daily agendas
         {
           events: [
             {
