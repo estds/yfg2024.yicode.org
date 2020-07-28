@@ -1,4 +1,12 @@
 ---
 search_exclusion: yes
 ---
-[{% assign entries=site.pages | where:"layout", "event" %}{% for item in entries %}{% if item.lang == "en" %}{title: '{{ item.title }}',start: '{{ item.start | date: "%Y-%m-%dT%H:%M:%SZ" }}',end: '{{ item.end | date: "%Y-%m-%dT%H:%M:%SZ" }}',url: '{{ site.baseurl }}{{ item.url }}'}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
+[
+  {% assign entries=site.pages | where:"layout", "event" %}{% for item in entries %}{% if item.lang == "en" %}
+  {
+    "title": "{{ item.title }}",
+    "start": "{{ item.start | date: "%Y-%m-%dT%H:%M:%S" }}",
+    "end": "{{ item.end | date: "%Y-%m-%dT%H:%M:%SZ" }}",
+    "url":"{{ site.baseurl }}{{ item.url }}"
+  }{% unless forloop.last %},{% endunless %}
+  {% endif %}{% endfor %}]
