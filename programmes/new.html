@@ -14,7 +14,7 @@ last_update: 2020-07-28
   $(document).ready(function() {
 
     $('#programmeCalendar').fullCalendar({
-    	themeSystem: 'bootstrap4',
+      themeSystem: 'bootstrap4',
       //height: 600,
       header: {
         left: 'prev,next',
@@ -30,11 +30,25 @@ last_update: 2020-07-28
 
         // your event source
         {
-        url: '/programmes/events.json', // use the `url` property
-        }
-
+          url: '/programmes/events.json', // use the `url` property
+        },
       // any other sources...
-
+        {
+          title  : 'Registration',
+          start  : '2021-04-21',
+        },
+        {
+          title  : 'Plenary session',
+          start  : '2021-04-22',
+        },
+        {
+          title  : 'Parallel sessions',
+          start  : '2021-04-23',
+        },
+        {
+          title  : 'Technical tours',
+          start  : '2021-04-24',
+        },
       ]
     });
 
