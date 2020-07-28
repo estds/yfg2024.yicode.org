@@ -32,11 +32,12 @@ last_update: 2020-03-13
       eventLimit: true, // allow "more" link when too many events
       eventSources: [
 
-        // all other events
+        // individual sessions
         {
-          url: '/zh/programmes/events.json', // use the `url` property
+          //url: '/zh/programmes/events.json', // use the `url` property
+          events: [{% assign all_events = site.pages | where:"lang","zh" %}{% assign events = all_events | where:"layout","event" %}{% for item in events %}{"title": "{{ item.title }}","start": "{{ item.start | date: "%Y-%m-%dT%H:%M:%S" }}","end": "{{ item.end | date: "%Y-%m-%dT%H:%M:%S" }}","url":"{{ site.baseurl }}{{ item.url }}"}{% unless forloop.last %},{% endunless %}{% endfor %}]
         },
-        // full day events
+        // entire conference
         {
           events: [
             {
@@ -47,6 +48,7 @@ last_update: 2020-03-13
           ],
           color: '#28a745',   // an option!
         },
+        // agenda by day
         {
           events: [
             {
