@@ -38,6 +38,16 @@ last_update: 2020-07-28
         {
           events: [
             {
+              title  : '{{ site.name}}',
+              start  : '{{ site.cfrc_start | date: "%Y-%m-%d" }}',
+              end  : '{{ site.cfrc_end | date: "%Y-%m-%d" }}',
+            },
+          ],
+          color: '#28a745',   // an option!
+        },
+        {
+          events: [
+            {
               title  : 'Registration',
               start  : '2021-04-21',
             },
@@ -54,7 +64,7 @@ last_update: 2020-07-28
               start  : '2021-04-24',
             },
           ],
-          color: '#28a745',   // an option!
+          color: '#007bff',   // an option!
         }
       ]
     });
