@@ -28,27 +28,31 @@ last_update: 2020-07-28
       eventLimit: true, // allow "more" link when too many events
       eventSources: [
 
-        // your event source
+        // all other events
         {
           url: '/programmes/events.json', // use the `url` property
         },
-      // any other sources...
+        // full day events
         {
-          title  : 'Registration',
-          start  : '2021-04-21',
-        },
-        {
-          title  : 'Plenary session',
-          start  : '2021-04-22',
-        },
-        {
-          title  : 'Parallel sessions',
-          start  : '2021-04-23',
-        },
-        {
-          title  : 'Technical tours',
-          start  : '2021-04-24',
-        },
+          events: [
+            {
+              title  : 'Registration',
+              start  : '2021-04-21',
+            },
+            {
+              title  : 'Plenary session',
+              start  : '2021-04-22',
+            },
+            {
+              title  : 'Parallel sessions',
+              start  : '2021-04-23',
+            },
+            {
+              title  : 'Technical tours',
+              start  : '2021-04-24',
+            },
+          ]
+        }
       ]
     });
 
