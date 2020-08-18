@@ -3,51 +3,79 @@ layout: page
 title: 议程
 ref: programmes-page
 lang: zh
-last_update: 2020-03-13
+last_update: 2020-07-28
 ---
+<script src="https://cdn.jsdelivr.net/gh/estds/cdn-res/fullcalendar/3.10.2/lib/moment.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/estds/cdn-res/fullcalendar/3.10.2/fullcalendar.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/estds/cdn-res/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/estds/cdn-res/fullcalendar/3.10.2/locale/zh-cn.js"></script>
+
 <p class="lead">我们目前的计划涵盖{{ site.cfrc_start | date: '%Y年%m月%d日' }}至{{ site.cfrc_end | date: '%Y年%m月%d日' }}4天的日程。</p>
-<div class="card-group mb-3">
-  <div class="card text-center">
-    <div class="card-header">周一</div>
-    <div class="card-body">
-      <h5 class="card-title">十一月</h5>
-      <h4 class="card-title display-3">16</h4>
-      <h5 class="card-title">2020</h5>
-      <hr>
-      <p class="card-text">注册报到</p>
-    </div>
-  </div>
-  <div class="card text-center">
-    <div class="card-header">周二</div>
-    <div class="card-body">
-      <h5 class="card-title">十一月</h5>
-      <h4 class="card-title display-3">17</h4>
-      <h5 class="card-title">2020</h5>
-      <hr>
-      <p class="card-text">全体会议</p>
-    </div>
-  </div>
-  <div class="card text-center">
-    <div class="card-header">周三</div>
-    <div class="card-body">
-      <h5 class="card-title">十一月</h5>
-      <h4 class="card-title display-3">18</h4>
-      <h5 class="card-title">2020</h5>
-      <hr>
-      <p class="card-text">平行分会</p>
-    </div>
-  </div>
-  <div class="card text-center">
-    <div class="card-header">周四</div>
-    <div class="card-body text-center">
-      <h5 class="card-title">十一月</h5>
-      <h4 class="card-title display-3">19</h4>
-      <h5 class="card-title">2020</h5>
-      <hr>
-      <p class="card-text">技术参观</p>
-    </div>
-  </div>
-</div>
+
+<div id="programmeCalendar"></div>
+
+<script>
+  $(document).ready(function() {
+
+    $('#programmeCalendar').fullCalendar({
+      themeSystem: 'bootstrap4',
+      firstDay: 0,
+      //height: 600,
+      header: {
+        left: 'prev,next',
+        center: 'title',
+        right: 'month,basicWeek,basicDay'
+      },
+      defaultDate: '{{ site.cfrc_start | date: "%Y-%m-%d" }}',
+      //defaultView: 'basicWeek',
+      navLinks: true, // can click day/week names to navigate views
+      editable: false,
+      eventLimit: true, // allow "more" link when too many events
+      eventSources: [
+
+        // individial sessions
+        {
+          url: 'events.json', // use the `url` property
+        },
+        // entire conference
+        {
+          events: [
+            {
+              title  : '{{ site.name}}',
+              start  : '{{ site.cfrc_start | date: "%Y-%m-%d" }}',
+              end  : '{{ site.cfrc_end | date:"%s" | plus:86400 | date: "%Y-%m-%d" }}',
+            },
+          ],
+          color: '#28a745',   // an option!
+        },
+        // daily agendas
+        {
+          events: [
+            {
+              title  : '注册报到',
+              start  : '2021-04-21',
+            },
+            {
+              title  : '全体会议',
+              start  : '2021-04-22',
+            },
+            {
+              title  : '分会讨论',
+              start  : '2021-04-23',
+            },
+            {
+              title  : '技术参观',
+              start  : '2021-04-24',
+            },
+          ],
+          color: '#007bff',   // an option!
+        }
+      ]
+    });
+
+  });
+</script>
+
 <p>更多细节还正在确定中，您可以<a href="#" data-toggle="modal" data-target="#ical-feed-modal">订阅我们的在线日历</a>，在您喜欢的日历应用中查看我们的最新安排。</p>
 
 <!-- iCal Modal -->
