@@ -4,20 +4,16 @@ title: Signup for newsletter
 ---
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/js/newsletter.js"></script>
 <form action="https://owl.jrc.nhri.cn/api/wssf-signup.php" method="POST" accept-charset="utf-8" name="signup-form" id="signup-form">
-  <div class="pure-control-group">
-    <label for="name">Last Name</label>
-    <input type="text" name="name" id="name" />
+
+  <div class="mb-2">
+    <input type="email" name="email" id="email" placeholder="Email" class="form-control validate" autocomplete="email" />
   </div>
-  <div class="pure-control-group">
-    <label for="FirstName">First Name</label>
-    <input type="text" name="FirstName" id="FirstName" />
+
+  <div class="input-group mb-2">
+    <input type="text" name="FirstName" id="FirstName" class="attributeinput form-control validate" placeholder="First name" autocomplete="given-name" /><input type="text" name="name" id="name" class="attributeinput form-control" placeholder="Last name" autocomplete="family-name" />
   </div>
-  <div class="pure-control-group">
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email" />
-  </div>
-  <div class="pure-control-group">
-    <label for="Title">Title</label>
+
+  <div class="mb-2">
     <select name="Title" class="custom-select attributeinput form-control validate" id="Title">
       <optgroup label="Select a title">
         <option value="Mr.">Mr.</option>
@@ -29,8 +25,7 @@ title: Signup for newsletter
       </optgroup>
     </select>
   </div>
-  <p>
-    <input type="submit" value="Sign up" id="submit-btn" />
-  </p>
-  <p id="status"></p>
+
+  <div class="mb-2"><input type="submit" value="Sign up" id="submit-btn" /><small class="d-inline-block ml-2 small"><span id="status"></span></small></div>
+
 </form>
