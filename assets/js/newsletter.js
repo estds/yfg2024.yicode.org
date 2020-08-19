@@ -1,7 +1,10 @@
 $(document).ready(function() {
+	$(".validate").keypress(function(e){
+		$(this).removeClass('is-invalid')
+	})
 	$("#signup-form").submit(function(e){
 		e.preventDefault(); 
-		
+		$("#status").empty().append('<i class="fas fa-circle-notch fa-spin"></i>');
 		var $form = $(this),
 		name = $form.find('input[name="name"]').val(),
 		email = $form.find('input[name="email"]').val(),
@@ -15,33 +18,30 @@ $(document).ready(function() {
 		      {
 		      	if(data=="Some fields are missing.")
 		      	{
-			      	$("#status").text("Some fields are missing.");
-			      	$("#status").css("color", "red");
+			      	$("#status").empty().append('<span class="text-warning">Something is missing.</span>');
 		      	}
 		      	else if(data=="Invalid email address.")
 		      	{
-			      	$("#status").text("Your email address is invalid.");
-			      	$("#status").css("color", "red");
+			      	$("#status").empty().append('<span class="text-warning">This email is invalid.</span>');
+			      	$("#email").addClass('is-invalid').focus();
 		      	}
 		      	else if(data=="Invalid list ID.")
 		      	{
-			      	$("#status").text("Your list ID is invalid.");
-			      	$("#status").css("color", "red");
+			      	$("#status").empty().append('<span class="text-danger">Your list ID is invalid.</span>');
 		      	}
 		      	else if(data=="Already subscribed.")
 		      	{
-			      	$("#status").text("You're already subscribed!");
-			      	$("#status").css("color", "red");
+			      	$("#status").empty().append('<span class="text-info">You have already subscribed.</span>');
 		      	}
 		      	else
 		      	{
-			      	$("#status").text("You're subscribed!");
-			      	$("#status").css("color", "green");
+			      	$("#status").empty().append('<span class="text-success">Success! Please check email.</span>');
 		      	}
 		      }
 		      else
 		      {
-		      	alert("Sorry, unable to subscribe. Please try again later!");
+		      	//alert("Sorry, unable to subscribe. Please try again later!");
+		      	$("#status").empty().append('<span class="text-danger">Oops! We had a server error.</span>');
 		      }
 		  }
 		);
