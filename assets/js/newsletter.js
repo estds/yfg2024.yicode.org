@@ -36,6 +36,7 @@ $(document).ready(function() {
 		      	else
 		      	{
 			      	$("#status").empty().append('<span class="text-success">Success! Please check email.</span>');
+			      	$('#signup-form')[0].reset();
 		      	}
 		      }
 		      else
