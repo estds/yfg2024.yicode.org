@@ -1,17 +1,17 @@
 $(document).ready(function() {
   function checkform() {
     if ($("#email").val() == "") {
-      $("#result").empty().append('<span class="text-danger">Please enter your first name.</span>');
+      $("#status").empty().append('<span class="text-danger">Please enter your first name.</span>');
       $("#email").addClass('is-invalid').focus();
       return false;
     }
     if ($("#FirstName").val() == "") {
-      $("#result").empty().append('<span class="text-danger">Please enter your first name.</span>');
+      $("#status").empty().append('<span class="text-danger">Please enter your first name.</span>');
       $("#FirstName").addClass('is-invalid').focus();
       return false;
     }
     if ($("#name").val() == "") {
-      $("#result").empty().append('<span class="text-danger">Please enter your last name.</span>');
+      $("#status").empty().append('<span class="text-danger">Please enter your last name.</span>');
       $("#name").addClass('is-invalid').focus();
       return false;
     }
