@@ -2,7 +2,7 @@
   <div class="card d-block h-100">
     <img class="card-img-top" src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/mail-boxes-on-wall.jpg" alt="Newsletter" />
     <div class="card-body">
-      <script type="text/javascript" src="/assets/js/newsletter.js"></script>
+      <script type="text/javascript" src="https://owl.jrc.nhri.cn/_api/newsletter.js"></script>
       <form action="https://owl.jrc.nhri.cn/_api/wssf-signup.php" method="POST" accept-charset="utf-8" name="signup-form" id="signup-form">
 
         <div class="mb-2">
@@ -10,10 +10,26 @@
         </div>
 
         <div class="input-group mb-2">
-          <input type="text" name="FirstName" id="FirstName" class="attributeinput form-control validate" placeholder="First name" autocomplete="given-name" required="required" /><input type="text" name="name" id="name" class="attributeinput form-control" placeholder="Last name" autocomplete="family-name" required="required" />
+            {% if page.lang == "zh" %}
+                      <input type="text" name="name" id="name" class="attributeinput form-control" placeholder="姓氏" autocomplete="family-name" required="required" /><input type="text" name="FirstName" id="FirstName" class="attributeinput form-control validate" placeholder="名字" autocomplete="given-name" required="required" />
+            {% else %}
+                      <input type="text" name="FirstName" id="FirstName" class="attributeinput form-control validate" placeholder="First name" autocomplete="given-name" required="required" /><input type="text" name="name" id="name" class="attributeinput form-control" placeholder="Last name" autocomplete="family-name" required="required" />
+            {% endif %}
         </div>
 
         <div class="mb-2">
+            {% if page.lang == "zh" %}
+          <select name="Title" class="custom-select attributeinput form-control validate" id="Title">
+            <optgroup label="选择称呼">
+              <option value="先生">先生</option>
+              <option value="女士">女士</option>
+              <option value="夫人">夫人</option>
+              <option value="小姐">小姐</option>
+              <option value="博士">博士</option>
+              <option value="教授">教授</option>
+            </optgroup>
+          </select>
+          {% else %}
           <select name="Title" class="custom-select attributeinput form-control validate" id="Title">
             <optgroup label="Select a title">
               <option value="Mr.">Mr.</option>
@@ -24,9 +40,16 @@
               <option value="Prof.">Prof.</option>
             </optgroup>
           </select>
+          {% endif %}
         </div>
 
-        <div class="mb-2"><input type="submit" value="Sign up" id="submit-btn" class="btn btn-success" /><small class="d-inline-block ml-2 small"><span id="status"><span class="text-muted">for newsletters</span></span></small></div>
+        <div class="mb-2">
+            {% if page.lang == "zh" %}
+                      <input type="submit" value="订阅" id="submit-btn" class="btn btn-success" /><small class="d-inline-block ml-2 small"><span id="status"><span class="text-muted">新闻邮件</span></span></small>
+            {% else %}
+                      <input type="submit" value="Sign up" id="submit-btn" class="btn btn-success" /><small class="d-inline-block ml-2 small"><span id="status"><span class="text-muted">for newsletters</span></span></small>
+            {% endif %}
+        </div>
 
       </form>
     </div>
