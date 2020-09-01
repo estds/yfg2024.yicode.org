@@ -29,7 +29,7 @@ $(document).ready(function() {
       email = $form.find('input[name="email"]').val(),
       Title = $form.find('select[name="Title"]').val(),
       FirstName = $form.find('input[name="FirstName"]').val(),
-      url = $form.attr('action');
+      url = 'https://owl.jrc.nhri.cn/_api/wssf-signup.php';
 
     $.post(url, {
         name: name,
