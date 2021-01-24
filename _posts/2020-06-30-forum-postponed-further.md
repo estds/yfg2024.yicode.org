@@ -10,7 +10,7 @@ ref: forum-further-postponed
 ---
 We are deeply concerned by the COVID-19 pandemic. As the global fight against the coronavirus continues, we hope it could be contained as soon as possible and lives back to normal.
 
-Given the travel restrictions around the world and uncertainties in the removal of such policies among global governments, we are announcing that the Forum will be further postponed to 21 to 24, 2021.
+Given the travel restrictions around the world and uncertainties in the removal of such policies among global governments, we are announcing that the Forum will be further postponed to 20 to 23, 2021.
 
 We will be closely monitoring the evolving situation and keep every participants of the Forum informed. If you have any concerns or questions, our [Secretariat](/about/sec) will be most happy to offer assistance.
 
