@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Plenary Session - Integrated river basin management
+title: Integrated river basin management - Plenary Session
 ref: plenary-river-basin
 lang: en
 parent: programmes-page
