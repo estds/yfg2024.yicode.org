@@ -1,6 +1,6 @@
 ---
 layout: event
-title: 全体会议 - 流域综合管理
+title: 流域综合管理 - 全体会议
 ref: plenary-river-basin
 lang: zh
 parent: programmes-page
