@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Aquatic ecology and water resources - Plenary Session
+title: 水生态与水资源 - 全体会议
 ref: plenary-water-ecology
 lang: zh
 parent: programmes-page
@@ -10,8 +10,7 @@ place: "待定"
 ---
 这一部分会议将集中讨论“水生态与水资源”这一主题，包括（但不仅限于）这些子话题：
 
-- 流域水环境保护与提升
-- 生态保护与修复
+- 水生态环境保护与修复
 - 生态水利工程
 - 河流湖泊健康评价
 - 水资源高效利用
