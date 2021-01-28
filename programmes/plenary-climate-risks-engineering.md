@@ -4,8 +4,8 @@ title: Climate, Risks and Engineering - Plenary Session
 ref: plenary-climate-risks-engineering
 lang: en
 parent: programmes-page
-start: 2021-04-22 08:30
-end: 2021-04-22 09:00
+start: 2021-04-22 14:00
+end: 2021-04-22 17:40
 place: "TBD"
 ---
 
