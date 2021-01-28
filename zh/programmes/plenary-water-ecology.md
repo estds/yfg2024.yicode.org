@@ -1,10 +1,10 @@
 ---
 layout: event
-title: 水生态与水资源 - 全体会议
+title: Aquatic ecology and water resources - Plenary Session
 ref: plenary-water-ecology
 lang: zh
 parent: programmes-page
-start: 2021-04-23 08:30
+start: 2021-04-23 08:50
 end: 2021-04-23 12:10
 place: "待定"
 ---
@@ -14,7 +14,6 @@ place: "待定"
 - 生态保护与修复
 - 生态水利工程
 - 河流湖泊健康评价
-- 水工程安全与韧性
 - 水资源高效利用
 - 节水理论与技术
 - 水资源优化配置
