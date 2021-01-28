@@ -4,7 +4,7 @@ title: Aquatic Ecology and Water Resources - Plenary Session
 ref: plenary-water-ecology
 lang: en
 parent: programmes-page
-start: 2021-04-23 08:50
+start: 2021-04-23 08:30
 end: 2021-04-23 12:10
 place: "TBD"
 ---
