@@ -2,7 +2,7 @@
 layout: event
 title: 开幕式 - 全体会议
 ref: plenary-opening
-lang: en
+lang: zh
 parent: programmes-page
 start: 2021-04-22 08:30
 end: 2021-04-22 09:00
