@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Aquatic ecology and water resources - Plenary Session
+title: Aquatic Ecology and Water Resources - Plenary Session
 ref: plenary-water-ecology
 lang: en
 parent: programmes-page
