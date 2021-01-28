@@ -4,7 +4,7 @@ title: 水生态与水资源 - 全体会议
 ref: plenary-water-ecology
 lang: zh
 parent: programmes-page
-start: 2021-04-23 08:50
+start: 2021-04-23 08:30
 end: 2021-04-23 12:10
 place: "待定"
 ---
