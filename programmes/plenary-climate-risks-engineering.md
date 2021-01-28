@@ -15,7 +15,7 @@ This session will be focusing on the theme of â€œclimate, risks and engineeringâ
 - Extreme climatic events
 - Scenarios and uncertainties
 - Climate impacts and adaptation
-- Flooding risk management
+- Flood risk management
 - Urban flooding
 - Resilience of water infrastructures
 
