@@ -10,6 +10,27 @@ place: "待定"
 ---
 这一分会将深入讨论“气候变化与风险”主题。
 
+## 召集人
+
+这一分会由以下专家召集：
+
+<ul class="people-list p-0">
+  <li class="media my-2">
+    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-zhongbo-yu.jpg" class="people-avatar rounded-circle mr-3" alt="Zhongbo Yu">
+    <div class="media-body">
+      <h5 class="mt-0"><strong>余钟波</strong> 教授</h5>
+      <p class="text-secondary">河海大学</p>
+    </div>
+  </li>
+  <li class="media my-2">
+    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-guoqin-wang.jpg" class="people-avatar rounded-circle mr-3" alt="Guoqing Wang">
+    <div class="media-body">
+      <h5 class="mt-0"><b>王国庆</b> 教授</h5>
+      <p class="text-secondary">南京水利科学研究院</p>
+    </div>
+  </li>
+</ul>
+
 我们将很快更新更多细节，请保持关注。
 
 
