@@ -16,7 +16,7 @@ This parallel session is organised by:
 
 <ul class="people-list p-0">
   <li class="media my-2">
-    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-blank.jpg" class="people-avatar rounded-circle mr-3" alt="Junguo Liu">
+    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-junguo-liu.jpg" class="people-avatar rounded-circle mr-3" alt="Junguo Liu">
     <div class="media-body">
       <h5 class="mt-0"><strong>Junguo Liu</strong>, Prof.</h5>
       <p class="text-secondary">Southern University of Science and Technology</p>
