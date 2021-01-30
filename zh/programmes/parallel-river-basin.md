@@ -13,7 +13,7 @@ place: "待定"
 
 ## 召集人
 
-这一分会由以下专家召集：
+这一分会由以下专家负责召集：
 
 <ul class="people-list p-0">
   <li class="media my-2">
