@@ -17,7 +17,7 @@ place: "待定"
 
 <ul class="people-list p-0">
   <li class="media my-2">
-    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-blank.jpg" class="people-avatar rounded-circle mr-3" alt="刘俊国">
+    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-junguo-liu.jpg" class="people-avatar rounded-circle mr-3" alt="刘俊国">
     <div class="media-body">
       <h5 class="mt-0"><strong>刘俊国</strong> 教授</h5>
       <p class="text-secondary">南方科技大学</p>
