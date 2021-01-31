@@ -49,7 +49,7 @@ last_update: 2021-1-28
           events: [
             {% assign all_events = site.pages | where:"lang","zh" %}{% assign events = all_events | where:"layout","event" %}{% for item in events %}{"title": "{{ item.title }}","start": "{{ item.start | date: "%Y-%m-%dT%H:%M:%S" }}","end": "{{ item.end | date: "%Y-%m-%dT%H:%M:%S" }}","url":"{{ site.baseurl }}{{ item.url }}"}{% unless forloop.last %},{% endunless %}{% endfor %}
           ],
-          color: '#436b79',   // an option!
+          color: '#3a87ad',   // an option!
         },
         // daily agendas
         {
