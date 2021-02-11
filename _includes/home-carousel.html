@@ -6,7 +6,24 @@
       <li data-target="#home-carousel" data-slide-to="3"></li>
     </ol>
     <div class="carousel-inner bg-light">    
-      <div class="carousel-item ani-loading bg-by-attr active" data-image="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/ke-yang-swan-1908284_1920.jpg">
+      <div class="carousel-item ani-loading bg-by-attr active" data-image="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/lunar-new-year-2021-2nd-announcement.jpg">
+        {% if page.lang == "zh" %}
+        <div class="carousel-caption animated slideInUp">
+          <h5 class="display-4">春节快乐！</h5>
+          <p>我们的二号通知已经发布</p>
+          <p><a href="/blog/2021/02/11/lunar-new-year-and-2nd-announcement-zh" class="btn btn-outline-light">前去查看</a></p>
+        </div>
+        <div class="credit-label text-truncate">图：Canva.cn. Authorised use</div>
+        {% else %}
+        <div class="carousel-caption animated slideInUp">
+          <h5 class="display-4">Happy Lunar New Year!</h5>
+          <p>We have released our 2nd announcement</p>
+          <p><a href="/blog/2021/02/11/lunar-new-year-and-2nd-announcement" class="btn btn-outline-light">Check now</a></p>
+        </div>
+        <div class="credit-label text-truncate">Photo: Canva.cn. Authorised use</div>
+        {% endif %}
+      </div>
+      <div class="carousel-item ani-loading bg-by-attr" data-image="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/ke-yang-swan-1908284_1920.jpg">
         {% if page.lang == "zh" %}
         <div class="carousel-caption animated slideInUp">
           <p class="lead mb-0">{{ site.cfrc_start | date: '%Y年%m月%d' }}至{{ site.cfrc_end | date: '%d日' }}</p>
@@ -40,23 +57,6 @@
           <p><a href="/programmes" class="btn btn-outline-light">Check now</a></p>
         </div>
         <div class="credit-label text-truncate">Photo credit: Dechao Zhang</div>
-        {% endif %}
-      </div>
-      <div class="carousel-item ani-loading bg-by-attr" data-image="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/nanjing-south-railway-station.jpg">
-        {% if page.lang == "zh" %}
-        <div class="carousel-caption animated slideInUp">
-          <h5 class="display-4">欢迎回来！</h5>
-          <p>我们在古老的石头城下等你</p>
-          <p><a href="/zh/logistics" class="btn btn-outline-light">查阅会务</a></p>
-        </div>
-        <div class="credit-label text-truncate">摄影：Zhimai Zhang</div>
-        {% else %}
-        <div class="carousel-caption animated slideInUp">
-          <h5 class="display-4">Welcome back!</h5>
-          <p>We had an appointment in Nanjing, didn't we?</p>
-          <p><a href="/logistics" class="btn btn-outline-light">Check logistics</a></p>
-        </div>
-        <div class="credit-label text-truncate">Photo credit: Zhimai Zhang</div>
         {% endif %}
       </div>
       <div class="carousel-item ani-loading bg-by-attr" data-image="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/green-hills-in-mist.jpg">
