@@ -10,7 +10,7 @@ place: "TBD"
 ---
 This sesssion will be focusing on the theme of "integrated river basin management". Sub-topics include (but are not limited to):
 
-- River basin sustainablity
+- River basin sustainability
 - Institutions
 - Eco-compensation
 - Modern water governance
