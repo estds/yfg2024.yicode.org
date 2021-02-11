@@ -20,7 +20,7 @@ ref: lunar-new-year-and-2nd-announcement
 <div class="card mb-3">
   <div class="media">
     <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/
-announcement-2-cover-en.jpg" alt="第二号通知" width="128">
+announcement-2-cover-zh.jpg" alt="第二号通知" width="128">
     <div class="media-body p-2">
       <h5 class="mt-0">第二号通知</h5>
       <p class="small text-muted">1.03 MB · PDF</p>
