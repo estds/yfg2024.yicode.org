@@ -17,4 +17,4 @@ Here is the [second announcement](/assets/doc/announcement-2-en.pdf) of forum, a
 
 Last but not least, please have a good holiday!
 
-{% include get_file.html file="/assets/doc/announcement-2-en.pdf" type="PDF" size="456 KB" cover="/assets/img/announcement-2-cover-en.jpg" %}
+{% include get_file.html name="2nd Announcement" file="/assets/doc/announcement-2-en.pdf" type="PDF" size="456 KB" cover="/assets/img/announcement-2-cover-en.jpg" %}
