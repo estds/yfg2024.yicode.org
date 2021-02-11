@@ -17,14 +17,4 @@ Here is the [second announcement](/assets/doc/announcement-2-en.pdf) of forum, a
 
 Last but not least, please have a good holiday!
 
-<div class="card mb-3">
-  <div class="media">
-    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/
-announcement-2-cover-en.jpg" alt="2nd Announcement" width="128">
-    <div class="media-body p-3">
-      <h5 class="mt-0">2nd Announcement</h5>
-      <p class="small text-muted">456 KB · PDF</p>
-      <p><a href="/assets/doc/announcement-2-en.pdf" class="btn btn-primary">Download</a></p>
-    </div>
-  </div>
-</div>
+{% include get_file.html file="/assets/doc/announcement-2-en.pdf" type="PDF" size="456 KB" cover="/assets/img/announcement-2-cover-en.jpg" %}
