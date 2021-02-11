@@ -4,7 +4,7 @@
     <div class="media-body p-3">
       <h5 class="mt-0">{{ include.name | default: 'Attachment' }}</h5>
       <p class="small text-muted">{{ include.size || default: '-- KB' }} · {{ include.type | default: 'unkown' }}</p>
-      <p><a href="{{ include.file | default: '/assets/img/attachment-icon.jpg' }}" download class="btn btn-primary"><i class="fas fa-download fa-fw mr-1"></i>{% if page.lang == "zh" %}下载{% else %}Download{% endif %}</a></p>
+      <p><a href="{{ include.file | default: '/assets/img/attachment-icon.jpg' }}" download="{{ include.name | default: 'Attachment' }}" class="btn btn-primary"><i class="fas fa-download fa-fw mr-1"></i>{% if page.lang == "zh" %}下载{% else %}Download{% endif %}</a></p>
     </div>
   </div>
 </div>
