@@ -1,10 +1,14 @@
-<div class="card overflow-hidden mb-3">
+<div class="card file-card shadow-sm overflow-hidden mb-3">
   <div class="media">
-    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020{{ include.cover | default: '/assets/img/attachment-icon.jpg' }}" alt="{{ include.name | default: 'Attachment' }}" width="128">
-    <div class="media-body p-3">
-      <h5 class="mt-0">{{ include.name | default: 'Attachment' }}</h5>
-      <p class="small text-muted">{{ include.size || default: '-- KB' }} · {{ include.type | default: 'unkown' }}</p>
-      <p><a href="{{ include.file | default: '/assets/img/attachment-icon.jpg' }}" download="{{ include.name | default: 'Attachment' }}" class="btn btn-primary"><i class="fas fa-download fa-fw mr-1"></i>{% if page.lang == "zh" %}下载{% else %}Download{% endif %}</a></p>
+    <a href="{{ include.file | default: '/assets/img/attachment-icon.jpg' }}" download="{{ include.name | default: 'Attachment' }}" class="file-cover"><img src="https://cdn.jsdelivr.net/gh/estds/estds2020{{ include.cover | default: '/assets/img/attachment-icon.jpg' }}" alt="{{ include.name | default: 'Attachment' }}" width="128"></a>
+    <div class="media-body align-self-stretch p-3">
+      <div class="d-flex h-100 flex-column flex-md-row">
+        <div class="file-info flex-fill">
+          <h5 class="mt-0">{{ include.name | default: 'Attachment' }}</h5>
+          <p class="small text-muted">{{ include.size || default: '-- KB' }} · {{ include.type | default: 'unkown' }}</p>
+        </div>
+        <div class="file-download align-self-md-center"><a href="{{ include.file | default: '/assets/img/attachment-icon.jpg' }}" download="{{ include.name | default: 'Attachment' }}" class="btn btn-primary"><i class="fas fa-download fa-fw mr-1"></i>{% if page.lang == "zh" %}下载{% else %}Download{% endif %}</a></div>
+      </div>
     </div>
   </div>
 </div>
