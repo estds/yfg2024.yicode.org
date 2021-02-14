@@ -17,4 +17,4 @@ ref: lunar-new-year-and-2nd-announcement
 
 最后，祝愿大家假期愉快！
 
-{% include get_file.html name="第二号通知" file="/assets/doc/announcement-2-zh.pdf" type="PDF" size="1.03 MB" cover="/assets/img/announcement-2-cover-zh.jpg" %}
+{% include get_file.html name="第二号通知" file="/assets/doc/estds-announcement-2-zh.pdf" type="PDF" size="1.03 MB" cover="/assets/img/announcement-2-cover-zh.jpg" %}
