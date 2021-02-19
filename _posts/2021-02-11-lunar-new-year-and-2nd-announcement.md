@@ -13,7 +13,7 @@ On this special date, eve of the Lunar New Year, we would like to wish everyone 
 
 As the Lunar New Year approaches, we are excited that the Forum is coming closer. Though it has been postponed to April, we look forward to seeing everyone in person or online.
 
-Here is the [second announcement](/assets/doc/announcement-2-en.pdf) of forum, and we'll open our registration on 1st March.
+Here is the [second announcement](/assets/doc/estds-announcement-2-en.pdf) of forum, and we'll open our registration on 1st March.
 
 Last but not least, please have a good holiday!
 
