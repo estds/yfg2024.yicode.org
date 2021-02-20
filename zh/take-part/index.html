@@ -10,7 +10,7 @@ ref: take-part-page
       <a class="nav-link text-truncate active" id="abstract-tab" data-toggle="tab" href="#abstract" role="tab" aria-controls="abstract" aria-selected="true"><i class="fas fa-file-alt fa-fw mr-1"></i>摘要</a>
     </li>
     <li class="nav-item text-truncate">
-      <a class="nav-link text-truncate disabled" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="false"><i class="fas fa-ticket-alt fa-fw mr-1"></i>注册</a>
+      <a class="nav-link text-truncate" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="false"><i class="fas fa-ticket-alt fa-fw mr-1"></i>注册</a>
     </li>
     <li class="nav-item text-truncate">
       <a class="nav-link text-truncate disabled" id="presenter-tab" data-toggle="tab" href="#presenter" role="tab" aria-controls="presenter" aria-selected="false"><i class="fas fa-microphone-alt mr-1"></i>报告</a>
@@ -41,7 +41,78 @@ ref: take-part-page
         <a href="abstract" class="btn btn-success w-50">继续</a>
       </p>
     </div>
-    <div class="tab-pane py-3 fade" id="register" role="tabpanel" aria-labelledby="register-tab">Regiter tab</div>
+    <div class="tab-pane py-3 fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+      <div class="card-group text-white mb-3">
+        <div class="card bg-dark">
+          <div class="card-body text-center">
+            <h5 class="card-title">在线</h5>
+            <p class="card-text mb-0"><span class="display-4 text-success">免费</span></p>
+            <p class="card-text text-muted small">仅限在线参加</p>
+          </div>
+          <div class="card-footer">
+            <ul class="list-unstyled card-text small text-left">
+              <li><i class="fas fa-check-circle text-success mr-1"></i>在线参会</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card bg-dark">
+          <div class="card-body text-center">
+            <h5 class="card-title">普通</h5>
+            <p class="price-early-bird text-warning card-text mb-0"><span class="display-4">350</span><sub>美元</sub></p>
+            <p class="price-early-bird text-warning small card-text mb-0"><span class="lead">2450</span><sub>人民币</sub></p>
+            <p class="price-normal card-text mb-0"><span class="display-4">500</span><sub>美元</sub></p>
+            <p class="price-normal small card-text mb-0"><span class="lead">3500</span><sub>人民币</sub></p>
+            <p class="card-text text-muted small">线下参会通用价格</p>
+          </div>
+          <div class="card-footer">
+            <ul class="list-unstyled card-text small text-left">
+              <li><i class="fas fa-check-circle text-success mr-1"></i>入场</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>印刷材料</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>每日午餐</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>每日茶歇</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>欢迎宴会</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>技术参观</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>其他线下福利</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card bg-dark">
+          <div class="card-body text-center">
+            <h5 class="card-title">学生</h5>
+            <p class="price-early-bird text-warning card-text mb-0"><span class="display-4">140</span><sub>美元</sub></p>
+            <p class="price-early-bird text-warning small card-text mb-0"><span class="lead">1000</span><sub>人民币</sub></p>
+            <p class="price-normal card-text mb-0"><span class="display-4">200</span><sub>美元</sub></p>
+            <p class="price-normal small card-text mb-0"><span class="lead">1500</span><sub>人民币</sub></p>
+            <p class="card-text text-muted small">学生参会的折扣价格</p>
+          </div>
+          <div class="card-footer">
+            <ul class="list-unstyled card-text small text-left">
+              <li><i class="fas fa-check-circle text-success mr-1"></i>入场</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>印刷材料</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>每日午餐</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>每日茶歇</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>欢迎宴会</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>技术参观</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>其他线下福利</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <ul class="text-info small">
+        <li>早鸟优惠（<span class="text-warning bg-dark px-1">黄颜色</span>）折扣在2021年3月22日0:00（GMT+8）之前有效。</li>
+        <li>线下活动可能会根据当地疾控要求进行调整。</li>
+      </ul>
+      <hr>
+      <div class="card mb-3">
+        <div class="card-header">
+          <h4 class="mb-0">注册条款</h4>
+        </div>
+        <div class="card-body">
+          {% include reg-terms.html %}
+        </div>
+      </div>
+      <button class="btn btn-primary btn-block" disabled>继续（系统预计3月1日开放）</button>
+    </div>
     <div class="tab-pane py-3 fade" id="presenter" role="tabpanel" aria-labelledby="presenter-tab">Presenter tab</div>
     <div class="tab-pane py-3 fade" id="exhibitor" role="tabpanel" aria-labelledby="exhibitor-tab">Exibition tab</div>
   </div>
