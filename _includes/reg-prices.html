@@ -1,7 +1,7 @@
 <div class="card-group text-white mb-3">
   <div class="card bg-dark">
     <div class="card-body text-center">
-      <h5 class="card-title">Online</h5>
+      <h5 class="card-title">{% if page.lang == "zh" %}在线{% else %}Online{% endif %}</h5>
       <p class="card-text mb-0"><span class="display-4 text-success">{% if page.lang == "zh" %}免费{% else %}Free{% endif %}</span></p>
       <p class="card-text text-muted small">{% if page.lang == "zh" %}仅限在线参加{% else %}Online participats only{% endif %}</p>
     </div>
@@ -13,7 +13,7 @@
   </div>
   <div class="card bg-dark">
     <div class="card-body text-center">
-      <h5 class="card-title">General</h5>
+      <h5 class="card-title">{% if page.lang == "zh" %}普通{% else %}General{% endif %}</h5>
       <p class="price-early-bird text-warning card-text mb-0"><span class="display-4">350</span><sub>{% if page.lang == "zh" %}美元{% else %}USD{% endif %}</sub></p>
       <p class="price-early-bird text-warning small card-text mb-0"><span class="lead">2450</span><sub>{% if page.lang == "zh" %}人民币{% else %}CNY{% endif %}</sub></p>
       <p class="price-normal card-text mb-0"><span class="display-4">500</span><sub>{% if page.lang == "zh" %}美元{% else %}USD{% endif %}</sub></p>
@@ -34,7 +34,7 @@
   </div>
   <div class="card bg-dark">
     <div class="card-body text-center">
-      <h5 class="card-title">Student</h5>
+      <h5 class="card-title">{% if page.lang == "zh" %}学生{% else %}Student{% endif %}</h5>
       <p class="price-early-bird text-warning card-text mb-0"><span class="display-4">140</span><sub>{% if page.lang == "zh" %}美元{% else %}USD{% endif %}</sub></p>
       <p class="price-early-bird text-warning small card-text mb-0"><span class="lead">1000</span><sub>{% if page.lang == "zh" %}人民币{% else %}CNY{% endif %}</sub></p>
       <p class="price-normal card-text mb-0"><span class="display-4">200</span><sub>{% if page.lang == "zh" %}美元{% else %}USD{% endif %}</sub></p>
