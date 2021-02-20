@@ -41,7 +41,78 @@ ref: take-part-page
         <a href="abstract" class="btn btn-success w-50">Continue</a>
       </p>
     </div>
-    <div class="tab-pane py-3 fade" id="register" role="tabpanel" aria-labelledby="register-tab">Regiter tab</div>
+    <div class="tab-pane py-3 fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+      <div class="card-group text-white mb-3">
+        <div class="card bg-dark">
+          <div class="card-body text-center">
+            <h5 class="card-title">Online</h5>
+            <p class="card-text mb-0"><span class="display-4 text-success">Free</span></p>
+            <p class="card-text text-muted small">Online participats only</p>
+          </div>
+          <div class="card-footer">
+            <ul class="list-unstyled card-text small text-left">
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Virtual Admittance</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card bg-dark">
+          <div class="card-body text-center">
+            <h5 class="card-title">General</h5>
+            <p class="price-early-bird text-warning card-text mb-0"><span class="display-4">350</span><sub>USD</sub></p>
+            <p class="price-early-bird text-warning small card-text mb-0"><span class="lead">2450</span><sub>CNY</sub></p>
+            <p class="price-normal card-text mb-0"><span class="display-4">500</span><sub>USD</sub></p>
+            <p class="price-normal small card-text mb-0"><span class="lead">3500</span><sub>CNY</sub></p>
+            <p class="card-text text-muted small">General plan for offline participants</p>
+          </div>
+          <div class="card-footer">
+            <ul class="list-unstyled card-text small text-left">
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Admittance</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Printouts</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Daily lunch</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Daily tea breaks</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Welcome reception</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Technical tour</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Other offline benefits</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card bg-dark">
+          <div class="card-body text-center">
+            <h5 class="card-title">Student</h5>
+            <p class="price-early-bird text-warning card-text mb-0"><span class="display-4">140</span><sub>USD</sub></p>
+            <p class="price-early-bird text-warning small card-text mb-0"><span class="lead">1000</span><sub>CNY</sub></p>
+            <p class="price-normal card-text mb-0"><span class="display-4">200</span><sub>USD</sub></p>
+            <p class="price-normal small card-text mb-0"><span class="lead">1500</span><sub>CNY</sub></p>
+            <p class="card-text text-muted small">Discounted plan for students</p>
+          </div>
+          <div class="card-footer">
+            <ul class="list-unstyled card-text small text-left">
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Admittance</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Printouts</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Daily lunch</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Daily tea breaks</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Welcome reception</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Technical tour</li>
+              <li><i class="fas fa-check-circle text-success mr-1"></i>Other offline benefits</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <ul class="text-info small">
+        <li>Early bird discounts (in <span class="text-warning bg-dark px-1">yellow color</span>) end at 0:00 22 March, 2021 (GMT+8).</li>
+        <li>Offline events are subject to changes under local disease control rules.</li>
+      </ul>
+      <hr>
+      <div class="card mb-3">
+        <div class="card-header">
+          <h4 class="mb-0">Terms of Registration</h4>
+        </div>
+        <div class="card-body">
+          {% include reg-terms.html %}
+        </div>
+      </div>
+      <button class="btn btn-primary btn-block" disabled>Continue (System to open on 1 March)</button>
+    </div>
     <div class="tab-pane py-3 fade" id="presenter" role="tabpanel" aria-labelledby="presenter-tab">Presenter tab</div>
     <div class="tab-pane py-3 fade" id="exhibitor" role="tabpanel" aria-labelledby="exhibitor-tab">Exibition tab</div>
   </div>
