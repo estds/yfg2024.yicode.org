@@ -1,5 +1,5 @@
-<div class="card-group text-white mb-3">
-  <div class="card bg-dark">
+<div class="card-deck mx-n1 mb-3">
+  <div class="card bg-light mx-1">
     <div class="card-body text-center">
       <h5 class="card-title">{% if page.lang == "zh" %}在线{% else %}Online{% endif %}</h5>
       <p class="card-text mb-0"><span class="display-4 text-success">{% if page.lang == "zh" %}免费{% else %}Free{% endif %}</span></p>
@@ -11,11 +11,11 @@
       </ul>
     </div>
   </div>
-  <div class="card bg-dark">
+  <div class="card bg-light mx-1">
     <div class="card-body text-center">
       <h5 class="card-title">{% if page.lang == "zh" %}普通{% else %}General{% endif %}</h5>
-      <p class="price-early-bird text-warning card-text mb-0"><span class="display-4">350</span><sub>{% if page.lang == "zh" %}美元{% else %}USD{% endif %}</sub></p>
-      <p class="price-early-bird text-warning small card-text mb-0"><span class="lead">2450</span><sub>{% if page.lang == "zh" %}人民币{% else %}CNY{% endif %}</sub></p>
+      <p class="price-early-bird text-primary card-text mb-0"><span class="display-4">350</span><sub>{% if page.lang == "zh" %}美元{% else %}USD{% endif %}</sub></p>
+      <p class="price-early-bird text-primary small card-text mb-0"><span class="lead">2450</span><sub>{% if page.lang == "zh" %}人民币{% else %}CNY{% endif %}</sub></p>
       <p class="price-normal card-text mb-0"><span class="display-4">500</span><sub>{% if page.lang == "zh" %}美元{% else %}USD{% endif %}</sub></p>
       <p class="price-normal small card-text mb-0"><span class="lead">3500</span><sub>{% if page.lang == "zh" %}人民币{% else %}CNY{% endif %}</sub></p>
       <p class="card-text text-muted small">{% if page.lang == "zh" %}线下参会通用价格{% else %}General plan for offline participants{% endif %}</p>
@@ -32,11 +32,11 @@
       </ul>
     </div>
   </div>
-  <div class="card bg-dark">
+  <div class="card bg-light mx-1">
     <div class="card-body text-center">
       <h5 class="card-title">{% if page.lang == "zh" %}学生{% else %}Student{% endif %}</h5>
-      <p class="price-early-bird text-warning card-text mb-0"><span class="display-4">140</span><sub>{% if page.lang == "zh" %}美元{% else %}USD{% endif %}</sub></p>
-      <p class="price-early-bird text-warning small card-text mb-0"><span class="lead">1000</span><sub>{% if page.lang == "zh" %}人民币{% else %}CNY{% endif %}</sub></p>
+      <p class="price-early-bird text-primary card-text mb-0"><span class="display-4">140</span><sub>{% if page.lang == "zh" %}美元{% else %}USD{% endif %}</sub></p>
+      <p class="price-early-bird text-primary small card-text mb-0"><span class="lead">1000</span><sub>{% if page.lang == "zh" %}人民币{% else %}CNY{% endif %}</sub></p>
       <p class="price-normal card-text mb-0"><span class="display-4">200</span><sub>{% if page.lang == "zh" %}美元{% else %}USD{% endif %}</sub></p>
       <p class="price-normal small card-text mb-0"><span class="lead">1500</span><sub>{% if page.lang == "zh" %}人民币{% else %}CNY{% endif %}</sub></p>
       <p class="card-text text-muted small">{% if page.lang == "zh" %}学生参会的折扣价格{% else %}Discounted plan for students{% endif %}</p>
@@ -55,7 +55,7 @@
   </div>
 </div>
 <ul class="text-info small">
-  <li>{% if page.lang == "zh" %}早鸟优惠（<span class="text-warning bg-dark px-1">黄颜色</span>）折扣在2021年3月22日0:00（GMT+8）之前有效。{% else %}Early bird discounts (in <span class="text-warning bg-dark px-1">yellow color</span>) end at 0:00 22 March, 2021 (GMT+8).{% endif %}</li>
+  <li>{% if page.lang == "zh" %}早鸟优惠（<span class="text-primary bg-light px-1">黄颜色</span>）折扣在2021年3月22日0:00（GMT+8）之前有效。{% else %}Early bird discounts (in <span class="text-warning bg-dark px-1">yellow color</span>) end at 0:00 22 March, 2021 (GMT+8).{% endif %}</li>
   <li>{% if page.lang == "zh" %}线下活动可能会根据当地疾控要求进行调整。{% else %}Offline events are subject to changes under local disease control rules.{% endif %}</li>
 </ul>
 <style>
