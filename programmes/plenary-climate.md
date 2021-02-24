@@ -5,7 +5,7 @@ ref: plenary-climate
 lang: en
 parent: programmes-page
 start: 2021-04-22 14:00
-end: 2021-04-22 17:40
+end: 2021-04-22 17:00
 place: "TBD"
 ---
 
