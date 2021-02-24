@@ -1,7 +1,7 @@
 ---
 layout: event
-title: 气候、风险与工程 - 全体会议
-ref: plenary-climate-risks-engineering
+title: 气候变化与风险 - 全体会议
+ref: plenary-climate-risks
 lang: zh
 parent: programmes-page
 start: 2021-04-22 14:00
@@ -9,7 +9,7 @@ end: 2021-04-22 17:00
 place: "待定"
 ---
 
-这一部分的会议将讨论“气候、风险与工程”主题，包括（但不仅限于）以下话题：
+这一部分的会议将讨论“气候变化与风险”主题，包括（但不仅限于）以下话题：
 
 - 气候变化及其趋势预测
 - 气候极端事件
