@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 水生态与水工程 - 全体会议
-ref: plenary-water-ecology
+ref: plenary-ecology-and-engineering
 lang: zh
 parent: programmes-page
 start: 2021-04-23 09:00
