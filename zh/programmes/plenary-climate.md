@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 气候变化与风险 - 全体会议
-ref: plenary-climate-risks
+ref: plenary-climate
 lang: zh
 parent: programmes-page
 start: 2021-04-22 14:00
