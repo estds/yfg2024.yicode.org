@@ -9,7 +9,7 @@ end: 2021-04-22 17:40
 place: "TBD"
 ---
 
-This session will be focusing on the theme of “Climate Change and Risksg”. Sub-topics include (but are not limited to):
+This session will be focusing on the theme of “Climate Change and Risks”. Sub-topics include (but are not limited to):
 
 - Climate change and projections
 - Extreme climatic events
