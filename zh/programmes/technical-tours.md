@@ -2,7 +2,7 @@
 layout: event
 title: 技术参观
 ref: technical-tours
-lang: en
+lang: zh
 parent: programmes-page
 start: 2021-04-24 14:00
 end: 2021-04-24 17:00
