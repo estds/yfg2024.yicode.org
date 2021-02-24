@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Technical Tour
+title: Technical Tours
 ref: technical-tours
 lang: en
 parent: programmes-page
