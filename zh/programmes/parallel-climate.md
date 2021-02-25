@@ -31,6 +31,19 @@ place: "待定"
   </li>
 </ul>
 
+以下秘书处成员将专门协助召集人：
+
+<ul class="people-list p-0">
+  <li class="media my-2">
+    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-guangqiu-jin.jpg" class="people-avatar rounded-circle mr-3" alt="Shanshui Yuan">
+    <div class="media-body">
+      <h5 class="mt-0"><strong>袁山水</strong> 博士</h5>
+      <p class="text-secondary">河海大学</p>
+      <p class="text-info"><i class="fas fa-envelope fa-fw mr-1"></i>ssyuan@yicode.ac</p>
+    </div>
+  </li>
+</ul>
+
 我们将很快更新更多细节，请保持关注。
 
 
