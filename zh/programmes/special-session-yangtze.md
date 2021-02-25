@@ -23,7 +23,7 @@ place: "待定"
     </div>
   </li>
   <li class="media my-2">
-    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-blank.jpg" class="people-avatar rounded-circle mr-3" alt="Yuliang Zhu">
+    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-yuliang-zhu.jpg" class="people-avatar rounded-circle mr-3" alt="Yuliang Zhu">
     <div class="media-body">
       <h5 class="mt-0"><b>诸裕良</b> 教授</h5>
       <p class="text-secondary">河海大学</p>
