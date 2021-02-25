@@ -16,10 +16,10 @@ This parallel session is organised by:
 
 <ul class="people-list p-0">
   <li class="media my-2">
-    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-chunmiao-zheng.jpg" class="people-avatar rounded-circle mr-3" alt="TBD">
+    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-chunmiao-zheng.jpg" class="people-avatar rounded-circle mr-3" alt="Chunmiao Zheng">
     <div class="media-body">
-      <h5 class="mt-0"><strong></strong>, Prof.</h5>
-      <p class="text-secondary">Hohai University</p>
+      <h5 class="mt-0"><strong>Chunmiao Zheng</strong>, Prof.</h5>
+      <p class="text-secondary">Southern University of Science and Technology</p>
     </div>
   </li>
   <li class="media my-2">
