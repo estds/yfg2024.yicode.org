@@ -15,8 +15,8 @@ This is a parallel session focusing on the theme of "Water Resources Protection 
 This parallel session is organised by:
 
 <ul class="people-list p-0">
-  <li class="media my-2 d-none">
-    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-blank.jpg" class="people-avatar rounded-circle mr-3" alt="TBD">
+  <li class="media my-2">
+    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-chunmiao-zheng.jpg" class="people-avatar rounded-circle mr-3" alt="TBD">
     <div class="media-body">
       <h5 class="mt-0"><strong></strong>, Prof.</h5>
       <p class="text-secondary">Hohai University</p>
@@ -34,7 +34,7 @@ This parallel session is organised by:
 The two organisers wil be assisted by this member of the Secretariat specifically:
 <ul class="people-list p-0">
   <li class="media my-2">
-    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-jiangjiang-Zhang.jpg" class="people-avatar rounded-circle mr-3" alt="Jiangjiang Zhang">
+    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-jiangjiang-zhang.jpg" class="people-avatar rounded-circle mr-3" alt="Jiangjiang Zhang">
     <div class="media-body">
       <h5 class="mt-0"><strong>Jiangjiang Zhang</strong>, Dr.</h5>
       <p class="text-secondary mb-0">Hohai University</p>
