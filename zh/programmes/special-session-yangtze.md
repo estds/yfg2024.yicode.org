@@ -38,8 +38,8 @@ place: "待定"
     <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-jie-chen.jpg" class="people-avatar rounded-circle mr-3" alt="Jie Chen">
     <div class="media-body">
       <h5 class="mt-0"><strong>陈婕</strong> 女士</h5>
-      <p class="text-secondary">河海大学</p>
-      <p class="text-secondary"><i class="fas fa-envelope fa-fw mr-1"></i>jchen@yicode.ac</p>
+      <p class="text-secondary mb-0">河海大学</p>
+      <p class="text-info"><i class="fas fa-envelope fa-fw mr-1"></i>jchen@yicode.ac</p>
     </div>
   </li>
 </ul>
