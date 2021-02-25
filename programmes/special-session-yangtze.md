@@ -23,7 +23,7 @@ This special session is organised by:
     </div>
   </li>
   <li class="media my-2">
-    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-yuliang-zhu.jpg" class="people-avatar rounded-circle mr-3" alt="Yuliang Zhu">
+    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-yu-liang-zhu.jpg" class="people-avatar rounded-circle mr-3" alt="Yuliang Zhu">
     <div class="media-body">
       <h5 class="mt-0"><b>Yuliang Zhu</b>, Prof.</h5>
       <p class="text-secondary">Hohai University</p>
