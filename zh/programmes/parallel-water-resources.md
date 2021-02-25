@@ -38,7 +38,7 @@ place: "待定"
     <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-jiangjiang-zhang.jpg" class="people-avatar rounded-circle mr-3" alt="Jiangjiang Zhang">
     <div class="media-body">
       <h5 class="mt-0"><strong>张江江</strong> 博士</h5>
-      <p class="text-secondary">河海大学</p>
+      <p class="text-secondary mb-0">河海大学</p>
       <p class="text-info"><i class="fas fa-envelope fa-fw mr-1"></i>zhangjiangjiang.dz@163.com</p>
     </div>
   </li>
