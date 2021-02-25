@@ -38,7 +38,7 @@ The two organisers wil be assisted by this member of the Secretariat specificall
     <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-jie-chen.jpg" class="people-avatar rounded-circle mr-3" alt="Jie Chen">
     <div class="media-body">
       <h5 class="mt-0"><strong>Jie Chen</strong>, Miss</h5>
-      <p class="text-secondary">Hohai University</p>
+      <p class="text-secondary mb-0">Hohai University</p>
       <p class="text-secondary"><i class="fas fa-envelope fa-fw mr-1"></i>jchen@yicode.ac</p>
     </div>
   </li>
