@@ -34,7 +34,7 @@ This parallel session is organised by:
 The two organisers wil be assisted by this member of the Secretariat:
 <ul class="people-list p-0">
   <li class="media my-2">
-    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-jie-chen.jpg" class="people-avatar rounded-circle mr-3" alt="Guangqiu Jin">
+    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-guangqiu-jin.jpg" class="people-avatar rounded-circle mr-3" alt="Guangqiu Jin">
     <div class="media-body">
       <h5 class="mt-0"><strong>Guangqiu Jin</strong>, Dr.</h5>
       <p class="text-secondary">Hohai University</p>
