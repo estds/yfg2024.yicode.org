@@ -37,8 +37,8 @@ The two organisers wil be assisted by this member of the Secretariat:
     <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-guangqiu-jin.jpg" class="people-avatar rounded-circle mr-3" alt="Guangqiu Jin">
     <div class="media-body">
       <h5 class="mt-0"><strong>Guangqiu Jin</strong>, Dr.</h5>
-      <p class="text-secondary">Hohai University</p>
-      <p class="text-secondary"><i class="fas fa-envelope fa-fw mr-1"></i>jingq@hhu.edu.cn</p>
+      <p class="text-secondary mb-0">Hohai University</p>
+      <p class="text-info"><i class="fas fa-envelope fa-fw mr-1"></i>jingq@hhu.edu.cn</p>
     </div>
   </li>
 </ul>
