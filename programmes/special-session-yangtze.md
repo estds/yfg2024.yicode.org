@@ -31,7 +31,7 @@ This special session is organised by:
   </li>
 </ul>
 
-The two organisers wil be assisted by:
+The two organisers wil be assisted by this member of the Secretariat:
 
 <ul class="people-list p-0">
   <li class="media my-2">
@@ -39,6 +39,7 @@ The two organisers wil be assisted by:
     <div class="media-body">
       <h5 class="mt-0"><strong>Jie Chen</strong>, Miss</h5>
       <p class="text-secondary">Hohai University</p>
+      <p class="text-secondary"><i class="fas fa-envelope fa-fw mr-1"></i>jchen@yicode.ac</p>
     </div>
   </li>
 </ul>
