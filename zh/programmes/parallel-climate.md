@@ -35,7 +35,7 @@ place: "待定"
 
 <ul class="people-list p-0">
   <li class="media my-2">
-    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-guangqiu-jin.jpg" class="people-avatar rounded-circle mr-3" alt="Shanshui Yuan">
+    <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/avatars/avatar-shanshui-yuan.jpg" class="people-avatar rounded-circle mr-3" alt="Shanshui Yuan">
     <div class="media-body">
       <h5 class="mt-0"><strong>袁山水</strong> 博士</h5>
       <p class="text-secondary">河海大学</p>
