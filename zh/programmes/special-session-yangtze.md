@@ -31,7 +31,7 @@ place: "待定"
   </li>
 </ul>
 
-以下秘书处成员讲协助召集人：
+以下秘书处成员将专门协助召集人：
 
 <ul class="people-list p-0">
   <li class="media my-2">
