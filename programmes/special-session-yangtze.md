@@ -31,7 +31,7 @@ This special session is organised by:
   </li>
 </ul>
 
-The two organisers wil be assisted by this member of the Secretariat:
+The two organisers wil be assisted by this member of the Secretariat specifically:
 
 <ul class="people-list p-0">
   <li class="media my-2">
