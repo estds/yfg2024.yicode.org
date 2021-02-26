@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Water resources protection and development - Plenary Session
+title: Water resources protection & development - Plenary Session
 ref: plenary-water-resources
 lang: en
 parent: programmes-page
