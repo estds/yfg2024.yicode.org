@@ -45,3 +45,5 @@ lang: en
     document.getElementById("remarkbox-iframe")
   );
 </script>
+
+{% include vuukle-comments.html %}
