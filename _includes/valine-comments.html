@@ -1,4 +1,4 @@
-<script src='https://cdn.jsdelivr.net/gh/estds/cdn-res/valine/1.4.14/Valine.tkd.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/estds/cdn-res/valine/1.4.14/Valine.tkd.min.js'></script>
 <div>
   {% if page.lang == "zh" %}
   <h3>请在此处提问</h3>
@@ -15,7 +15,6 @@
         meta: ['nick','mail'],
         lang: '{% if page.lang == "zh" %}zh-CN{% else %}en{% endif %}',
         requiredFields: ['nick','mail'],
-        avatar: 'hide',
     })
 </script>
 <style>
