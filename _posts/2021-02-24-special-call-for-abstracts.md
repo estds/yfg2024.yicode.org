@@ -6,7 +6,6 @@ date: 2021-2-24
 abstract: "Submit your abstract for presentation at parallel sessions "
 ref: special-call-24feb
 ---
-
 As more speakers are confirmed, we have [expanded](/blog/2021/02/24/more-programme-updates) our [programmes](/programmes) to accommodate more speakers. This allows us to invite a small number of more speakers to our parallel sessions for more in-depth discussions, and bring in more perspectives.
 
 Our parallel sessions include:
