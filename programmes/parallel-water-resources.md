@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Water Resources Protection and Development - Parallel Session
+title: Water Resources Protection & Development - Parallel Session
 ref: parallel-water-resources
 lang: en
 parent: programmes-page
