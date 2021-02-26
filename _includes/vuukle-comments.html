@@ -1,7 +1,13 @@
+<div>
+  {% if page.lang == "zh" %}
+  <h3>请在此处提问</h3>
+  <p>您在发送问题之前需要输入姓名和email并点击“Sign in”按钮。</p>
+  {% else %}
+  <h3>Leave your questions here</h3>
+  <p>You need to input your name and email and click "Sign in" to start posting.</p>
+  {% endif %}
+</div>
 <div id='vuukle-comments'></div>
-<div id='vuukle-emote'></div>
-<div id='vuukle-newsfeed'></div>
-<div class='vuukle-powerbar'></div>
 <script>
   var VUUKLE_CONFIG = {
     apiKey: '7e0c797a-1d19-4c59-b5c6-e8c4b928b233',
