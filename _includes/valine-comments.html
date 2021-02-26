@@ -1,10 +1,20 @@
 <script src='https://cdn.jsdelivr.net/gh/estds/cdn-res/valine/1.4.14/Valine.min.js'></script>
+<div>
+  {% if page.lang == "zh" %}
+  <h3>请在此处提问</h3>
+  <p>您在发送问题之前需要输入姓名和email并点击<span class="badge badge-primary">Sign in</span>按钮。</p>
+  {% else %}
+  <h3>Leave your questions here</h3>
+  <p>You need to input your name and email and click <span class="badge badge-primary">Sign in</span> button to start posting.</p>
+  {% endif %}
+</div>
 <div id="vcomments"></div>
 <script>
     new Valine({
         el: '#vcomments',
         appId: 'OYaxetsY2esBAjgvG9VNPBvm-MdYXbMMI',
         appKey: 't8K3tBQIegYs2SyhkfUFrvpU',
+        meta: ['nick','mail'],
         lang: '{% if page.lang == "zh" %}zh-CN{% else %}en{% endif %}'
     })
 </script>
