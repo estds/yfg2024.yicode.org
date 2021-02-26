@@ -1,0 +1,16 @@
+<div id='vuukle-comments'></div>
+<div id='vuukle-emote'></div>
+<div id='vuukle-newsfeed'></div>
+<div class='vuukle-powerbar'></div>
+<script>
+  var VUUKLE_CONFIG = {
+    apiKey: '7e0c797a-1d19-4c59-b5c6-e8c4b928b233',
+    articleId: '{{ page.ref }}',
+  };
+  (function() {
+    var d = document,
+      s = d.createElement('script');
+    s.src = 'https://cdn.vuukle.com/platform.js';
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
