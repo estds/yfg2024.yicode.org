@@ -6,3 +6,4 @@ lang: en
 ---
 
 {% include vuukle-comments.html %}
+{% include valine-comments.html %}
