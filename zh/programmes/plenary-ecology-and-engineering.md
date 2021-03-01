@@ -16,4 +16,9 @@ place: "待定"
 - 河流湖泊健康评价
 - 水工程安全与韧性
 
+
+## 特邀发言人
+
+{% include speaker-plenary-ecoeng.html %}
+
 我们将不断更新此页面，请保持关注。
