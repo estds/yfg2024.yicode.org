@@ -20,4 +20,9 @@ place: "待定"
 - 洪水资源化利用
 - 调度决策与风险管理
 
+
+## 特邀发言人
+
+{% include speaker-plenary-climate.html %}
+
 我们将不断更新此页面，请保持关注。
