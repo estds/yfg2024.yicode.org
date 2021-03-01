@@ -17,4 +17,8 @@ This session will be focusing on the theme of “Water resources protection and 
 - unconventional water sources and risk control
 - groundwater protection and development
 
+## Comfirmed Speakers
+
+{% include speaker-plenary-water.html %}
+
 We will be updating this page with more details. Please stay tuned.
