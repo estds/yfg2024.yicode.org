@@ -4,7 +4,7 @@
       <div class="card-body p-1 d-flex align-items-center text-truncate">
         <div class="text-white-50 p-2 border-right"><i class="fas fa-clock fa-2x fa-fw"></i></div>
         <div class="py-1 ml-3 text-truncate">
-          <h5 class="text-white-50 small text-truncate">{% if page.lang == "zh" %}时间{% else %}Time{% endif %}<button type="button" class="btn btn-link text-reset btn-sm ml-1 px-0" data-toggle="modal" data-target="#converted-local-time"><i class="fas fa-globe"></i></button></h5>
+          <h5 class="text-white-50 small text-truncate">{% if page.lang == "zh" %}时间{% else %}Time{% endif %}<button type="button" class="btn btn-link text-reset btn-sm ml-1 p-0" data-toggle="modal" data-target="#converted-local-time"><i class="fas fa-globe"></i></button></h5>
           <p class="mb-0 text-truncate"><b>{% if page.start %}{% include get_time.html time=page.start %} - {{ page.end | date: "%H:%M" }}{% else %}TBD{% endif %}</b></p>
         </div>
       </div>
@@ -38,7 +38,7 @@
       </div>
       <div class="modal-body">
         <p>{% if page.lang == "zh" %}这里显示的是{{ site.cfrc_place_zh }}的当地时间。{% else %}The time displayed is the local time in {{ site.cfrc_place }}.{% endif %}</p>
-        <p>{% if page.lang == "zh" %}这将是您所在时区的<time data-localtime-format="yyyy年MM月dd日HH:mm" datetime="{{ page.start | to_utc | date: "%Y%m%dT%H:%MZ"}}" class="text-primary font-weight-bold"></time>至<time data-localtime-format="yyyy年MM月dd日HH:mm" datetime="{{ page.end | to_utc | date: "%Y%m%dT%H:%MZ"}}" class="text-primary font-weight-bold"></time>。{% else %}It will be <time data-localtime-format="HH:mm dd MMM yyyy" datetime="{{ page.start | to_utc | date: "%Y%m%dT%H:%MZ"}}" class="text-primary font-weight-bold"></time> to <time data-localtime-format="HH:mm dd MMM yyyy" datetime="{{ page.end | to_utc | date: "%Y%m%dT%H:%MZ"}}" class="text-primary font-weight-bold"></time> in your current time zone.{% endif %}</p>
+        <p>{% if page.lang == "zh" %}这将是您所在时区的<time data-localtime-format="yyyy年MM月dd日HH:mm" datetime="{{ page.start | to_utc | date: "%Y-%m-%dT%H:%MZ"}}" class="text-primary font-weight-bold"></time>至<time data-localtime-format="yyyy年MM月dd日HH:mm" datetime="{{ page.end | to_utc | date: "%Y-%m-%dT%H:%MZ"}}" class="text-primary font-weight-bold"></time>。{% else %}It will be <time data-localtime-format="HH:mm dd MMM yyyy" datetime="{{ page.start | to_utc | date: "%Y-%m-%dT%H:%MZ"}}" class="text-primary font-weight-bold"></time> to <time data-localtime-format="HH:mm dd MMM yyyy" datetime="{{ page.end | to_utc | date: "%Y-%m-%dT%H:%MZ"}}" class="text-primary font-weight-bold"></time> in your current time zone.{% endif %}</p>
         <p class="mb-0 small">{% if page.lang == "zh" %}请注意这是根据您浏览器设置的时区进行的转换。{% else %}Please be noted that the conversion is based on the time zone settings of your browser.{% endif %}</p>
       </div>
     </div>
