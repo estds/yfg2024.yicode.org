@@ -9,7 +9,7 @@
           {% else %}
           <h5 class="text-white-50 small text-truncate">Time</h5>
           {% endif %}
-          <p class="mb-0 text-truncate"><b>{% if page.start %}{% include get_time.html time=page.start %}{% else %}TBD{% endif %}</b></p>
+          <p class="mb-0 text-truncate"><b>{% if page.start %}{% include get_time.html time=page.start %} - {{ page.end | date: "%H:%M" }}{% else %}TBD{% endif %}</b></p>
         </div>
       </div>
     </div>
