@@ -42,7 +42,7 @@
     <script src="https://cdn.jsdelivr.net/gh/estds/cdn-res/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     
     <!-- Custom styles -->
-    <link href="/assets/css/estds.css?ver={{ site.time | %s }}" rel="stylesheet">
+    <link href="/assets/css/estds.css?ver={{ site.time | date: "%s" }}" rel="stylesheet">
   
   </head>
 
@@ -80,7 +80,7 @@
     <script src="https://cdn.jsdelivr.net/gh/estds/cdn-res/qrcode/qrcode.min.js"></script>
     
     <!-- Customised JavaScript -->
-    <script src="/assets/js/estds.js?ver={{ site.time | %s }}"></script>
+    <script src="/assets/js/estds.js?ver={{ site.time | date: "%s" }}"></script>
     
     <!-- Register service worker -->
     <script>
