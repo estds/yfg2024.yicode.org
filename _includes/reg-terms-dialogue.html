@@ -1,0 +1,12 @@
+<div class="reg-terms-dialogue my-2">
+  <p class="text-center">
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#agreement-choice" aria-expanded="false" aria-controls="collapseExample">{% if page.lang == "zh" %}继续{% else %}Proceed{% endif %}<i class="fas fa-chevron-circle-right ml-2"></i></button>
+  </p>
+  <div class="collapse pt-3" id="agreement-choice">
+    <div class="text-center">
+      <h5>{% if page.lang == "zh" %}您是否同意以上条款？{% else %}Do you agree to the above terms?{% endif %}</h5>
+      <p>{% if page.lang == "zh" %}如您选择继续，将进入单独的页面完成注册。{% else %}You will be redirected to a separate page to register if you decide to proceed.{% endif %}</p>
+      <div class="btn-group" role="group" aria-label="choices"><a class="btn btn-success" href="https://jrc.nhri.cn/app/wss/view.php?id=12301" role="button">{% if page.lang == "zh" %}是，请继续{% else %}Yes, please proceed{% endif %}</a><a class="btn btn-dark" href="#agreement-choice" data-toggle="collapse" role="button">{% if page.lang == "zh" %}不，我再想想{% else %}No, I have another thought{% endif %}</a></div>
+    </div>
+  </div>
+</div>
