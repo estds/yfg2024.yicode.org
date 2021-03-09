@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Registration Open"
-lang: zh
+lang: en
 date: 2021-3-09
 abstract: "Please don't miss our early bird discounts"
 fimage: "/assets/img/nanjing-2787946_gwen24.jpg"
