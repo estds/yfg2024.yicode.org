@@ -30,5 +30,5 @@ parent: logistics-page
 <script src="https://cdn.jsdelivr.net/gh/estds/cdn-res/iframe-resizer/iframeResizer.min.js"></script>
 <script>
   $("#reminder").modal('show');
-  iFrameResize({ log: true }, '#submission-form');
+  iFrameResize({ log: true }, '#booking-form');
 </script>
