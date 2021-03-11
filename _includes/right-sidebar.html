@@ -1,13 +1,51 @@
 <div class="right-sidebar">
 
-  <div role="group" aria-label="Shortcuts" class="btn-group w-100 mb-4">
-    <a href="{% if page.lang == "zh" %}/zh/programmes{% else %}/programmes{% endif %}" class="btn btn-outline-info w-50 py-3 text-truncate">
-      <i class="fas fa-calendar-alt fa-fw fa-2x"></i><br><small>{% if page.lang == "zh" %}日程{% else %}Programmes{% endif %}</small>
-    </a>
-    <a href="{% if page.lang == "zh" %}/zh/take-part/{% else %}/take-part{% endif %}" class="btn btn-outline-primary w-50 py-3 text-truncate">
-      <i class="fas fa-user-plus fa-fw fa-2x"></i><br><small>{% if page.lang == "zh" %}参会{% else %}Take part{% endif %}</small>
-    </a>
+  <div class="row border mx-0 rounded overflow-hidden">
+  {% if page.lang == "zh" %}
+    <div class="col-6 px-0 border-right border-bottom">
+      <a href="/zh/programmes" class="btn rounded-0 border-0 btn-block btn-outline-info py-3 text-truncate">
+        <i class="fas fa-calendar-alt fa-fw fa-2x"></i><br><small>日程</small>
+      </a>
+    </div>
+    <div class="col-6 px-0 border-bottom">
+      <a href="/zh/take-part" class="btn rounded-0 border-0 btn-block btn-outline-primary py-3 text-truncate">
+        <i class="fas fa-user-plus fa-fw fa-2x"></i><br><small>参会</small>
+      </a>
+    </div>
+    <div class="col-6 px-0 border-right">
+      <a href="/zh/invited" class="btn rounded-0 border-0 btn-block btn-outline-success py-3 text-truncate">
+        <i class="fas fa-user-circle fa-fw fa-2x"></i><br><small>特邀</small>
+      </a>
+    </div>
+    <div class="col-6 px-0">
+      <a href="/zh/logistics" class="btn rounded-0 border-0 btn-block btn-outline-danger py-3 text-truncate">
+        <i class="fas fa-map-signs fa-fw fa-2x"></i><br><small>会务</small>
+      </a>
+    </div>
+  {% else %}
+    <div class="col-6 px-0 border-right border-bottom">
+      <a href="/programmes" class="btn rounded-0 border-0 btn-block btn-outline-info py-3 text-truncate">
+        <i class="fas fa-calendar-alt fa-fw fa-2x"></i><br><small>Programmes</small>
+      </a>
+    </div>
+    <div class="col-6 px-0 border-bottom">
+      <a href="/take-part" class="btn rounded-0 border-0 btn-block btn-outline-primary py-3 text-truncate">
+        <i class="fas fa-user-plus fa-fw fa-2x"></i><br><small>Take part</small>
+      </a>
+    </div>
+    <div class="col-6 px-0 border-right">
+      <a href="/invited" class="btn rounded-0 border-0 btn-block btn-outline-success py-3 text-truncate">
+        <i class="fas fa-user-circle fa-fw fa-2x"></i><br><small>Invited</small>
+      </a>
+    </div>
+    <div class="col-6 px-0">
+      <a href="/logistics" class="btn rounded-0 border-0 btn-block btn-outline-danger py-3 text-truncate">
+        <i class="fas fa-map-signs fa-fw fa-2x"></i><br><small>Logistics</small>
+      </a>
+    </div>
+  {% endif %}
   </div>
+
   
   {% include share-buttons.html button_group_class="w-100" %}
   {% include sponsors.html logo_size="col-6 col-md-12 col-lg-6" title_style="text-secondary text-uppercase lead" %}
