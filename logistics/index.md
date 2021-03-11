@@ -22,7 +22,7 @@ ref: logistics-page
   <div class="tab-content" id="logistics">
     <div class="tab-pane fade show active" id="venue" role="tabpanel" aria-labelledby="venue-tab">{% include logistics-venue.html %}</div>
     <div class="tab-pane fade" id="accommodation" role="tabpanel" aria-labelledby="accommodation-tab">{% include logistics-accommodation.html %}</div>
-    <div class="tab-pane fade" id="languages" role="tabpanel" aria-labelledby="languages-tab">{% include logistics-langauges.html %}</div>
+    <div class="tab-pane fade" id="languages" role="tabpanel" aria-labelledby="languages-tab">{% include logistics-languages.html %}</div>
     <div class="tab-pane fade" id="streaming" role="tabpanel" aria-labelledby="streaming-tab">{% include logistics-streaming.html %}</div>
   </div>
 </div>
