@@ -13,6 +13,14 @@ $(document).ready(function(){
 		}
 
 	});
+
+	// toggle tab by URL hash if it exists
+	var hash = window.location.hash;
+	var element = '.nav ' + hash + '-tab';
+	if ($(element).length) {
+		$(element).tab('show');
+	}
+
 	
 	// open external links in a new tab/window
 	$('a').filter(function() {
