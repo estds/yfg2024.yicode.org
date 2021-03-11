@@ -1,0 +1,11 @@
+{% if page.lang == "zh" %}
+<p class="lead">我们使用中文·英文两种语言</p>
+<p>论坛全体会议将使用中·英双语，同时辅以同声传译；并行分会如无特殊说明，将仅使用英文。</p>
+<p>论坛秘书处使用中·英双语作为工作语言。</p>
+<p>会场提供的大部分服务都可以选择中·英双语。</p>
+{% else %}
+<p class="lead">We speak both English and Chinese</p>
+<p>The plenary sessions will be English and Chinese with simultaneous interpretation. Parallel sessions will be English only unless otherwisely noted.</p>
+<p>The Secretary speaks both English and Chinese.</p>
+<p>Most of the services provided at the Venue are in both English and Chinese.</p>
+{% endif %}
