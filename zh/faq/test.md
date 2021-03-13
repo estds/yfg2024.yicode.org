@@ -5,4 +5,4 @@ ref: test-comments
 lang: zh
 ---
 
-{% include valine-comments.html %}
+{% include waline-comments.html %}
