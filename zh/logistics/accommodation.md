@@ -13,7 +13,7 @@ parent: logistics-page
         <h5 class="modal-title" id="staticBackdropLabel">注意</h5>
       </div>
       <div class="modal-body">
-        <p>如您选择继续，我们将认为您已经完全理解并同意我们的 <a href="/privacy"><b>隐私策略</b></a> 以及 <a href="/zh/logistics/#accommodation"><b>预定住宿的注意事项</b></a>。</p>
+        <p>如您选择继续，我们将认为您已经完全理解并同意我们的 <a href="/zh/privacy"><b>隐私策略</b></a> 以及 <a href="/zh/logistics/#accommodation"><b>预定住宿的注意事项</b></a>。</p>
         <p>请不要在此页使用浏览器的前进和后退按钮，您可能会丢失填写的信息。</p>
       </div>
       <div class="modal-footer">
