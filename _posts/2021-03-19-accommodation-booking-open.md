@@ -3,7 +3,7 @@ layout: post
 title: "Accmmodation booking is open"
 lang: en
 date: 2021-3-19
-abstract: "Don't miss the special discounts for Forum particiants"
+abstract: "Don't miss the special discounts for Forum participants"
 fimage: "/assets/img/accommodation-room-dubqueen.jpg"
 fimage_credit: "Provided photo. Authorised use only."
 ref: accommodation-booking-open
