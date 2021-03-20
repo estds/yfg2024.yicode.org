@@ -10,5 +10,5 @@ ref: accommodation-booking-open
 ---
 我们与论坛举办地点酒店协商了特殊的优待价格。所有与会人员都可以使用特殊的折扣预定住宿。房间数量有限，请不要错过。
 
-您可以[点击此处](/zh/logistics#accommodation)预定论坛举办地点的酒店。请注意预定条款。
+您可以[点击此处](/zh/logistics/#accommodation)预定论坛举办地点的酒店。请注意预定条款。
 
