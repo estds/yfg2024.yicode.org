@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Accmmodation booking is open"
+title: "Accmmodation open for booking"
 lang: en
 date: 2021-3-19
 abstract: "Don't miss the special discounts for Forum participants"
