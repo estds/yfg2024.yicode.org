@@ -4,8 +4,8 @@ title: "Test comments"
 ref: test-comments
 lang: en
 ---
-<div class="embed-responsive embed-responsive-4by3">
-  <iframe id="streaming-embed" class="w-100 border-0" scrolling="no" src="https://lm.enewie.com/tapi/live?code=KNFYAK&t=1594303662678&key=dingding&s=01C675BA54E4DE1621BACF463A1A672C" title="Streaming" allowfullscreen="true" allowtransparency="true">Streaming</iframe>
-</div>
+
+{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=kuuz&t=1616403146018&s=2c93ed2c01e03103b433b845a48e4668&lang=en" %}
+
 
 {% include waline-comments.html %}
