@@ -19,9 +19,4 @@ If you are interested in presenting at the above sessions, please use the form b
 
 Please note that by proceeding, you agree to our [Privacy Policy](/privacy) and have read our [Guidelines for abstract submission](/take-part/#abstract). 
 
-<iframe id="submission-form" class="embed-responsive-item w-100 border-0" scrolling="no" src="https://jrc.nhri.cn/app/mf/embed.php?id=30143&element_18=webpage" title="ESTDS2020 Abstract Submission"><a href="https://jrc.nhri.cn/app/mf/view.php?id=30143&element_18=webpage" title="ESTDS2020 Abstract Submission">ESTDS2020 Abstract Submission</a></iframe>
-<script src="https://cdn.jsdelivr.net/gh/estds/cdn-res/iframe-resizer/iframeResizer.min.js"></script>
-<script>
-  $("#submission-reminder").modal('show');
-  iFrameResize({ log: true }, '#submission-form');
-</script>
+<p class="alert alert-danger">The portal has been closed.</p>
