@@ -1,7 +1,7 @@
 <div class="card file-card shadow-sm overflow-hidden mb-3">
   <div class="media">
     <a href="{{ include.file | default: '/assets/img/attachment-icon.jpg' }}" class="file-cover"><img src="https://cdn.jsdelivr.net/gh/estds/estds2020{{ include.cover | default: '/assets/img/attachment-icon.jpg' }}" alt="{{ include.name | default: 'Attachment' }}" width="128"></a>
-    <div class="media-body align-self-stretch p-2 py-md-3">
+    <div class="media-body align-self-stretch p-2 p-md-3">
       <div class="d-flex h-100 flex-column flex-md-row">
         <div class="file-info flex-fill mr-md-3">
           <h5 class="mt-0">{{ include.name | default: 'Attachment' }}</h5>
