@@ -17,3 +17,4 @@ parent: take-part-page
 2. [水科学进展](http://skxjz.nhri.cn)（受邀作者将在此期刊的正常期目中以中文发表成果，或者在此期刊的专刊中以英文发表成果）
 3. [岩土工程学报](http://www.cgejournal.com/)（受邀作者将在此期刊的正常期目中以中文发表成果）
 4. [Water Science and Engineering](http://wse.hhu.edu.cn:8080/water/EN/volumn/home.shtml)（受邀作者将在此期刊的正常期目中以英文发表成果）
+5. [Environmental Science & Ecotechnology](https://www.journals.elsevier.com/environmental-science-and-ecotechnology)（受邀作者将在此期刊的正常期目中以英文发表成果）
