@@ -26,7 +26,7 @@ parent: logistics-page
   </div>
 </div>
 
-<iframe id="booking-form" class="embed-responsive-item w-100 border-0" scrolling="no" src="https://jrc.nhri.cn/app/mf/embed.php?id=30430" title="Accommodation Booking">Accommodation Booking</iframe>
+<iframe id="booking-form" class="embed-responsive-item w-100 border-0" scrolling="no" src="https://jrc.nhri.cn/app/mf/embed.php?id=32498" title="Accommodation Booking">Accommodation Booking</iframe>
 <script src="https://cdn.jsdelivr.net/gh/estds/cdn-res/iframe-resizer/iframeResizer.min.js"></script>
 <script>
   $("#reminder").modal('show');
