@@ -26,6 +26,8 @@ parent: logistics-page
   </div>
 </div>
 
+The following form is for booking accommodation at Nanjing Dongjiao State Guesthouse Hotel. The prices for both twin-bed and king-bed rooms are 490 CNY/night/room. This is a subsidised price exclusively for participants of the Forum. You might be requested by the hotel to present documents to prove that you are taking part in the Forum, otherwise you might be required to pay at regular market price.
+
 <iframe id="booking-form" class="embed-responsive-item w-100 border-0" scrolling="no" src="https://jrc.nhri.cn/app/mf/embed.php?id=32498" title="Accommodation Booking">Accommodation Booking</iframe>
 <script src="https://cdn.jsdelivr.net/gh/estds/cdn-res/iframe-resizer/iframeResizer.min.js"></script>
 <script>
