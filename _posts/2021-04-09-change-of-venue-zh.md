@@ -4,7 +4,7 @@ title: "会议地点变更"
 lang: zh
 date: 2021-04-09
 abstract: "论坛的举办地点已经变更"
-fimage: "/assets/img/74f8a25f-625f-4096-9d37-534b4bf50e9a.jpg"
+fimage: "/assets/img/74f8a25f-625f-4096-9d37-534b4bf50e9.jpg"
 fimage_credit: "Authorised use only"
 ref: change-of-venue-0409
 ---
