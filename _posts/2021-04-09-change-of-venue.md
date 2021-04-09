@@ -4,9 +4,9 @@ title: "Change of Venue"
 lang: en
 date: 2021-04-09
 abstract: "We have moved to accommodate more audience"
-fimage: "/assets/img/74f8a25f-625f-4096-9d37-534b4bf50e9a.jpg"
+fimage: "/assets/img/74f8a25f-625f-4096-9d37-534b4bf50e9.jpg"
 fimage_credit: "Authorised use only"
-ref: change-of-venue-0407
+ref: change-of-venue-0409
 ---
 As more and more people register to take part in the Forum in person, we are afraid that the original venue (International Conference Center & Hotel of Hohai University, 1st Xikang Road, Nanjing) could not have enough space for hosting such a big audience. Therefore, after careful selection and negotiation, we have decided to move the Forum to [Fairmont Nanjing](https://www.fairmont.com/nanjing/).
 
