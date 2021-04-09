@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "会议地点变更"
+title: "论坛地点变更"
 lang: zh
 date: 2021-04-09
 abstract: "论坛的举办地点已经变更"
