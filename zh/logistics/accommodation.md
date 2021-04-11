@@ -26,7 +26,7 @@ parent: logistics-page
   </div>
 </div>
 
-论坛的[举办地点已经变更](/blog/2021/04/09/change-of-venue-zh)。如果您之前已经预定住宿，秘书处应该已经与您联系并将您的预定转移至新的酒店。{.alert .alert-warning}
+<p class="alert alert-warning small">论坛的[举办地点已经变更](/blog/2021/04/09/change-of-venue-zh)。如果您之前已经预定住宿，秘书处应该已经与您联系并将您的预定转移至新的酒店。</p>
 
 <iframe id="booking-form" class="embed-responsive-item w-100 border-0" scrolling="no" src="https://jrc.nhri.cn/app/mf/embed.php?id=33247" title="Accommodation Booking">Accommodation Booking</iframe>
 <script src="https://cdn.jsdelivr.net/gh/estds/cdn-res/iframe-resizer/iframeResizer.min.js"></script>
