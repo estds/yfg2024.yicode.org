@@ -2,7 +2,7 @@
 layout: post
 title: "Accommodation booking re-opened"
 lang: en
-date: 2021-3-11
+date: 2021-4-11
 abstract: "All Forum participants eligible for discounts"
 fimage: "/assets/img/74f8a25f-625f-4096-9d37-534b4bf50e9.jpg"
 fimage_credit: "Provided photo. Authorised use only."
