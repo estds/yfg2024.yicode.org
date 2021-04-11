@@ -26,9 +26,9 @@ parent: logistics-page
   </div>
 </div>
 
-以下表单是用于预定南京东郊国宾馆的住宿。双床房以及大床房的价格均为490人民币/房/晚。这是由主办方补贴之后的价格，仅限参加论坛者预定。您在登记入住时可能会被要求出示证明参会的文件；如您无法提供，酒店保留要求您按门市价支付住宿费用的权利。
+论坛的[举办地点已经变更](/blog/2021/04/09/change-of-venue-zh)。如果您之前已经预定住宿，秘书处应该已经与您联系并将您的预定转移至新的酒店。{.alert .alert-warning}
 
-<iframe id="booking-form" class="embed-responsive-item w-100 border-0" scrolling="no" src="https://jrc.nhri.cn/app/mf/embed.php?id=32498" title="Accommodation Booking">Accommodation Booking</iframe>
+<iframe id="booking-form" class="embed-responsive-item w-100 border-0" scrolling="no" src="https://jrc.nhri.cn/app/mf/embed.php?id=33247" title="Accommodation Booking">Accommodation Booking</iframe>
 <script src="https://cdn.jsdelivr.net/gh/estds/cdn-res/iframe-resizer/iframeResizer.min.js"></script>
 <script>
   $("#reminder").modal('show');
