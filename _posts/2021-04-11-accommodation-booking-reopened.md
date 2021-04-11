@@ -12,6 +12,6 @@ There has been a [change of venue](/blog/2021/04/09/change-of-venue) of the Foru
 
 Again, we have negotiated special prices for participants of the Forum. All participants of the Forum are eligible for the discounted accommodation prices at the two hotels in cooperation with us. As rooms are in limited availability, please don't hesitate to book while stocks last.
 
-You may [click here](/logistics#accommodation) to book accommodation at the venue hotel. Terms apply.
+You may [click here](/logistics#accommodation) to book accommodation. Terms apply.
 
 Please be noted that if you have booked accommodation previously, the Secretariat should have contacted you and moved your booking to the new hotels, in which case you do NOT need to book again.
