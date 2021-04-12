@@ -27,6 +27,7 @@ parent: logistics-page
 </div>
 
 <p class="alert alert-warning small">There has been a <a href="/blog/2021/04/09/change-of-venue">change of venue</a>. If you have booked accommodation previously, the Secretariat should have contacted you and moved your booking to the new hotels, in which case you do NOT need to book again.</p>
+<p class="alert alert-info small">Options will be hidden if they have run out of availability.</p>
 
 <iframe id="booking-form" class="embed-responsive-item w-100 border-0" scrolling="no" src="https://jrc.nhri.cn/app/mf/embed.php?id=33247" title="Accommodation Booking">Accommodation Booking</iframe>
 <script src="https://cdn.jsdelivr.net/gh/estds/cdn-res/iframe-resizer/iframeResizer.min.js"></script>
