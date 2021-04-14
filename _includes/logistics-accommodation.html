@@ -9,7 +9,7 @@
 </ul>
 <p>我们与酒店的会议协议价格如下：</p>
 <div class="card-group mb-3">
-  <div class="card bg-transparent">
+  <div class="card sold-out bg-transparent">
     <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/fairmont-queen-beds-lr.jpg" class="card-img-top" alt="双床房">
     <div class="card-body">
       <h5 class="card-title mb-0">双床房</h5>
@@ -18,7 +18,7 @@
       <p class="card-text my-0"><small class="text-muted"><i class="fas fa-user-friends fa-fw mr-1"></i>最多可容纳2位客人</small></p>
     </div>
   </div>
-  <div class="card bg-transparent">
+  <div class="card sold-out bg-transparent">
     <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/fairmont-king-bed.jpg" class="card-img-top" alt="大床房">
     <div class="card-body">
       <h5 class="card-title mb-0">大床房</h5>
@@ -37,7 +37,7 @@
 </ul>
 <p>我们与酒店的会议协议价格如下：</p>
 <div class="card-group mb-3">
-  <div class="card bg-transparent">
+  <div class="card sold-out bg-transparent">
     <img src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/hanrun-queen-beds.jpg" class="card-img-top" alt="双床房">
     <div class="card-body">
       <h5 class="card-title mb-0">双床房</h5>
@@ -131,3 +131,16 @@
 </ul>
 <p><a href="accommodation" class="btn btn-block btn-lg btn-primary">Book now</a></p>
 {% endif %}
+<style>
+.card.sold-out::after {
+  content: 'Sold out';
+  position: absolute;
+  top: 30%;
+  left: 0;
+  font-size: 4rem;
+  color: rgba(255,0,0,0.7);
+  width: 100%;
+  text-align: center;
+  transform: rotate(-45deg);
+}
+</style>
