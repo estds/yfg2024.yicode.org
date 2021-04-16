@@ -18,5 +18,3 @@ place: "待定"
 ## 议程
 
 {% include plenary-agenda-basin.html %}
-
-我们将不断更新此页面，请保持关注。
