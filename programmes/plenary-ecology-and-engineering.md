@@ -15,8 +15,6 @@ This session will focus on the theme "Aquatic ecology and water engineering". It
 - River and lake health assessment
 - Resilience of water infrastructures
 
-## Comfirmed Speakers
+## Agenda
 
 {% include plenary-agenda-ecoeng.html %}
-
-We will be updating this page with more details. Please stay tuned.
