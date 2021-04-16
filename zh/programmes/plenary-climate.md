@@ -21,8 +21,6 @@ place: "待定"
 - 调度决策与风险管理
 
 
-## 特邀发言人
+## 议程
 
-{% include speaker-plenary-climate.html %}
-
-我们将不断更新此页面，请保持关注。
+{% include plenary-agenda-climate.html %}
