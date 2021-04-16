@@ -20,6 +20,4 @@ place: "待定"
 
 ## 特邀发言人
 
-{% include speaker-plenary-water.html %}
-
-我们将不断更新此页面，请保持关注。
+{% include plenary-agenda-water.html %}
