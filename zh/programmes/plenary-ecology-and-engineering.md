@@ -4,7 +4,7 @@ title: 水生态与水工程 - 全体会议
 ref: plenary-ecology-and-engineering
 lang: zh
 parent: programmes-page
-start: 2021-04-23 09:00
+start: 2021-04-23 08:30
 end: 2021-04-23 12:00
 place: "待定"
 ---
