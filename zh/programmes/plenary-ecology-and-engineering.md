@@ -5,7 +5,7 @@ ref: plenary-ecology-and-engineering
 lang: zh
 parent: programmes-page
 start: 2021-04-23 08:30
-end: 2021-04-23 12:00
+end: 2021-04-23 11:50
 place: "待定"
 ---
 这一部分会议将集中讨论“水生态与水工程”这一主题，包括（但不仅限于）这些子话题：
