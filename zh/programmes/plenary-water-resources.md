@@ -18,6 +18,6 @@ place: "待定"
 - 地下水保护与可持续开发
 
 
-## 特邀发言人
+## 议程
 
 {% include plenary-agenda-water.html %}
