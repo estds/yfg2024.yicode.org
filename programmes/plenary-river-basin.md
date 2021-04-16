@@ -19,4 +19,6 @@ This sesssion will be focusing on the theme of "integrated river basin managemen
 
 {% include speaker-plenary-basin.html %}
 
+{% include plenary-agenda-basin.html %}
+
 We will be updating this page with more details. Please stay tuned.
