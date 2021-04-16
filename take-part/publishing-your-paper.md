@@ -16,5 +16,5 @@ The Forum is woking closely with the following partner journals.
 1. [Engineering](http://www.engineering.org.cn) (invited papers will be published in ordinay issue(s) of this journal in English)
 2. [Advances in Water Science](http://skxjz.nhri.cn) (invited papers will be published in ordinary issue(s) of this journal in Chinese or a special issue in English)
 3. [Chinese Journal of Geotechnical Engineering](http://www.cgejournal.com/) (invited papers will be published in ordinary issue(s) of this journal in Chinese)
-4. [Water Science and Engineering](http://wse.hhu.edu.cn:8080/water/EN/volumn/home.shtml) (invited papers will be published in ordinary issue(s) of this journal in English)
+4. [Water Science and Engineering](http://wse.hhu.edu.cn:8080/water/EN/volumn/home.shtml) (invited papers will be published in a special issue of this journal in English)
 5. [Environmental Science & Ecotechnology](https://www.journals.elsevier.com/environmental-science-and-ecotechnology) (invited papers will be published in ordinary issue(s) of this journal in English)
