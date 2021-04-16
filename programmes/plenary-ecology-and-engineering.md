@@ -17,6 +17,6 @@ This session will focus on the theme "Aquatic ecology and water engineering". It
 
 ## Comfirmed Speakers
 
-{% include speaker-plenary-ecoeng.html %}
+{% include plenary-agenda-ecoeng.html %}
 
 We will be updating this page with more details. Please stay tuned.
