@@ -18,8 +18,6 @@ This session will be focusing on the theme of “Climate Change and Risks”. Su
 - Flood risk management
 - Urban flooding
 
-## Comfirmed Speakers
+## Agendas
 
-{% include speaker-plenary-climate.html %}
-
-We will be updating this page with more details. Please stay tuned.
+{% include plenary-agenda-climate.html %}
