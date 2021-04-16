@@ -15,8 +15,8 @@ place: "待定"
 - 生态补偿理论与实践
 - 现代水治理
 
-## 特邀发言人
+## 议程
 
-{% include speaker-plenary-basin.html %}
+{% include plenary-agenda-basin.html %}
 
 我们将不断更新此页面，请保持关注。
