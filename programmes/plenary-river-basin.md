@@ -15,9 +15,7 @@ This sesssion will be focusing on the theme of "integrated river basin managemen
 - Eco-compensation
 - Modern water governance
 
-## Confirmed speakers
-
-{% include speaker-plenary-basin.html %}
+## Agendas
 
 {% include plenary-agenda-basin.html %}
 
