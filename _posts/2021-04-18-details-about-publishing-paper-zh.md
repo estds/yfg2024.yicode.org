@@ -19,7 +19,7 @@ ref: details-about-publishing-paper
 
 ## *Water Science and Engineering* ([期刊主页](http://wse.hhu.edu.cn/))
 - 稿件语言：*仅英语。*
-- 是否开设专刊？*是。此专刊为正刊，非增刊。*(查看[专刊征稿启事]((http://wse.hhu.edu.cn:8080/water/EN/column/item227.shtml)))
+- 是否开设专刊？*是。此专刊为正刊，非增刊。*(查看[专刊征稿启事](http://wse.hhu.edu.cn:8080/water/EN/column/item227.shtml))
 - 投稿方式：*在线投稿，备注论坛专刊。* ([投稿链接](https://mc03.manuscriptcentral.com/wse))
 - 是否有编辑约稿？*是。*
 - 现场出席人员：*编辑部负责人。*
