@@ -10,6 +10,6 @@ place: "TBD"
 ---
 This is a parallel session focusing on the theme of "Integrated River Basin Management".
 
-## Agenda
+## Agendas
 
 {% include parallel-agenda-basin.html %}
