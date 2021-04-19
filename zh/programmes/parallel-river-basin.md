@@ -13,6 +13,4 @@ place: "待定"
 
 ## 议程
 
-这一分会由以下专家负责召集：
-
 {% include parallel-agenda-basin.html %}
