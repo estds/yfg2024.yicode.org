@@ -10,4 +10,4 @@ place: "待定"
 ---
 这是论坛所有活动的正式开始，这一部分议程将以组委会的欢迎致辞作为开始，并包括主要主办方的开幕致辞。
 
-我们将不断更新此页面，请保持关注。
+{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=LDTKKO&t=1618812770231&s=05fea2997e69014f5061443fd361883a&lang=zh" %}
