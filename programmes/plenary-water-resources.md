@@ -17,6 +17,8 @@ This session will be focusing on the theme of “Water resources protection and 
 - unconventional water sources and risk control
 - groundwater protection and development
 
+{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=LDTKKO&t=1618812770231&s=05fea2997e69014f5061443fd361883a&lang=en" %}
+
 ## Agendas
 
 {% include plenary-agenda-water.html %}
