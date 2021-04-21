@@ -18,7 +18,7 @@ This session will be focusing on the theme of “Climate Change and Risks”. Su
 - Flood risk management
 - Urban flooding
 
-{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=LDTKKO&t=1618812770231&s=05fea2997e69014f5061443fd361883a&lang=zh" %}
+{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=LDTKKO&t=1618812770231&s=05fea2997e69014f5061443fd361883a&lang=en" %}
 
 ## Agendas
 
