@@ -20,6 +20,7 @@ place: "待定"
 - 洪水资源化利用
 - 调度决策与风险管理
 
+{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=LDTKKO&t=1618812770231&s=05fea2997e69014f5061443fd361883a&lang=zh" %}
 
 ## 议程
 
