@@ -16,6 +16,7 @@ place: "待定"
 - 河流湖泊健康评价
 - 水工程安全与韧性
 
+{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=LDTKKO&t=1618812770231&s=05fea2997e69014f5061443fd361883a&lang=zh" %}
 
 ## 议程
 
