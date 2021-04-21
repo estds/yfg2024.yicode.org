@@ -15,6 +15,10 @@ place: "待定"
 - 生态补偿理论与实践
 - 现代水治理
 
+{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=LDTKKO&t=1618812770231&s=05fea2997e69014f5061443fd361883a&lang=zh" %}
+
 ## 议程
 
 {% include plenary-agenda-basin.html %}
+
+
