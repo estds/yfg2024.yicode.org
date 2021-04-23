@@ -10,7 +10,7 @@ place: "Mochou Room"
 ---
 This is a parallel session focusing on the theme of "Aquatic Ecology and Water Engineering".
 
-{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=LEBUJB&t=1618812743110&s=91807c4640a626ab1dd8da61b46325fc&lang=en" %}
+{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=LEEOZA&t=1618812727400&s=49197242dcbc8b9a511f3fea9973b7eb&lang=en" %}
 
 
 ## Agendas
