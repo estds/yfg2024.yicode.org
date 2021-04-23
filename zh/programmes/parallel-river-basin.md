@@ -10,6 +10,7 @@ place: "待定"
 ---
 这一分会将深入讨论“流域综合管理”主题。
 
+{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=LEBUJB&t=1618812743110&s=91807c4640a626ab1dd8da61b46325fc&lang=en" %}
 
 ## 议程
 
