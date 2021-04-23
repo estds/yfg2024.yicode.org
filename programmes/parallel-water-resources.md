@@ -10,6 +10,8 @@ place: "TBD"
 ---
 This is a parallel session focusing on the theme of "Water Resources Protection and Development".
 
+{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=LEIGHU&t=1618812703400&s=c52b0656aafa37668fa10283660250b8&lang=en" %}
+
 ## Agendas
 
 {% include parallel-agenda-water.html %}
