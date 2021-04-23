@@ -10,6 +10,8 @@ place: "待定"
 ---
 这一分会将深入讨论“水资源保护与利用”主题。
 
+{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=LEIGHU&t=1618812703400&s=c52b0656aafa37668fa10283660250b8&lang=en" %}
+
 ## 议程
 
 {% include parallel-agenda-water.html %}
