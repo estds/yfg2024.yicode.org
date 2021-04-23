@@ -16,7 +16,7 @@ We will be organising free technical tours to the following two places on the af
 
 There will be two routes visiting the above places in a different order.
 
-We are meeting at the parking lot on the ground floor of the venue. Please board the buses before 14:00 when the buses leave. The two routes are expected to arrive back at the venue before 17:00.
+We are meeting at the parking lot on the ground floor of [the venue](/zh/logistics/). Please board the buses before 14:00 when the buses leave. The two routes are expected to arrive back at the venue before 17:00.
 
 Car plates of the buses are:
 
