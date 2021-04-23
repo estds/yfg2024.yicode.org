@@ -6,7 +6,7 @@ lang: en
 parent: programmes-page
 start: 2021-04-24 09:00
 end: 2021-04-24 12:00
-place: "TBD"
+place: "Yinxing Room"
 ---
 The Yangtze River is one of China's economic axles. The Yangtze Economic Belt, covering 11 provinces, accounts only less than one quarter of the country's territory but more than 40% of its population and economy. However, development demands  in the past for a long time drain the region for natural resources and therefore  bring about many environmental and ecological problems, challenging the region's sustainability. Under global changes such as the warming climate, the Yangtze Basin and the Economic Belt faces more uncertainties and challenges. The Forum will be a indepth discussion on these problems and solutions 
 
