@@ -6,7 +6,7 @@ lang: zh
 parent: programmes-page
 start: 2021-04-24 08:30
 end: 2021-04-24 12:00
-place: "玄武"
+place: "玄武厅"
 ---
 这一分会将深入讨论“气候变化与风险”主题。
 
