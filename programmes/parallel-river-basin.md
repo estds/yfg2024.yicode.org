@@ -10,6 +10,9 @@ place: "TBD"
 ---
 This is a parallel session focusing on the theme of "Integrated River Basin Management".
 
+{% include get_streaming.html src="https://lm.enewie.com/tapi/live?key=___&code=LEBUJB&t=1618812743110&s=91807c4640a626ab1dd8da61b46325fc&lang=en" %}
+
+
 ## Agendas
 
 {% include parallel-agenda-basin.html %}
