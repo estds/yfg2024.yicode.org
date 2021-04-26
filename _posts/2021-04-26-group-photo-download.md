@@ -2,7 +2,7 @@
 layout: post
 title: "Group photo download"
 lang: en
-date: 2021-4-20
+date: 2021-4-26
 abstract: "You may download the group photos for free"
 fimage: "/assets/img/wssf-2021-group-photo.jpg"
 fimage_credit: "CC BY-NC-SA 4.0"
