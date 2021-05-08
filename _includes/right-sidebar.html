@@ -1,6 +1,6 @@
 <div class="right-sidebar">
 
-  <div class="row border mx-0 mb-4 rounded overflow-hidden">
+  <div class="row border mx-0 mb-4 rounded overflow-hidden d-none">
   {% if page.lang == "zh" %}
     <div class="col-6 px-0 border-right border-bottom">
       <a href="/zh/programmes" class="btn rounded-0 border-0 btn-block btn-outline-info py-3 text-truncate">
@@ -50,8 +50,8 @@
   {% include share-buttons.html button_group_class="w-100" %}
   {% include sponsors.html logo_size="col-6 col-md-12 col-lg-6" title_style="text-secondary text-uppercase lead" %}
   
-  <h3 class="text-secondary text-uppercase lead">{% if page.lang == "zh" %}合作期刊{% else %}Partner Journals{% endif %} <sup><a class="small" href="{% if page.lang == "zh" %}/zh{% endif %}/take-part/publishing-your-paper">[{% if page.lang == "zh" %}详情{% else %}Details{% endif %}]</a></sup></h3>
-  <div class="row mx-n1">
+  <h3 class="text-secondary text-uppercase lead d-none">{% if page.lang == "zh" %}合作期刊{% else %}Partner Journals{% endif %} <sup><a class="small" href="{% if page.lang == "zh" %}/zh{% endif %}/take-part/publishing-your-paper">[{% if page.lang == "zh" %}详情{% else %}Details{% endif %}]</a></sup></h3>
+  <div class="row mx-n1 d-none">
     <div class="col-2 col-md-6 col-lg-4 px-1 mt-1">
       <img class="img-fluid" data-toggle="tooltip" data-placement="top" title="Engineering" src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/journal-jeng.jpg">
     </div>
