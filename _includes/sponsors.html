@@ -1,6 +1,6 @@
 <div class="related-orgs mt-4">
-  <h3 class="{{ include.title_style }}">{% if page.lang == "zh" %}主办{% else %}Sponsors{% endif %}</h3>
-  <div class="row mx-n1 mb-4">
+  <h3 class="{{ include.title_style }} d-none">{% if page.lang == "zh" %}主办{% else %}Sponsors{% endif %}</h3>
+  <div class="row mx-n1 mb-4 d-none">
     <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1">
       <a href="https://www.cae.cn" class="img-ext-link" data-toggle="tooltip" data-placement="top" {% if page.lang == "zh" %}title="中国工程院" {% else %}title="Chinese Academy of Engineering"{% endif %}><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/re-orgs/cae.jpg" alt={% if page.lang == "zh" %}"中国工程院" {% else %}"Chinese Academy of Engineering"{% endif %}></a>
     </div>
@@ -16,7 +16,7 @@
   </div>
   <h3 class="{{ include.title_style }}">{% if page.lang == "zh" %}承办{% else %}Hosts{% endif %}</h3>
   <div class="row mx-n1 mb-4">
-    <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1">
+    <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1 d-none">
       <a href="https://www.cae.cn" class="img-ext-link" data-toggle="tooltip" data-placement="top" {% if page.lang == "zh" %}title="中国工程院土木水利与建筑学部" {% else %}title="CAE Division of Civil, Hydraulic and Architectural Engineering"{% endif %}><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/re-orgs/ad3cae.jpg" alt={% if page.lang == "zh" %}"中国工程院土木水利与建筑学部" {% else %}"CAE Division of Civil, Hydraulic and Architectural Engineering"{% endif %}></a>
     </div>
     <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1">
@@ -28,24 +28,24 @@
     <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1">
       <a href="http://www.nhri.cn" class="img-ext-link" data-toggle="tooltip" data-placement="top" {% if page.lang == "zh" %}title="南京水利科学研究院" {% else %}title="Nanjing Hydraulic Research Institute"{% endif %}><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/re-orgs/nhri.jpg" alt={% if page.lang == "zh" %}"南京水利科学研究院" {% else %}"Nanjing Hydraulic Research Institute"{% endif %}></a>
     </div>
-    <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1">
+    <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1 d-none">
       <a href="http://hydro-lab.hhu.edu.cn" class="img-ext-link" data-toggle="tooltip" data-placement="top" {% if page.lang == "zh" %}title="水文水资源与水工程科学国家重点实验室" {% else %}title="State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering"{% endif %}><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/re-orgs/skl.jpg" alt={% if page.lang == "zh" %}"水文水资源与水工程科学国家重点实验室" {% else %}"State Key Laboratory of Hydrology-Water Resources and Hydraulic Engineering"{% endif %}></a>
     </div>
-    <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1">
+    <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1 d-none">
       <a href="http://www.cemlab.cn/" class="img-ext-link" data-toggle="tooltip" data-placement="top" {% if page.lang == "zh" %}title="高性能土木工程材料国家重点实验室" {% else %}title="State Key Lab of High-Performance Civil Engineering Materials"{% endif %}><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/re-orgs/hpcem.jpg" alt={% if page.lang == "zh" %}"高性能土木工程材料国家重点实验室" {% else %}"State Key Lab of High-Performance Civil Engineering Materials"{% endif %}></a>
     </div>
-    <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1">
+    <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1 d-none">
       <a href="http://jrc.nhri.cn" class="img-ext-link" data-toggle="tooltip" data-placement="top" {% if page.lang == "zh" %}title="水科学与水工程国际联合研究中心" {% else %}title="JRC Water Science and Engineering"{% endif %}><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/re-orgs/jrc.jpg" alt={% if page.lang == "zh" %}"水科学与水工程国际联合研究中心" {% else %}"JRC Water Science and Engineering"{% endif %}></a>
     </div>
-    <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1">
+    <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1 d-none">
       <a href="http://rccc.nhri.cn" class="img-ext-link" data-toggle="tooltip" data-placement="top" {% if page.lang == "zh" %}title="水利部应对气候变化研究中心" {% else %}title="MWR Research Center for Climate Change"{% endif %}><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/re-orgs/rccc.jpg" alt={% if page.lang == "zh" %}"水利部应对气候变化研究中心" {% else %}"MWR Research Center for Climate Change"{% endif %}></a>
     </div>
-    <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1">
+    <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1 d-none">
       <a href="http://www.water-center.com" class="img-ext-link" data-toggle="tooltip" data-placement="top" {% if page.lang == "zh" %}title="水资源高效利用与工程安全国家工程研究中心" {% else %}title="National Engineering Research Center of Water Resources Efficient Utilization and Engineering Safety"{% endif %}><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/re-orgs/water-nerc.jpg" alt={% if page.lang == "zh" %}"水资源高效利用与工程安全国家工程研究中心" {% else %}"National Engineering Research Center of Water Resources Efficient Utilization and Engineering Safety"{% endif %}></a>
     </div>
   </div>
-  <h3 class="{{ include.title_style }}">{% if page.lang == "zh" %}协办{% else %}Partners{% endif %}</h3>
-  <div class="row mx-n1 mb-4">
+  <h3 class="{{ include.title_style }} d-none">{% if page.lang == "zh" %}协办{% else %}Partners{% endif %}</h3>
+  <div class="row mx-n1 mb-4 d-none">
     <div class="{{ include.logo_size | default: 'col-6 col-md-4 col-lg-3' }} px-1 mt-1">
       <a href="https://en.unesco.org/themes/water-security/hydrology" class="img-ext-link" data-toggle="tooltip" data-placement="top" {% if page.lang == "zh" %}title="UNESCO国际水文计划" {% else %}title="UNESCO-IHP"{% endif %}><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/re-orgs/unesco-ihp.jpg" alt={% if page.lang == "zh" %}"UNESCO国际水文计划" {% else %}"UNESCO-IHP"{% endif %}></a>
     </div>
