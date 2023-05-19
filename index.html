@@ -1,49 +1,48 @@
----
-layout: default
-title: Home
-lang: en
----
+  <!doctype html>
+  <html lang="en" class="h-100">
 
-      <section class="p-0">
-            {% include home-carousel.html %}
-      </section>
+    <head>
+      <meta charset="utf-8">
+      <meta name="author" content="Smart Rivers 2020">
+      <meta name="description" content="PIANC SMART Rivers 2021">
+      <meta name="keywords" content="PIANC,Smart Rivers,Nanjing">
+      <meta property="og:title" content="PIANC SMART Rivers 2021">
+      <meta property="og:description" content="PIANC SMART Rivers 2021 Conference">
 
-      <div class="album py-5 bg-light">
-        <div class="container">
+      <title>PIANC SMART Rivers 2021</title>
 
-            <div class="row">
-                  <div class="col-md-9">
-                        <div class="row">
-                              {% include email-subscription.html %}
-                              
-                              {% assign posts=site.posts | where:"lang", page.lang %}
-                              
-                              {% for post in posts limit: 4 %}
-                              <!-- Card START -->
-                              <div class="col-lg-6 mb-4">
-                                    <div class="card d-block h-100">
-                                          <img class="card-img-top" src="{% if post.fimage %}https://cdn.jsdelivr.net/gh/estds/estds2020{{ post.fimage }}{% else %}https://cdn.jsdelivr.net/gh/estds/estds2020/assets/img/card-image.jpg{% endif %}" alt="{{ post.title }}"/> 
-                                          <div class="card-body">
-                                                <h5 class="card-title">{{ post.title }}</h5>
-                                                <p class="card-text text-secondary meta small"><i class="far fa-calendar-alt mr-1"></i>{% include get_date.html time=post.date %}</p>
-                                                <p class="card-text">{{ post.abstract }}</p>
-                                                <a href="{{ post.url }}" class="btn btn-primary">{% if post.raction %}{{ post.raction }}{% else %}Read on{% endif %}<i class="fas fa-chevron-circle-right ml-1"></i></a>
-                                          </div>
-                                    </div>
-                              </div>
-                              <!-- Card END -->
-                              {% endfor %}
+      <meta property="og:image" content="https://fastly.jsdelivr.net/gh/estds/sr2021_landing/assets/img/nanjing.jpg">
+      <meta name="twitter:card" content="summary_large_image">
 
-                              {% include all-posts-link.html %}
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-                        </div>
-                  </div>
-                  
-                  <div class="col-md-3">
-                  {% include right-sidebar.html %}
-                  </div>
-                  
-              </div><!-- End of .row -->
-              
-        </div><!-- End of .container -->
-      </div><!-- End of .album -->
+      <!-- Bootstrap core CSS -->
+      <link href="https://fastly.jsdelivr.net/gh/estds/cdn-res/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Custom styles -->
+      <link href="assets/css/styles.css" rel="stylesheet">
+
+    </head>
+
+    <body class="default h-100 d-flex align-items-center">
+      <div class="landing text-center text-white col-12">
+        <div>
+          <p class="lead mb-0">See you in</p>
+          <h1 class="display-3 text-uppercase"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-4 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>Nanjing</h1>
+        </div>
+        <div class="mt-4">
+          <p class="lead mb-0">PIANC SMART Rivers 2021 Conference</p>
+          <p class="lead mb-0">19-22 October 2021</p>
+          <p class="mt-4 small">Website under development. Please stay tuned, or <a href="assets/doc/smart_rivers_2021_abstract_call_1st_round.pdf" class="text-warning" download><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg> read our brochure</a> first.</p>
+        </div>
+      </div>
+      <div class="credit-label text-truncate">Image by <a href="https://pixabay.com/users/Lucien6271-10259821/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3711174">Lucien Zhang</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3711174">Pixabay</a></div>
+
+
+
+    </body>
+
+  </html>
