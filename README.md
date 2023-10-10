@@ -1,5 +1,3 @@
-# WSSF2023 Landing
+# YFG2024 Landing
 
-See you in **Nanjing** for the 4th International Conference on Water Security and Sustainable Development, 30 October to 1 November 2023.
-
-We will be organising this event in collaboration with IAHR. Please visit [icgws2023.iahr.org](https://icgws2023.iahr.org) for further information.
+第八届“地下水科学青年论坛”
